@@ -219,7 +219,7 @@ button{font:inherit;color:inherit}
 .prose{padding:22px 22px 8px;margin-bottom:10px}
 .prose p,.prose li{font-size:17px;line-height:1.7;color:var(--text)}
 .prose a{color:var(--accent);font-weight:700}
-.prose .btn{color:var(--on-lime)}
+.prose .btn{text-decoration:none}.prose .btn-lime{color:var(--on-lime)}.prose .btn-glass{color:var(--text)}
 .prose .h2{font-size:20px;margin:24px 0 6px}
 .nf{padding-top:40px}.nf .page-h{font-size:72px}.nf .dl-row{justify-content:center}
 
