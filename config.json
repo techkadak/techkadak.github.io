@@ -1,0 +1,46 @@
+{
+  "siteName": "Tech Kadak",
+  "siteUrl": "",
+  "_siteUrl_help": "Khaali chhodo: GitHub Actions apne aap https://<username>.github.io/<repo>/ laga dega. Apna domain lo to yahan likho, jaise https://techkadak.in",
+  "language": "hi-IN",
+  "tagline": "Paid app ka FREE jawab — roz naye free apps, AI tools & GitHub gems, simple Hinglish mein.",
+  "description": "Tech Kadak: free Android apps, free AI tools, open-source GitHub apps aur paid apps ke free alternatives — official download links, limits aur Hinglish explanation ke saath.",
+  "social": {
+    "instagram": "https://www.instagram.com/techkadak/",
+    "youtube": "https://www.youtube.com/channel/UCpxdwzHB-66cPyssRH5IaTA",
+    "telegram": "https://t.me/techkadak",
+    "pinterest": "https://www.pinterest.com/techkadak_in/",
+    "instagramDM": "https://ig.me/m/techkadak"
+  },
+  "categories": [
+    "Android Apps",
+    "AI Tools",
+    "Open Source/GitHub",
+    "Paid ka FREE Jawab",
+    "Student Tech"
+  ],
+  "featuredCount": 7,
+  "daily": {
+    "mode": "queue-then-ai",
+    "_mode_help": "queue-then-ai = pehle queue.json, khatam ho to AI (agar GEMINI_API_KEY secret hai). ai-then-queue = pehle AI. queue-only = sirf queue.",
+    "perDay": 1,
+    "timezone": "Asia/Kolkata"
+  },
+  "ai": {
+    "provider": "gemini",
+    "model": "gemini-flash-latest",
+    "fallbackModels": [
+      "gemini-2.5-flash"
+    ],
+    "source": "fdroid",
+    "_source_help": "fdroid = F-Droid ke official index se app chunega; github = GitHub search se naye Android open-source repos."
+  },
+  "ads": {
+    "enabled": false,
+    "adsenseClient": "",
+    "_help": "AdSense approve hone ke baad: enabled true karo aur adsenseClient mein apna ca-pub-XXXX likho. Tab tak kuch mat bharo."
+  },
+  "googleSiteVerification": "",
+  "_googleSiteVerification_help": "Google Search Console ka HTML tag wala code (sirf content=\"...\" ke andar wala hissa) yahan paste karo.",
+  "policyUpdated": "2026-11-03"
+}
