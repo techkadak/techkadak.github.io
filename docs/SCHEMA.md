@@ -27,6 +27,10 @@
 ```
 
 `data/queue.json` mein `queue` list ke items bilkul isi format mein hote hain (bas `added` nahi chahiye — bot daal deta hai).
-Bot roz list ka **pehla** item site pe daalta hai aur queue se hata deta hai.
+Bot roz list ke **pehle 5** items (`config.json` → `daily.perDay`) site pe daalta hai (sabse upar, aaj ki date ke saath) aur queue se hata deta hai. Jo app site pe pehle se hai (slug / naam / package / GitHub repo same) wo skip hota hai.
+
+Optional Android fields (Tech Kadak app ke andar install ke liye; website inhe ignore karti hai):
+- `package_name`: Android applicationId, jaise `org.videolan.vlc`
+- `apk_source`: `github:owner/repo` (official GitHub release me .apk) ya `fdroid:package` (F-Droid) — sirf official source.
 
 Rules: sirf official links (Play Store, F-Droid, GitHub, app ki apni website). Koi number / rating / user count mat likho jo official page pe na ho.

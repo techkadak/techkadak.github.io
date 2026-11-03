@@ -30,7 +30,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "me.hackerchick.catima"
+      "fdroidPackage": "me.hackerchick.catima",
+      "apk_source": "fdroid:me.hackerchick.catima",
+      "package_name": "me.hackerchick.catima"
     },
     {
       "slug": "binary-eye",
@@ -61,7 +63,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "de.markusfisch.android.binaryeye"
+      "fdroidPackage": "de.markusfisch.android.binaryeye",
+      "apk_source": "fdroid:de.markusfisch.android.binaryeye",
+      "package_name": "de.markusfisch.android.binaryeye"
     },
     {
       "slug": "fossify-file-manager",
@@ -92,7 +96,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "org.fossify.filemanager"
+      "fdroidPackage": "org.fossify.filemanager",
+      "apk_source": "fdroid:org.fossify.filemanager",
+      "package_name": "org.fossify.filemanager"
     },
     {
       "slug": "fossify-calendar",
@@ -124,7 +130,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "org.fossify.calendar"
+      "fdroidPackage": "org.fossify.calendar",
+      "apk_source": "fdroid:org.fossify.calendar",
+      "package_name": "org.fossify.calendar"
     },
     {
       "slug": "tasks-org",
@@ -156,7 +164,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "org.tasks"
+      "fdroidPackage": "org.tasks",
+      "apk_source": "fdroid:org.tasks",
+      "package_name": "org.tasks"
     },
     {
       "slug": "notallyx",
@@ -188,7 +198,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "com.philkes.notallyx"
+      "fdroidPackage": "com.philkes.notallyx",
+      "apk_source": "fdroid:com.philkes.notallyx",
+      "package_name": "com.philkes.notallyx"
     },
     {
       "slug": "open-camera",
@@ -219,7 +231,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "net.sourceforge.opencamera"
+      "fdroidPackage": "net.sourceforge.opencamera",
+      "apk_source": "fdroid:net.sourceforge.opencamera",
+      "package_name": "net.sourceforge.opencamera"
     },
     {
       "slug": "trail-sense",
@@ -250,7 +264,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "com.kylecorry.trail_sense"
+      "fdroidPackage": "com.kylecorry.trail_sense",
+      "apk_source": "fdroid:com.kylecorry.trail_sense",
+      "package_name": "com.kylecorry.trail_sense"
     },
     {
       "slug": "wifianalyzer",
@@ -281,7 +297,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "com.vrem.wifianalyzer"
+      "fdroidPackage": "com.vrem.wifianalyzer",
+      "apk_source": "fdroid:com.vrem.wifianalyzer",
+      "package_name": "com.vrem.wifianalyzer"
     },
     {
       "slug": "heliboard",
@@ -312,7 +330,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "helium314.keyboard"
+      "fdroidPackage": "helium314.keyboard",
+      "apk_source": "fdroid:helium314.keyboard",
+      "package_name": "helium314.keyboard"
     },
     {
       "slug": "auxio",
@@ -343,7 +363,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "org.oxycblt.auxio"
+      "fdroidPackage": "org.oxycblt.auxio",
+      "apk_source": "fdroid:org.oxycblt.auxio",
+      "package_name": "org.oxycblt.auxio"
     },
     {
       "slug": "feeder",
@@ -370,7 +392,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "com.nononsenseapps.feeder"
+      "fdroidPackage": "com.nononsenseapps.feeder",
+      "apk_source": "fdroid:com.nononsenseapps.feeder",
+      "package_name": "com.nononsenseapps.feeder"
     },
     {
       "slug": "thunderbird-android",
@@ -401,7 +425,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "net.thunderbird.android"
+      "fdroidPackage": "net.thunderbird.android",
+      "apk_source": "fdroid:net.thunderbird.android",
+      "package_name": "net.thunderbird.android"
     },
     {
       "slug": "droid-ify",
@@ -432,7 +458,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "com.looker.droidify"
+      "fdroidPackage": "com.looker.droidify",
+      "apk_source": "fdroid:com.looker.droidify",
+      "package_name": "com.looker.droidify"
     },
     {
       "slug": "netguard",
@@ -463,7 +491,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "eu.faircode.netguard"
+      "fdroidPackage": "eu.faircode.netguard",
+      "apk_source": "fdroid:eu.faircode.netguard",
+      "package_name": "eu.faircode.netguard"
     },
     {
       "slug": "sky-map",
@@ -495,7 +525,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "com.google.android.stardroid"
+      "fdroidPackage": "com.google.android.stardroid",
+      "apk_source": "fdroid:com.google.android.stardroid",
+      "package_name": "com.google.android.stardroid"
     },
     {
       "slug": "wikipedia",
@@ -527,7 +559,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "org.wikipedia"
+      "fdroidPackage": "org.wikipedia",
+      "apk_source": "fdroid:org.wikipedia",
+      "package_name": "org.wikipedia"
     },
     {
       "slug": "termux",
@@ -563,7 +597,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "com.termux"
+      "fdroidPackage": "com.termux",
+      "apk_source": "fdroid:com.termux",
+      "package_name": "com.termux"
     },
     {
       "slug": "gadgetbridge",
@@ -594,7 +630,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "nodomain.freeyourgadget.gadgetbridge"
+      "fdroidPackage": "nodomain.freeyourgadget.gadgetbridge",
+      "apk_source": "fdroid:nodomain.freeyourgadget.gadgetbridge",
+      "package_name": "nodomain.freeyourgadget.gadgetbridge"
     },
     {
       "slug": "jitsi-meet",
@@ -629,7 +667,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "org.jitsi.meet"
+      "fdroidPackage": "org.jitsi.meet",
+      "apk_source": "fdroid:org.jitsi.meet",
+      "package_name": "org.jitsi.meet"
     },
     {
       "slug": "mj-pdf-reader",
@@ -661,7 +701,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "com.gitlab.mudlej.MjPdfReader"
+      "fdroidPackage": "com.gitlab.mudlej.MjPdfReader",
+      "apk_source": "fdroid:com.gitlab.mudlej.MjPdfReader",
+      "package_name": "com.gitlab.mudlej.MjPdfReader"
     },
     {
       "slug": "fossify-voice-recorder",
@@ -693,7 +735,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "org.fossify.voicerecorder"
+      "fdroidPackage": "org.fossify.voicerecorder",
+      "apk_source": "fdroid:org.fossify.voicerecorder",
+      "package_name": "org.fossify.voicerecorder"
     },
     {
       "slug": "unciv",
@@ -728,7 +772,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "com.unciv.app"
+      "fdroidPackage": "com.unciv.app",
+      "apk_source": "fdroid:com.unciv.app",
+      "package_name": "com.unciv.app"
     },
     {
       "slug": "whisper-offline-voice-typing",
@@ -760,7 +806,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "org.woheller69.whisper"
+      "fdroidPackage": "org.woheller69.whisper",
+      "apk_source": "fdroid:org.woheller69.whisper",
+      "package_name": "org.woheller69.whisper"
     },
     {
       "slug": "maid",
@@ -791,7 +839,9 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": "",
-      "fdroidPackage": "com.danemadsen.maid"
+      "fdroidPackage": "com.danemadsen.maid",
+      "apk_source": "fdroid:com.danemadsen.maid",
+      "package_name": "com.danemadsen.maid"
     },
     {
       "slug": "google-ai-edge-gallery",
@@ -913,6 +963,4531 @@
       "source": "queue",
       "aiAdded": false,
       "affiliate": ""
+    },
+    {
+      "slug": "kiss-launcher",
+      "name": "KISS Launcher",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Super-fast launcher: home screen pe bas ek search bar — 2-3 letter type karo aur app, contact ya setting turant khul jaata hai. Purane phone pe bhi tez.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Icons wala normal home screen nahi milega; search ki aadat daalni padegi.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://kisslauncher.com"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/fr.neamar.kiss/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Neamar/KISS"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=fr.neamar.kiss"
+        }
+      ],
+      "icon": "assets/icons/kiss-launcher.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "fr.neamar.kiss",
+      "apk_source": "fdroid:fr.neamar.kiss",
+      "package_name": "fr.neamar.kiss"
+    },
+    {
+      "slug": "gimp",
+      "name": "GIMP",
+      "category": [
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Photo editing ka free software: layers, masks, retouch, thumbnails, poster — Photoshop wala zyada-tar kaam.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Photoshop jaisa interface nahi; seekhne me time lagta hai.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "Photoshop",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.gimp.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "olauncher",
+      "name": "Olauncher",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Minimal home screen: icons ki jagah sirf apps ke naam, roz naya wallpaper. Phone kam scroll karna hai to kaam ka.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/app.olauncher/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tanujnotes/Olauncher"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=app.olauncher"
+        }
+      ],
+      "icon": "assets/icons/olauncher.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "app.olauncher",
+      "apk_source": "github:tanujnotes/Olauncher",
+      "package_name": "app.olauncher"
+    },
+    {
+      "slug": "krita",
+      "name": "Krita",
+      "category": [
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Digital painting aur drawing software: brushes, layers, animation — artists aur illustrators ke liye.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0); Steam/Store pe paid copy sirf support ke liye",
+      "limit": "Graphic tablet ke saath best; phone app nahi (Android tablet beta).",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "Photoshop / Procreate (drawing ke liye)",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://krita.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "indic-keyboard",
+      "name": "Indic Keyboard",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Hindi, Bengali, Tamil, Malayalam jaisi kai Indian languages ka keyboard — phonetic (English letters se Hindi) aur Inscript dono layouts. No ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": "Design simple/purana-sa hai.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://indic.app/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.smc.inputmethod.indic/"
+        },
+        {
+          "label": "GitLab",
+          "url": "https://gitlab.com/indicproject/Indic-Keyboard"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.smc.inputmethod.indic"
+        }
+      ],
+      "icon": "assets/icons/indic-keyboard.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.smc.inputmethod.indic",
+      "apk_source": "fdroid:org.smc.inputmethod.indic",
+      "package_name": "org.smc.inputmethod.indic"
+    },
+    {
+      "slug": "blender",
+      "name": "Blender",
+      "category": [
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "3D modelling, animation, VFX aur video editing — sab ek free software me. Bade studios bhi use karte hain.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL)",
+      "limit": "Achha PC/graphics card chahiye; seekhne me mehnat.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "Maya / 3ds Max / Cinema 4D",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.blender.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "florisboard",
+      "name": "FlorisBoard",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Privacy wala keyboard: typing data bahar nahi jaata, themes, clipboard history, emoji, one-hand mode.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": "Abhi beta stage me hai, kuch features adhure ho sakte hain.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/dev.patrickgold.florisboard/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/florisboard/florisboard"
+        }
+      ],
+      "icon": "assets/icons/florisboard.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "dev.patrickgold.florisboard",
+      "apk_source": "fdroid:dev.patrickgold.florisboard",
+      "package_name": "dev.patrickgold.florisboard"
+    },
+    {
+      "slug": "snapseed",
+      "name": "Snapseed",
+      "category": [
+        "Android Apps",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Google ka pro photo editor: healing, selective edit, curves, RAW — bina ads, poora free.",
+      "pricing": "Free",
+      "priceNote": "Free, no ads",
+      "limit": null,
+      "platforms": "Android, iOS",
+      "replaces": "Paid photo editors",
+      "links": [
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.niksoftware.snapseed"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "package_name": "com.niksoftware.snapseed"
+    },
+    {
+      "slug": "audacity",
+      "name": "Audacity",
+      "category": [
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Audio record aur edit karo: voiceover se noise hatao, cut/trim, effects, podcast editing.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL)",
+      "limit": "Purana-sa interface; multitrack video editing nahi.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "Adobe Audition",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.audacityteam.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "unexpected-keyboard",
+      "name": "Unexpected Keyboard",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Chhota keyboard jiski har key ke kono me extra symbols — swipe karke number/symbol. Ctrl, Esc, arrow keys bhi; phone pe coding/Termux ke liye best.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Layout ki aadat padne me 1-2 din lagte hain.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/juloo.keyboard2/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Julow/Unexpected-Keyboard"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=juloo.keyboard2"
+        }
+      ],
+      "icon": "assets/icons/unexpected-keyboard.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "juloo.keyboard2",
+      "apk_source": "github:Julow/Unexpected-Keyboard",
+      "package_name": "juloo.keyboard2"
+    },
+    {
+      "slug": "simple-keyboard",
+      "name": "Simple Keyboard",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Sirf keyboard, aur kuch nahi: bahut halka, internet permission nahi, no ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": "Emoji panel, swipe typing aur word suggestions nahi.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/rkr.simplekeyboard.inputmethod/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/rkkr/simple-keyboard"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=rkr.simplekeyboard.inputmethod"
+        }
+      ],
+      "icon": "assets/icons/simple-keyboard.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "rkr.simplekeyboard.inputmethod",
+      "apk_source": "github:rkkr/simple-keyboard",
+      "package_name": "rkr.simplekeyboard.inputmethod"
+    },
+    {
+      "slug": "kdenlive",
+      "name": "Kdenlive",
+      "category": [
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Free video editor: multitrack timeline, transitions, titles, keyframes, proxy editing — YouTube videos ke liye.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL)",
+      "limit": "Bade projects pe kabhi-kabhi crash; project save karte raho.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "Premiere Pro",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://kdenlive.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "fossify-notes",
+      "name": "Fossify Notes",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Simple notes + checklist app, home screen widget ke saath. No ads, no tracking.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.fossify.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.notes/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/FossifyOrg/Notes"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.notes"
+        }
+      ],
+      "icon": "assets/icons/fossify-notes.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.fossify.notes",
+      "apk_source": "github:FossifyOrg/Notes",
+      "package_name": "org.fossify.notes"
+    },
+    {
+      "slug": "shotcut",
+      "name": "Shotcut",
+      "category": [
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Simple free video editor: cut, filters, text, colour correction, 4K support, no watermark.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Advanced motion graphics ke liye limited.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "Filmora",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.shotcut.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "fossify-clock",
+      "name": "Fossify Clock",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Alarm, timer, stopwatch aur world clock ek simple app me — bina ads ke.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Abhi Beta tag ke saath aata hai.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.fossify.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.clock/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/FossifyOrg/Clock"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.clock"
+        }
+      ],
+      "icon": "assets/icons/fossify-clock.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.fossify.clock",
+      "apk_source": "github:FossifyOrg/Clock",
+      "package_name": "org.fossify.clock"
+    },
+    {
+      "slug": "openshot",
+      "name": "OpenShot",
+      "category": [
+        "Open Source/GitHub"
+      ],
+      "what": "Beginners ke liye easy video editor: drag-drop, titles, transitions, animations — no watermark.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Heavy 4K editing me slow ho sakta hai.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.openshot.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "fossify-contacts",
+      "name": "Fossify Contacts",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Contacts app jo contacts phone pe hi rakhta hai: groups, favourites, vCard import/export, no ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.fossify.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.contacts/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/FossifyOrg/Contacts"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.contacts"
+        }
+      ],
+      "icon": "assets/icons/fossify-contacts.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.fossify.contacts",
+      "apk_source": "github:FossifyOrg/Contacts",
+      "package_name": "org.fossify.contacts"
+    },
+    {
+      "slug": "handbrake",
+      "name": "HandBrake",
+      "category": [
+        "Open Source/GitHub"
+      ],
+      "what": "Video converter: badi video ko chhota (compress) karo ya MP4/MKV me convert — quality bachake.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-2.0)",
+      "limit": null,
+      "platforms": "Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://handbrake.fr/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "fossify-messages",
+      "name": "Fossify Messages",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Ad-free SMS/MMS app: number aur keyword se spam block, messages export/import, clean design.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.fossify.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.messages/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/FossifyOrg/Messages"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.messages"
+        }
+      ],
+      "icon": "assets/icons/fossify-messages.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.fossify.messages",
+      "apk_source": "github:FossifyOrg/Messages",
+      "package_name": "org.fossify.messages"
+    },
+    {
+      "slug": "fossify-phone",
+      "name": "Fossify Phone",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Dialer app: call blocking, speed dial, call history — bina ads aur tracking ke.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Call recording feature nahi hai.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.fossify.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.phone/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/FossifyOrg/Phone"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.phone"
+        }
+      ],
+      "icon": "assets/icons/fossify-phone.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.fossify.phone",
+      "apk_source": "github:FossifyOrg/Phone",
+      "package_name": "org.fossify.phone"
+    },
+    {
+      "slug": "darktable",
+      "name": "darktable",
+      "category": [
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "RAW photo editor: DSLR/phone RAW photos ka colour grading, exposure, presets.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Interface complex hai.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "Lightroom",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.darktable.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "fossify-music-player",
+      "name": "Fossify Music Player",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Offline music player: playlists, equalizer, sleep timer, widget. No ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Sirf phone me saved songs; online streaming nahi.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.fossify.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.musicplayer/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/FossifyOrg/Music-Player"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.musicplayer"
+        }
+      ],
+      "icon": "assets/icons/fossify-music-player.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.fossify.musicplayer",
+      "apk_source": "github:FossifyOrg/Music-Player",
+      "package_name": "org.fossify.musicplayer"
+    },
+    {
+      "slug": "penpot",
+      "name": "Penpot",
+      "category": [
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Browser me UI/UX design aur prototyping, team ke saath — open-source Figma jaisa.",
+      "pricing": "Freemium",
+      "priceNote": "Free plan; bade team plans paid; open source (MPL-2.0)",
+      "limit": "Figma ke plugins ecosystem jitna bada nahi.",
+      "platforms": "Web (browser)",
+      "replaces": "Figma",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://penpot.app/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "musicolet",
+      "name": "Musicolet",
+      "category": [
+        "Android Apps"
+      ],
+      "what": "Offline music player: no ads, internet permission hi nahi, multiple queues, lyrics, tag editor.",
+      "pricing": "Free",
+      "priceNote": "Free, no ads",
+      "limit": "Sirf phone me saved songs; open source nahi.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=in.krosbits.musicolet"
+        },
+        {
+          "label": "Website",
+          "url": "https://krosbits.in/musicolet/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "package_name": "in.krosbits.musicolet"
+    },
+    {
+      "slug": "fossify-calculator",
+      "name": "Fossify Calculator",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Saaf-suthra calculator with history, bina ads. Daily hisaab aur basic padhai ke liye.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Advanced scientific/graph features ke liye dusra app chahiye.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.fossify.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.math/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/FossifyOrg/Calculator"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.math"
+        }
+      ],
+      "icon": "assets/icons/fossify-calculator.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.fossify.math",
+      "apk_source": "github:FossifyOrg/Calculator",
+      "package_name": "org.fossify.math"
+    },
+    {
+      "slug": "excalidraw",
+      "name": "Excalidraw",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Hand-drawn style whiteboard browser me: diagrams, flowcharts, notes — dosto ke saath live.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (MIT); Excalidraw+ optional paid",
+      "limit": null,
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://excalidraw.com/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/excalidraw/excalidraw"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "librera-reader",
+      "name": "Librera Reader",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "PDF, EPUB, MOBI, DjVu sab padhne wala reader: night mode, bookmarks, aur text-to-speech se book padh ke sunata bhi hai.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": "APK size bada hai.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://librera.mobi/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.foobnix.pro.pdf.reader/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/foobnix/LibreraReader"
+        }
+      ],
+      "icon": "assets/icons/librera-reader.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.foobnix.pro.pdf.reader",
+      "apk_source": "fdroid:com.foobnix.pro.pdf.reader",
+      "package_name": "com.foobnix.pro.pdf.reader"
+    },
+    {
+      "slug": "koreader",
+      "name": "KOReader",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "E-book/PDF reader jo PDF ko reflow karke chhoti screen pe padhne layak bana deta hai; dictionary lookup, highlights.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (AGPL-3.0)",
+      "limit": "Interface e-reader jaisa hai, shuru me thoda alag lagega.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://koreader.rocks/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.koreader.launcher.fdroid/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/koreader/koreader"
+        }
+      ],
+      "icon": "assets/icons/koreader.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.koreader.launcher.fdroid",
+      "apk_source": "fdroid:org.koreader.launcher.fdroid",
+      "package_name": "org.koreader.launcher.fdroid"
+    },
+    {
+      "slug": "drawio",
+      "name": "draw.io",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Flowchart, ER diagram, network diagram, mind map — free, browser ya desktop app me.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": null,
+      "platforms": "Web, Windows, macOS, Linux",
+      "replaces": "Microsoft Visio",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.drawio.com/"
+        },
+        {
+          "label": "Web app",
+          "url": "https://app.diagrams.net/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "material-files",
+      "name": "Material Files",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Clean file manager: ZIP/7z/RAR archives kholo, FTP/SMB/SFTP se PC ki files, root support bhi.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/me.zhanghai.android.files/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/zhanghai/MaterialFiles"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=me.zhanghai.android.files"
+        }
+      ],
+      "icon": "assets/icons/material-files.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "me.zhanghai.android.files",
+      "apk_source": "github:zhanghai/MaterialFiles",
+      "package_name": "me.zhanghai.android.files"
+    },
+    {
+      "slug": "notepad-plus-plus",
+      "name": "Notepad++",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Windows ka fast code/text editor: syntax highlighting, tabs, find-replace, plugins.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL)",
+      "limit": null,
+      "platforms": "Windows",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://notepad-plus-plus.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "briar",
+      "name": "Briar",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Bina internet ke chat: Bluetooth/Wi-Fi se paas wale dosto ko message, internet ho to Tor se. Na phone number, na central server.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": "Dono logon ke paas Briar hona chahiye; online rehne pe battery zyada leta hai.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://briarproject.org/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.briarproject.briar.android/"
+        },
+        {
+          "label": "Source code",
+          "url": "https://code.briarproject.org/briar/briar"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.briarproject.briar.android"
+        }
+      ],
+      "icon": "assets/icons/briar.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.briarproject.briar.android",
+      "apk_source": "fdroid:org.briarproject.briar.android",
+      "package_name": "org.briarproject.briar.android"
+    },
+    {
+      "slug": "vscodium",
+      "name": "VSCodium",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "VS Code ka open-source build bina Microsoft telemetry ke — same editor, same feel.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (MIT)",
+      "limit": "Kuch Microsoft extensions (jaise official C# debugger) nahi chalte.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://vscodium.com/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/VSCodium/vscodium"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "fairemail",
+      "name": "FairEmail",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Gmail, Outlook, Yahoo — saare email ek inbox me, privacy ke saath: tracking images block, phishing warning.",
+      "pricing": "Freemium",
+      "priceNote": "Free core, open source (GPL-3.0); kuch Pro features paid",
+      "limit": "Kuch extra features Pro (paid) me; settings bahut zyada hain.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://email.faircode.eu/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/eu.faircode.email/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/M66B/FairEmail"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=eu.faircode.email"
+        }
+      ],
+      "icon": "assets/icons/fairemail.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "eu.faircode.email",
+      "apk_source": "fdroid:eu.faircode.email",
+      "package_name": "eu.faircode.email"
+    },
+    {
+      "slug": "thonny",
+      "name": "Thonny",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Python seekhne ke liye sabse simple IDE: Python saath me aata hai, step-by-step debugger dikhata hai code kaise chalta hai.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (MIT)",
+      "limit": "Bade projects ke liye basic.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://thonny.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "duckduckgo-browser",
+      "name": "DuckDuckGo Browser",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Privacy browser: trackers block karta hai, ek Fire button se saara browsing data turant saaf.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://duckduckgo.com/app"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.duckduckgo.mobile.android/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/duckduckgo/Android"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android"
+        }
+      ],
+      "icon": "assets/icons/duckduckgo-browser.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.duckduckgo.mobile.android",
+      "apk_source": "fdroid:com.duckduckgo.mobile.android",
+      "package_name": "com.duckduckgo.mobile.android"
+    },
+    {
+      "slug": "mpv-android",
+      "name": "mpv-android",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Powerful video player: lagbhag har format, subtitles, speed control, gestures — bina ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (MIT)",
+      "limit": "Settings thode technical hain.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/is.xyz.mpv/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mpv-android/mpv-android"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=is.xyz.mpv"
+        }
+      ],
+      "icon": "assets/icons/mpv-android.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "is.xyz.mpv",
+      "apk_source": "fdroid:is.xyz.mpv",
+      "package_name": "is.xyz.mpv"
+    },
+    {
+      "slug": "flameshot",
+      "name": "Flameshot",
+      "category": [
+        "Open Source/GitHub"
+      ],
+      "what": "Screenshot lo aur turant arrows, text, blur, highlight laga do — notes/tutorials ke liye.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "Snagit",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://flameshot.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "digilocker",
+      "name": "DigiLocker",
+      "category": [
+        "Android Apps",
+        "Student Tech"
+      ],
+      "what": "Government ki official app: Aadhaar, PAN, DL, CBSE marksheet/certificates digital — originals jitne valid.",
+      "pricing": "Free",
+      "priceNote": "Free (Government of India)",
+      "limit": "Aadhaar-linked mobile number chahiye.",
+      "platforms": "Android, iOS, Web",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.digilocker.gov.in/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.digilocker.android"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "package_name": "com.digilocker.android"
+    },
+    {
+      "slug": "just-player",
+      "name": "Just (Video) Player",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Simple video player: double-tap se seek, swipe se volume/brightness, subtitles, picture-in-picture.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Unlicense)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.brouken.player/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/moneytoo/Player"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.brouken.player"
+        }
+      ],
+      "icon": "assets/icons/just-player.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.brouken.player",
+      "apk_source": "fdroid:com.brouken.player",
+      "package_name": "com.brouken.player"
+    },
+    {
+      "slug": "sharex",
+      "name": "ShareX",
+      "category": [
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Windows pe screenshot, screen recording, GIF banana, text OCR — sab ek free tool me.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Sirf Windows; settings bahut zyada.",
+      "platforms": "Windows",
+      "replaces": "Snagit",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://getsharex.com/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "next-player",
+      "name": "Next Player",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Material You design wala video player: subtitles, gestures, PiP, folders view — no ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/dev.anilbeesetti.nextplayer/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/anilbeesetti/nextplayer"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=dev.anilbeesetti.nextplayer"
+        }
+      ],
+      "icon": "assets/icons/next-player.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "dev.anilbeesetti.nextplayer",
+      "apk_source": "github:anilbeesetti/nextplayer",
+      "package_name": "dev.anilbeesetti.nextplayer"
+    },
+    {
+      "slug": "powertoys",
+      "name": "Microsoft PowerToys",
+      "category": [
+        "Open Source/GitHub"
+      ],
+      "what": "Windows ke liye power tools: kisi bhi screen se text copy (OCR), colour picker, bulk rename, window layouts.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (MIT)",
+      "limit": null,
+      "platforms": "Windows 10/11",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Docs",
+          "url": "https://learn.microsoft.com/en-us/windows/powertoys/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/microsoft/PowerToys"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "gramophone",
+      "name": "Gramophone",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Offline music player clean design ke saath: synced lyrics (LRC), folders, playlists.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": "Sirf phone me saved songs ke liye.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.akanework.gramophone/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/FoedusProgramme/Gramophone"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.akanework.gramophone"
+        }
+      ],
+      "icon": "assets/icons/gramophone.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.akanework.gramophone",
+      "apk_source": "github:FoedusProgramme/Gramophone",
+      "package_name": "org.akanework.gramophone"
+    },
+    {
+      "slug": "everything-search",
+      "name": "Everything",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "Windows me koi bhi file naam se 1 second me dhoondo — Windows search se kahin tez.",
+      "pricing": "Free",
+      "priceNote": "Freeware",
+      "limit": "Sirf file naam se search (andar ka text by default nahi).",
+      "platforms": "Windows",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.voidtools.com/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "retro-music",
+      "name": "Retro Music Player",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Stylish offline music player: themes, lyrics, equalizer, sleep timer.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Sirf phone me saved songs ke liye.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://retromusic.app/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/code.name.monkey.retromusic/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/RetroMusicPlayer/RetroMusicPlayer"
+        }
+      ],
+      "icon": "assets/icons/retro-music.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "code.name.monkey.retromusic",
+      "apk_source": "fdroid:code.name.monkey.retromusic",
+      "package_name": "code.name.monkey.retromusic"
+    },
+    {
+      "slug": "aves-libre",
+      "name": "Aves Libre",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Gallery app: photos/videos, map pe photos kahan khinchi, GIF/motion photos, photo ka metadata dekho.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (BSD-3-Clause)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/deckers.thibault.aves.libre/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/deckerst/aves"
+        }
+      ],
+      "icon": "assets/icons/aves-libre.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "deckers.thibault.aves.libre",
+      "apk_source": "fdroid:deckers.thibault.aves.libre",
+      "package_name": "deckers.thibault.aves.libre"
+    },
+    {
+      "slug": "rufus",
+      "name": "Rufus",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Windows/Linux ki bootable USB pendrive banao — naya OS install karne ke liye.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "USB ka saara data mit jaata hai.",
+      "platforms": "Windows",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://rufus.ie/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "etar-calendar",
+      "name": "Etar Calendar",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Calendar app clean design ke saath: phone me jo bhi calendar account hai (Google bhi) wo dikhata hai, widget, no ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/ws.xsoh.etar/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Etar-Group/Etar-Calendar"
+        }
+      ],
+      "icon": "assets/icons/etar-calendar.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "ws.xsoh.etar",
+      "apk_source": "fdroid:ws.xsoh.etar",
+      "package_name": "ws.xsoh.etar"
+    },
+    {
+      "slug": "ventoy",
+      "name": "Ventoy",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Ek pendrive me kai ISO files (Windows, Linux) daalo aur boot menu se chuno — har baar format nahi.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Kuch purane PCs pe Secure Boot setup chahiye.",
+      "platforms": "Windows, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.ventoy.net/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ventoy/Ventoy"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "saber",
+      "name": "Saber",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Handwriting notes app: stylus ya ungli se notes likho, PDF pe annotate karo. Notes encrypt karke sync ka option.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Stylus ke saath sabse accha lagta hai.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.adilhanney.saber/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/saber-notes/saber"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.adilhanney.saber"
+        }
+      ],
+      "icon": "assets/icons/saber.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.adilhanney.saber",
+      "apk_source": "fdroid:com.adilhanney.saber",
+      "package_name": "com.adilhanney.saber"
+    },
+    {
+      "slug": "qbittorrent",
+      "name": "qBittorrent",
+      "category": [
+        "Open Source/GitHub"
+      ],
+      "what": "Ad-free torrent client PC ke liye: search, sequential download, speed limits.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL)",
+      "limit": "Sirf legal content download karo.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/qbittorrent/qBittorrent"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "quickdic",
+      "name": "QuickDic",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Offline dictionary: bahut saari languages ke dictionaries (Wiktionary se) bina internet ke.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": "Dictionary pehle download karni padti hai.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/de.reimardoeffinger.quickdic/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/rdoeffinger/Dictionary"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=de.reimardoeffinger.quickdic"
+        }
+      ],
+      "icon": "assets/icons/quickdic.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "de.reimardoeffinger.quickdic",
+      "apk_source": "github:rdoeffinger/Dictionary",
+      "package_name": "de.reimardoeffinger.quickdic"
+    },
+    {
+      "slug": "diksha",
+      "name": "DIKSHA",
+      "category": [
+        "Android Apps",
+        "Student Tech"
+      ],
+      "what": "NCERT/CBSE ki official learning app: textbook ke QR code scan karo aur us chapter ki video, notes, practice.",
+      "pricing": "Free",
+      "priceNote": "Free (Government of India)",
+      "limit": null,
+      "platforms": "Android, iOS, Web",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://diksha.gov.in/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=in.gov.diksha.app"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "package_name": "in.gov.diksha.app"
+    },
+    {
+      "slug": "calibre",
+      "name": "calibre",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "E-book library manager: EPUB/PDF/MOBI convert, e-book reader, metadata aur covers.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://calibre-ebook.com/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "insular",
+      "name": "Insular",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Apps ko alag 'work profile' box me rakho: same app ka doosra account (clone) ya faltu apps freeze.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": "Setup thoda technical; kuch phones pe work profile ki dikkat.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://secure-system.gitlab.io/Insular/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.oasisfeng.island.fdroid/"
+        },
+        {
+          "label": "GitLab",
+          "url": "https://gitlab.com/secure-system/Insular"
+        }
+      ],
+      "icon": "assets/icons/insular.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.oasisfeng.island.fdroid",
+      "apk_source": "fdroid:com.oasisfeng.island.fdroid",
+      "package_name": "com.oasisfeng.island.fdroid"
+    },
+    {
+      "slug": "libretorrent",
+      "name": "LibreTorrent",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Ad-free torrent client: magnet links, sequential download, sirf Wi-Fi pe download ka option.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": "Sirf legal content download karo.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.proninyaroslav.libretorrent/"
+        },
+        {
+          "label": "GitLab",
+          "url": "https://gitlab.com/proninyaroslav/libretorrent"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.proninyaroslav.libretorrent"
+        }
+      ],
+      "icon": "assets/icons/libretorrent.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.proninyaroslav.libretorrent",
+      "apk_source": "fdroid:org.proninyaroslav.libretorrent",
+      "package_name": "org.proninyaroslav.libretorrent"
+    },
+    {
+      "slug": "joplin",
+      "name": "Joplin",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Notes + to-do app (Markdown) phone aur PC dono pe; Dropbox/OneDrive se free sync, end-to-end encryption.",
+      "pricing": "Freemium",
+      "priceNote": "Free app, open source (AGPL-3.0); Joplin Cloud paid optional",
+      "limit": "Design simple; sync setup ek baar karna padta hai.",
+      "platforms": "Android, iOS, Windows, macOS, Linux",
+      "replaces": "Evernote",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://joplinapp.org/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/laurent22/joplin"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "trackercontrol",
+      "name": "TrackerControl",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Dekho kaunsi app chupke se kis company ko data bhej rahi hai, aur trackers block karo — bina root.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Local VPN slot use karta hai, saath me dusra VPN nahi chalega.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://trackercontrol.org/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/net.kollnig.missioncontrol.fdroid/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/TrackerControl/tracker-control-android"
+        }
+      ],
+      "icon": "assets/icons/trackercontrol.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "net.kollnig.missioncontrol.fdroid",
+      "apk_source": "github:TrackerControl/tracker-control-android",
+      "package_name": "net.kollnig.missioncontrol.fdroid"
+    },
+    {
+      "slug": "logseq",
+      "name": "Logseq",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Outliner notes jo files tumhare device pe rakhta hai: daily journal, linked notes, graph view — padhai notes ke liye.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (AGPL-3.0)",
+      "limit": "Bullet-style notes ki aadat daalni padti hai.",
+      "platforms": "Windows, macOS, Linux, Android, iOS",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://logseq.com/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/logseq/logseq"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "exodus-privacy",
+      "name": "Exodus Privacy",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Phone me installed har app ki report: usme kaunse trackers aur kaunsi permissions hain.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://exodus-privacy.eu.org/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.eu.exodus_privacy.exodusprivacy/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Exodus-Privacy/exodus-android-app"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.eu.exodus_privacy.exodusprivacy"
+        }
+      ],
+      "icon": "assets/icons/exodus-privacy.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.eu.exodus_privacy.exodusprivacy",
+      "apk_source": "github:Exodus-Privacy/exodus-android-app",
+      "package_name": "org.eu.exodus_privacy.exodusprivacy"
+    },
+    {
+      "slug": "appflowy",
+      "name": "AppFlowy",
+      "category": [
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Notion jaisa workspace: docs, tasks board, database — data apne control me.",
+      "pricing": "Freemium",
+      "priceNote": "Free plan, open source (AGPL-3.0); AI/cloud plans paid",
+      "limit": "Notion jitne integrations nahi.",
+      "platforms": "Windows, macOS, Linux, Android, iOS, Web",
+      "replaces": "Notion",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://appflowy.com/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/AppFlowy-IO/AppFlowy"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "opentracks",
+      "name": "OpenTracks",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Running, cycling, walk ko GPS se track karo — bina account, saara data phone pe.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://OpenTracksApp.com"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/de.dennisguse.opentracks/"
+        },
+        {
+          "label": "Codeberg",
+          "url": "https://codeberg.org/OpenTracksApp/OpenTracks"
+        }
+      ],
+      "icon": "assets/icons/opentracks.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "de.dennisguse.opentracks",
+      "apk_source": "fdroid:de.dennisguse.opentracks",
+      "package_name": "de.dennisguse.opentracks"
+    },
+    {
+      "slug": "sumatrapdf",
+      "name": "SumatraPDF",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Windows ka bahut halka PDF/EPUB reader — purane PC pe bhi turant khulta hai.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "PDF editing/sign nahi.",
+      "platforms": "Windows",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.sumatrapdfreader.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "drip",
+      "name": "drip",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Period aur fertility tracker jo data sirf phone pe rakhta hai; koi account nahi.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Medical advice nahi deta.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://dripapp.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.drip/"
+        },
+        {
+          "label": "GitLab",
+          "url": "https://gitlab.com/bloodyhealth/drip"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.drip"
+        }
+      ],
+      "icon": "assets/icons/drip.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.drip",
+      "apk_source": "fdroid:com.drip",
+      "package_name": "com.drip"
+    },
+    {
+      "slug": "open-food-facts",
+      "name": "Open Food Facts",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Packed food ka barcode scan karo: ingredients, nutrition, additives aur Nutri-Score turant.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": "India ke kai products ka data adhoora; khud bhi add kar sakte ho.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/openfoodfacts.github.scrachx.openfood/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/openfoodfacts/smooth-app"
+        }
+      ],
+      "icon": "assets/icons/open-food-facts.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "openfoodfacts.github.scrachx.openfood",
+      "apk_source": "fdroid:openfoodfacts.github.scrachx.openfood",
+      "package_name": "openfoodfacts.github.scrachx.openfood"
+    },
+    {
+      "slug": "squoosh",
+      "name": "Squoosh",
+      "category": [
+        "Open Source/GitHub"
+      ],
+      "what": "Browser me image compress/resize: before-after compare karke size kam karo — upload kahin nahi hota.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": null,
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://squoosh.app/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/GoogleChromeLabs/squoosh"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "money-manager-ex",
+      "name": "Money Manager Ex",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Kharcha aur budget tracker: accounts, categories, reports — offline, no ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.money.manager.ex/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/moneymanagerex/android-money-manager-ex"
+        }
+      ],
+      "icon": "assets/icons/money-manager-ex.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.money.manager.ex",
+      "apk_source": "fdroid:com.money.manager.ex",
+      "package_name": "com.money.manager.ex"
+    },
+    {
+      "slug": "geogebra",
+      "name": "GeoGebra",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "Maths ke liye graphing calculator, geometry, 3D, CAS — equations ka graph turant.",
+      "pricing": "Free",
+      "priceNote": "Free (non-commercial use)",
+      "limit": null,
+      "platforms": "Android, iOS, Web",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.geogebra.org/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.geogebra.android.calculator.suite"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "read-along",
+      "name": "Read Along by Google",
+      "category": [
+        "Android Apps",
+        "Student Tech"
+      ],
+      "what": "Bachchon ke liye reading app: Hindi/English stories zor se padho, AI assistant 'Diya' sunke help karta hai. No ads, offline.",
+      "pricing": "Free",
+      "priceNote": "Free, no ads",
+      "limit": null,
+      "platforms": "Android, Web",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.seekh"
+        },
+        {
+          "label": "Website",
+          "url": "https://readalong.google.com/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "package_name": "com.google.android.apps.seekh"
+    },
+    {
+      "slug": "my-expenses",
+      "name": "My Expenses",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Expense tracker: cash/bank/card ke accounts, budgets, reports, CSV export.",
+      "pricing": "Freemium",
+      "priceNote": "Free core, open source (GPL-3.0); kuch features paid",
+      "limit": "Kuch features paid (Contrib/Extended).",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.totschnig.myexpenses/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mtotschnig/MyExpenses"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.totschnig.myexpenses"
+        }
+      ],
+      "icon": "assets/icons/my-expenses.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.totschnig.myexpenses",
+      "apk_source": "github:mtotschnig/MyExpenses",
+      "package_name": "org.totschnig.myexpenses"
+    },
+    {
+      "slug": "desmos",
+      "name": "Desmos",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "Free graphing + scientific calculator: equation likho, graph live banta hai — maths/physics samajhne ke liye.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": null,
+      "platforms": "Android, iOS, Web",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.desmos.com/calculator"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.desmos.calculator"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "osmand",
+      "name": "OsmAnd",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Offline maps + navigation: poore state/country ka map download karo, bina net ke raasta dekho. Trekking/hiking ke liye bhi.",
+      "pricing": "Freemium",
+      "priceNote": "Free core, open source (GPL-3.0); kuch features paid",
+      "limit": "Kuch extra features (OsmAnd Pro/Maps+) paid hain.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://osmand.net"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/net.osmand.plus/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/osmandapp/Osmand"
+        }
+      ],
+      "icon": "assets/icons/osmand.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "net.osmand.plus",
+      "apk_source": "fdroid:net.osmand.plus",
+      "package_name": "net.osmand.plus"
+    },
+    {
+      "slug": "delta-chat",
+      "name": "Delta Chat",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Chat app jo email pe chalta hai: WhatsApp jaisa look, end-to-end encryption, bina phone number.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": "Dost ke paas bhi Delta Chat hona behtar.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://delta.chat/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.b44t.messenger/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/deltachat/deltachat-android"
+        }
+      ],
+      "icon": "assets/icons/delta-chat.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.b44t.messenger",
+      "apk_source": "fdroid:com.b44t.messenger",
+      "package_name": "com.b44t.messenger"
+    },
+    {
+      "slug": "phet-simulations",
+      "name": "PhET Simulations",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "Physics, chemistry, maths ke interactive simulations (University of Colorado) — khud experiment karke concept samjho.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": null,
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://phet.colorado.edu/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "simplex-chat",
+      "name": "SimpleX Chat",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Messenger jisme na phone number, na user ID: QR/link se connect, end-to-end encrypted.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (AGPL-3.0+)",
+      "limit": "Dost ko bhi install karna padega.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://simplex.chat/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/chat.simplex.app/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/simplex-chat/simplex-chat"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=chat.simplex.app"
+        }
+      ],
+      "icon": "assets/icons/simplex-chat.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "chat.simplex.app",
+      "apk_source": "fdroid:chat.simplex.app",
+      "package_name": "chat.simplex.app"
+    },
+    {
+      "slug": "freecodecamp",
+      "name": "freeCodeCamp",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "Coding free me seekho: web development, JavaScript, Python, data — projects aur free certifications ke saath.",
+      "pricing": "Free",
+      "priceNote": "Free (non-profit)",
+      "limit": "English me hai.",
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.freecodecamp.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "jami",
+      "name": "Jami",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Video/voice call aur chat peer-to-peer — koi central server nahi, koi phone number nahi.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": "Weak network pe calls thodi unstable ho sakti hain.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://jami.net/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/cx.ring/"
+        },
+        {
+          "label": "Website",
+          "url": "https://jami.net/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=cx.ring"
+        }
+      ],
+      "icon": "assets/icons/jami.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "cx.ring",
+      "apk_source": "fdroid:cx.ring",
+      "package_name": "cx.ring"
+    },
+    {
+      "slug": "cs50",
+      "name": "CS50 (Harvard)",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "Harvard ka famous computer science course free online: lectures, problem sets, programming basics se.",
+      "pricing": "Free",
+      "priceNote": "Free; edX ka verified certificate paid optional",
+      "limit": "English me; mehnat wala course.",
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://cs50.harvard.edu/x/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "ente-auth",
+      "name": "Ente Auth",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "2FA codes app with end-to-end encrypted backup — phone badla to codes safe rehte hain.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (AGPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://ente.com"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.ente.auth/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ente-io/ente"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=io.ente.auth"
+        }
+      ],
+      "icon": "assets/icons/ente-auth.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "io.ente.auth",
+      "apk_source": "fdroid:io.ente.auth",
+      "package_name": "io.ente.auth"
+    },
+    {
+      "slug": "mit-opencourseware",
+      "name": "MIT OpenCourseWare",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "MIT ke hazaron courses ke notes, lectures, assignments free — engineering, maths, CS.",
+      "pricing": "Free",
+      "priceNote": "Free (CC BY-NC-SA)",
+      "limit": "Certificate nahi milta.",
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://ocw.mit.edu/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "ente-photos",
+      "name": "Ente Photos",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Photos ka end-to-end encrypted cloud backup, family sharing, Google Photos jaisa.",
+      "pricing": "Freemium",
+      "priceNote": "Free plan + paid storage; open source (AGPL-3.0)",
+      "limit": "Free plan me storage limited; zyada storage paid.",
+      "platforms": "Android",
+      "replaces": "Google Photos",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://ente.com"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.ente.photos.fdroid/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ente-io/ente"
+        }
+      ],
+      "icon": "assets/icons/ente-photos.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "io.ente.photos.fdroid",
+      "apk_source": "fdroid:io.ente.photos.fdroid",
+      "package_name": "io.ente.photos.fdroid"
+    },
+    {
+      "slug": "pcapdroid",
+      "name": "PCAPdroid",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Bina root dekho kaunsi app kis server se baat kar rahi hai; network traffic record karo (PCAP) — networking seekhne walon ke liye mast.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": "Play Store version me kuch extra features paid unlock hain.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://emanuele-f.github.io/PCAPdroid"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.emanuelef.remote_capture/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/emanuele-f/PCAPdroid"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.emanuelef.remote_capture"
+        }
+      ],
+      "icon": "assets/icons/pcapdroid.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.emanuelef.remote_capture",
+      "apk_source": "github:emanuele-f/PCAPdroid",
+      "package_name": "com.emanuelef.remote_capture"
+    },
+    {
+      "slug": "swayam",
+      "name": "SWAYAM",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "Government of India ka free online courses portal: school se PG tak, IIT/IIM professors ke courses.",
+      "pricing": "Free",
+      "priceNote": "Free courses; certificate exam ki fees lagti hai",
+      "limit": null,
+      "platforms": "Web, Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://swayam.gov.in/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "photomath",
+      "name": "Photomath",
+      "category": [
+        "Android Apps",
+        "Student Tech",
+        "AI Tools"
+      ],
+      "what": "Maths question ki photo lo — step-by-step solution aur explanation.",
+      "pricing": "Freemium",
+      "priceNote": "Free + Plus (paid)",
+      "limit": "Detailed explanations ka kuch hissa Plus me; copy nahi, samajhne ke liye use karo.",
+      "platforms": "Android, iOS",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.microblink.photomath"
+        },
+        {
+          "label": "Website",
+          "url": "https://photomath.com/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "package_name": "com.microblink.photomath"
+    },
+    {
+      "slug": "mindustry",
+      "name": "Mindustry",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Factory + tower defense strategy game: conveyor belts se resources, turrets se defence, multiplayer bhi.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": "Play Store/Steam pe paid hai; F-Droid wala Android version free.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://anuke.itch.io/mindustry"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.anuke.mindustry/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Anuken/Mindustry"
+        }
+      ],
+      "icon": "assets/icons/mindustry.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "io.anuke.mindustry",
+      "apk_source": "fdroid:io.anuke.mindustry",
+      "package_name": "io.anuke.mindustry"
+    },
+    {
+      "slug": "ndli",
+      "name": "National Digital Library of India",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "IIT Kharagpur ki free digital library: books, notes, question papers, videos — school se research tak.",
+      "pricing": "Free",
+      "priceNote": "Free (registration chahiye)",
+      "limit": null,
+      "platforms": "Web, Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://ndl.iitkgp.ac.in/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "shattered-pixel-dungeon",
+      "name": "Shattered Pixel Dungeon",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Pixel-art dungeon game: har baar naya dungeon, items, boss fights. No ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Supporter pack optional in-app purchase.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://ShatteredPixel.com"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.shatteredpixel.shatteredpixeldungeon/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/00-Evan/shattered-pixel-dungeon"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.shatteredpixel.shatteredpixeldungeon"
+        }
+      ],
+      "icon": "assets/icons/shattered-pixel-dungeon.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.shatteredpixel.shatteredpixeldungeon",
+      "apk_source": "fdroid:com.shatteredpixel.shatteredpixeldungeon",
+      "package_name": "com.shatteredpixel.shatteredpixeldungeon"
+    },
+    {
+      "slug": "typst",
+      "name": "Typst",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "LaTeX ka modern, aasaan alternative: assignments, reports, resume — instant preview ke saath.",
+      "pricing": "Freemium",
+      "priceNote": "Compiler free, open source (Apache-2.0); web app ke kuch plans paid",
+      "limit": "LaTeX templates jitne zyada nahi.",
+      "platforms": "Web, Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://typst.app/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/typst/typst"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "simon-tatham-puzzles",
+      "name": "Simon Tatham's Puzzles",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "40 se zyada dimaag wale puzzle games ek app me — no ads, offline.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (MIT)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://chris.boyle.name/projects/android-puzzles"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/name.boyle.chris.sgtpuzzles/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/chrisboyle/sgtpuzzles"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=name.boyle.chris.sgtpuzzles"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "name.boyle.chris.sgtpuzzles",
+      "apk_source": "github:chrisboyle/sgtpuzzles",
+      "package_name": "name.boyle.chris.sgtpuzzles"
+    },
+    {
+      "slug": "overleaf",
+      "name": "Overleaf",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "Browser me LaTeX editor: research papers, project reports, resume — templates ke saath, team me likho.",
+      "pricing": "Freemium",
+      "priceNote": "Free plan + paid",
+      "limit": "Free plan me compile time aur collaborators limited.",
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.overleaf.com/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "lichess",
+      "name": "Lichess",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Chess online/offline: puzzles, lessons, tournaments — hamesha free, koi ads nahi.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://lichess.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.lichess.mobileV2/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lichess-org/mobile"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.lichess.mobileV2"
+        }
+      ],
+      "icon": "assets/icons/lichess.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.lichess.mobileV2",
+      "apk_source": "github:lichess-org/mobile",
+      "package_name": "org.lichess.mobileV2"
+    },
+    {
+      "slug": "luanti",
+      "name": "Luanti (Minetest)",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Block-building sandbox game: duniya banao, mods aur online servers — Minecraft jaisa, free.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (LGPL-2.1+)",
+      "limit": "Graphics simple; achha experience mods/games download karne pe.",
+      "platforms": "Android",
+      "replaces": "Minecraft",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.luanti.org/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/net.minetest.minetest/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/luanti-org/luanti"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=net.minetest.minetest"
+        }
+      ],
+      "icon": "assets/icons/luanti.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "net.minetest.minetest",
+      "apk_source": "fdroid:net.minetest.minetest",
+      "package_name": "net.minetest.minetest"
+    },
+    {
+      "slug": "ollama",
+      "name": "Ollama",
+      "category": [
+        "AI Tools",
+        "Open Source/GitHub"
+      ],
+      "what": "Apne PC pe AI models (Llama, Gemma, Qwen waghera) offline chalao — ek command se.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (MIT)",
+      "limit": "Achhi RAM/GPU chahiye; bade models slow chalenge.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://ollama.com/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ollama/ollama"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "supertuxkart",
+      "name": "SuperTuxKart",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Kart racing game: tracks, karts, online multiplayer — no ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Download bada hai.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://supertuxkart.net/Main_Page"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.supertuxkart.stk/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/supertuxkart/stk-code"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.supertuxkart.stk"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.supertuxkart.stk",
+      "apk_source": "github:supertuxkart/stk-code",
+      "package_name": "org.supertuxkart.stk"
+    },
+    {
+      "slug": "gpt4all",
+      "name": "GPT4All",
+      "category": [
+        "AI Tools",
+        "Open Source/GitHub"
+      ],
+      "what": "Desktop app jo AI chatbot ko tumhare PC pe offline chalata hai; apne documents se chat (LocalDocs).",
+      "pricing": "Free",
+      "priceNote": "Free, open source (MIT)",
+      "limit": "8 GB+ RAM recommended; cloud AI jitna smart nahi.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.nomic.ai/gpt4all"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nomic-ai/gpt4all"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "noice",
+      "name": "Noice",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Barish, jungle, cafe jaisi awaaze mix karke padhai/focus ya neend ke liye — timer ke saath.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Play Store version me kuch premium sounds paid.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://trynoice.com"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.github.ashutoshgngwr.noice/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/trynoice/android-app"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.github.ashutoshgngwr.noice"
+        }
+      ],
+      "icon": "assets/icons/noice.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.github.ashutoshgngwr.noice",
+      "apk_source": "fdroid:com.github.ashutoshgngwr.noice",
+      "package_name": "com.github.ashutoshgngwr.noice"
+    },
+    {
+      "slug": "lm-studio",
+      "name": "LM Studio",
+      "category": [
+        "AI Tools"
+      ],
+      "what": "Easy app jisme AI models download karke PC pe offline chalao — chat window ke saath.",
+      "pricing": "Free",
+      "priceNote": "Free (open source nahi)",
+      "limit": "Achhi RAM/GPU chahiye.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://lmstudio.ai/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "whobird",
+      "name": "whoBIRD",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Pakshi ki awaaz record karo — app offline bata deta hai kaunsa bird hai.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Accuracy awaaz ki quality pe depend.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.woheller69.whobird/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/woheller69/whoBIRD"
+        }
+      ],
+      "icon": "assets/icons/whobird.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.woheller69.whobird",
+      "apk_source": "fdroid:org.woheller69.whobird",
+      "package_name": "org.woheller69.whobird"
+    },
+    {
+      "slug": "sololearn",
+      "name": "Sololearn",
+      "category": [
+        "Android Apps",
+        "Student Tech"
+      ],
+      "what": "Phone pe coding seekho: Python, C++, JavaScript, SQL — chhote lessons + code playground.",
+      "pricing": "Freemium",
+      "priceNote": "Free + Pro (paid)",
+      "limit": "Kuch courses/features Pro me; free me ads.",
+      "platforms": "Android, iOS, Web",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.sololearn"
+        },
+        {
+          "label": "Website",
+          "url": "https://www.sololearn.com/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "package_name": "com.sololearn"
+    },
+    {
+      "slug": "notebooklm",
+      "name": "NotebookLM",
+      "category": [
+        "AI Tools",
+        "Student Tech"
+      ],
+      "what": "Apne notes, PDF, YouTube links daalo — Google ka AI unhi se answers, summary, quiz aur audio overview banata hai.",
+      "pricing": "Freemium",
+      "priceNote": "Free; Plus/Pro plans paid",
+      "limit": "Free me notebooks aur sources ki limit; Google account chahiye.",
+      "platforms": "Web, Android, iOS",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://notebooklm.google/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "f-droid",
+      "name": "F-Droid",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Free aur open-source Android apps ka official store: hazaron apps bina ads/tracking, auto updates.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": "APK site se download karke install karna padta hai (Play Store pe nahi).",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fdroid.fdroid/"
+        },
+        {
+          "label": "GitLab",
+          "url": "https://gitlab.com/fdroid/fdroidclient"
+        }
+      ],
+      "icon": "assets/icons/f-droid.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.fdroid.fdroid",
+      "apk_source": "fdroid:org.fdroid.fdroid",
+      "package_name": "org.fdroid.fdroid"
+    },
+    {
+      "slug": "coffee",
+      "name": "Coffee",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Ek quick-settings tile jo screen ko jagaye rakhta hai — recipe, notes ya PDF padhte waqt screen band nahi hogi.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.github.muellerma.coffee/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mueller-ma/Coffee"
+        }
+      ],
+      "icon": "assets/icons/coffee.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.github.muellerma.coffee",
+      "apk_source": "github:mueller-ma/Coffee",
+      "package_name": "com.github.muellerma.coffee"
+    },
+    {
+      "slug": "google-ai-studio",
+      "name": "Google AI Studio",
+      "category": [
+        "AI Tools"
+      ],
+      "what": "Gemini models free me try karo aur free API key banao — apne projects/apps me AI lagao.",
+      "pricing": "Freemium",
+      "priceNote": "Free tier + paid API",
+      "limit": "Free tier me rate limits; free tier ka data Google product improve karne me use ho sakta hai.",
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://aistudio.google.com/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "survival-manual",
+      "name": "Survival Manual",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Offline survival guide: first aid, paani, aag, navigation — bina internet ke kaam ka.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "English me hai.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://survivalmanual.github.io/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.ligi.survivalmanual/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ligi/SurvivalManual"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.ligi.survivalmanual",
+      "apk_source": "github:ligi/SurvivalManual",
+      "package_name": "org.ligi.survivalmanual"
+    },
+    {
+      "slug": "google-colab",
+      "name": "Google Colab",
+      "category": [
+        "AI Tools",
+        "Student Tech"
+      ],
+      "what": "Browser me Python notebooks, free GPU ke saath — ML/AI seekhne aur chalane ke liye, kuch install nahi.",
+      "pricing": "Freemium",
+      "priceNote": "Free tier + paid plans",
+      "limit": "Free GPU guaranteed nahi; session time-limited.",
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://colab.research.google.com/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "medilog",
+      "name": "MediLog",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "BP, sugar, weight, temperature ka log aur charts — mummy-papa ke health record ke liye, data phone pe.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": "Doctor ki salah ka badla nahi.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://codeberg.org/toz/MediLog"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.zell_mbc.medilog/"
+        },
+        {
+          "label": "Codeberg",
+          "url": "https://codeberg.org/toz/MediLog"
+        }
+      ],
+      "icon": "assets/icons/medilog.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.zell_mbc.medilog",
+      "apk_source": "fdroid:com.zell_mbc.medilog",
+      "package_name": "com.zell_mbc.medilog"
+    },
+    {
+      "slug": "kaggle",
+      "name": "Kaggle",
+      "category": [
+        "AI Tools",
+        "Student Tech"
+      ],
+      "what": "Data science seekho: free notebooks + GPU, datasets, competitions, free mini courses.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "GPU ka weekly quota limited.",
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.kaggle.com/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "libresudoku",
+      "name": "LibreSudoku",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Sudoku game bina ads: alag difficulty, hints, notes mode.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.kaajjo.libresudoku/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/kaajjo/LibreSudoku"
+        }
+      ],
+      "icon": "assets/icons/libresudoku.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.kaajjo.libresudoku",
+      "apk_source": "fdroid:com.kaajjo.libresudoku",
+      "package_name": "com.kaajjo.libresudoku"
+    },
+    {
+      "slug": "github-student-pack",
+      "name": "GitHub Student Developer Pack",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "College/school students ke liye free developer tools ka bundle: GitHub Copilot, domains, cloud credits waghera.",
+      "pricing": "Free",
+      "priceNote": "Free for verified students",
+      "limit": "Student ID/college email se verification chahiye; offers time ke saath badalte hain.",
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://education.github.com/pack"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "connectbot",
+      "name": "ConnectBot",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Phone se SSH: server, Raspberry Pi ya cloud machine ko terminal se chalao.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": "Technical users ke liye.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.connectbot/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/connectbot/connectbot"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.connectbot"
+        }
+      ],
+      "icon": "assets/icons/connectbot.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.connectbot",
+      "apk_source": "fdroid:org.connectbot",
+      "package_name": "org.connectbot"
+    },
+    {
+      "slug": "screenshot-tile",
+      "name": "Screenshot Tile",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Quick settings tile ya floating button se screenshot — bina root, partial screenshot bhi.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.github.cvzi.screenshottile/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/cvzi/ScreenshotTile"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.github.cvzi.screenshottile"
+        }
+      ],
+      "icon": "assets/icons/screenshot-tile.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.github.cvzi.screenshottile",
+      "apk_source": "fdroid:com.github.cvzi.screenshottile",
+      "package_name": "com.github.cvzi.screenshottile"
+    },
+    {
+      "slug": "freesound",
+      "name": "Freesound",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "Lakhon free sound effects ka library — videos, games, podcasts ke liye.",
+      "pricing": "Free",
+      "priceNote": "Free (har sound ka Creative Commons license alag)",
+      "limit": "Har sound ka license (CC0 / CC-BY) check karo; download ke liye account.",
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://freesound.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "acode",
+      "name": "Acode",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Phone pe code editor: HTML, CSS, JS, Python waghera, GitHub, plugins aur terminal.",
+      "pricing": "Freemium",
+      "priceNote": "Free + paid version, open source (MIT)",
+      "limit": "Kuch features/plugins paid; free version me ads ho sakte hain.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://acode.foxdebug.com/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.foxdebug.acode/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/deadlyjack/Acode"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.foxdebug.acode"
+        }
+      ],
+      "icon": "assets/icons/acode.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.foxdebug.acode",
+      "apk_source": "fdroid:com.foxdebug.acode",
+      "package_name": "com.foxdebug.acode"
+    },
+    {
+      "slug": "google-fonts",
+      "name": "Google Fonts",
+      "category": [
+        "Open Source/GitHub"
+      ],
+      "what": "1,000+ free fonts — thumbnails, posters, websites me commercial use bhi free.",
+      "pricing": "Free",
+      "priceNote": "Free, open source fonts (mostly OFL)",
+      "limit": null,
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://fonts.google.com/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "total-commander",
+      "name": "Total Commander",
+      "category": [
+        "Android Apps"
+      ],
+      "what": "Powerful file manager: do-panel view, ZIP, FTP/LAN plugins, root — bilkul free, no ads.",
+      "pricing": "Free",
+      "priceNote": "Free, no ads",
+      "limit": "Look purana-sa; open source nahi.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.ghisler.android.TotalCommander"
+        },
+        {
+          "label": "Website",
+          "url": "https://www.ghisler.com/android.htm"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "package_name": "com.ghisler.android.TotalCommander"
+    },
+    {
+      "slug": "ocr-text-scanner",
+      "name": "OCR (Text Scanner)",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Photo se text nikalo (OCR) — offline, Hindi samet kai languages (Tesseract).",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": "Language data alag download; haath ki likhawat kam pakadta hai.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.github.subhamtyagi.ocr/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/SubhamTyagi/android-ocr"
+        }
+      ],
+      "icon": "assets/icons/ocr-text-scanner.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "io.github.subhamtyagi.ocr",
+      "apk_source": "github:SubhamTyagi/android-ocr",
+      "package_name": "io.github.subhamtyagi.ocr"
+    },
+    {
+      "slug": "ezgif",
+      "name": "Ezgif",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "Browser me GIF banao, video ko GIF, crop/resize/compress — sab free online.",
+      "pricing": "Free",
+      "priceNote": "Free (site pe ads)",
+      "limit": "File size limit; site pe ads.",
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://ezgif.com/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "cpu-info",
+      "name": "CPU Info",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Phone ka poora hardware info: processor, RAM, battery, sensors, display — naya/second-hand phone check karne ke liye.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.kgurgul.cpuinfo/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/kamgurgul/cpu-info"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.kgurgul.cpuinfo"
+        }
+      ],
+      "icon": "assets/icons/cpu-info.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.kgurgul.cpuinfo",
+      "apk_source": "github:kamgurgul/cpu-info",
+      "package_name": "com.kgurgul.cpuinfo"
+    },
+    {
+      "slug": "hail",
+      "name": "Hail",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Faltu ya background me chalne wali apps ko freeze karo, zarurat pe ek tap se wapas.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": "Shizuku/root/device owner jaisa setup chahiye.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.aistra.hail/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/aistra0528/Hail"
+        }
+      ],
+      "icon": "assets/icons/hail.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.aistra.hail",
+      "apk_source": "github:aistra0528/Hail",
+      "package_name": "com.aistra.hail"
+    },
+    {
+      "slug": "lmms",
+      "name": "LMMS",
+      "category": [
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Music banao PC pe: beats, melodies, samples, VST plugins — music production free me.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-2.0)",
+      "limit": "FL Studio jaisa polish nahi.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "FL Studio",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://lmms.io/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "sms-import-export",
+      "name": "SMS Import / Export",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "SMS, MMS aur call logs ka backup file me — naye phone me wapas import.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.github.tmo1.sms_ie/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tmo1/sms-ie"
+        }
+      ],
+      "icon": "assets/icons/sms-import-export.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.github.tmo1.sms_ie",
+      "apk_source": "fdroid:com.github.tmo1.sms_ie",
+      "package_name": "com.github.tmo1.sms_ie"
+    },
+    {
+      "slug": "musescore",
+      "name": "MuseScore Studio",
+      "category": [
+        "Open Source/GitHub"
+      ],
+      "what": "Music notation software: sheet music likho, playback suno, PDF/MIDI export.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0); musescore.com Pro alag paid",
+      "limit": null,
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "Sibelius / Finale",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://musescore.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "translate-you",
+      "name": "Translate You",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Translator jo kai free engines (LibreTranslate, Lingva waghera) use karta hai — bina tracking.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://you-apps.github.io/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.bnyro.translate/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/you-apps/TranslateYou"
+        }
+      ],
+      "icon": "assets/icons/translate-you.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.bnyro.translate",
+      "apk_source": "github:you-apps/TranslateYou",
+      "package_name": "com.bnyro.translate"
+    },
+    {
+      "slug": "stellarium",
+      "name": "Stellarium",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Computer pe planetarium: aaj raat aasmaan me kaunse taare, planets, constellation dikhenge.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL)",
+      "limit": "Mobile wala Stellarium app alag hai (uske kuch features paid).",
+      "platforms": "Windows, macOS, Linux, Web",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://stellarium.org/"
+        },
+        {
+          "label": "Web",
+          "url": "https://stellarium-web.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "ppsspp",
+      "name": "PPSSPP",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "PSP games phone/PC pe khelo, HD graphics ke saath. Gold version paid hai, free version me bhi poora emulator.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-2.0+)",
+      "limit": "Games (ISO) ki apni legal copy honi chahiye.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.ppsspp.org/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.ppsspp.ppsspp/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/hrydgard/ppsspp"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.ppsspp.ppsspp"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.ppsspp.ppsspp",
+      "apk_source": "fdroid:org.ppsspp.ppsspp",
+      "package_name": "org.ppsspp.ppsspp"
+    },
+    {
+      "slug": "keepassxc",
+      "name": "KeePassXC",
+      "category": [
+        "Open Source/GitHub"
+      ],
+      "what": "PC ka offline password manager: ek master password, saare passwords encrypted file me.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL)",
+      "limit": "Sync khud karna padta hai (Drive/Syncthing).",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://keepassxc.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "transistor",
+      "name": "Transistor",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Simple internet radio app: duniya bhar ke radio stations search karke suno.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (MIT)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://codeberg.org/y20k/transistor"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.y20k.transistor/"
+        },
+        {
+          "label": "Codeberg",
+          "url": "https://codeberg.org/y20k/transistor"
+        }
+      ],
+      "icon": "assets/icons/transistor.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.y20k.transistor",
+      "apk_source": "fdroid:org.y20k.transistor",
+      "package_name": "org.y20k.transistor"
+    },
+    {
+      "slug": "paperize",
+      "name": "Paperize",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Wallpaper changer: apni photos ka folder do, time ke hisaab se wallpaper khud badlega.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.anthonyla.paperize/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Anthonyy232/Paperize"
+        }
+      ],
+      "icon": "assets/icons/paperize.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.anthonyla.paperize",
+      "apk_source": "github:Anthonyy232/Paperize",
+      "package_name": "com.anthonyla.paperize"
+    },
+    {
+      "slug": "veracrypt",
+      "name": "VeraCrypt",
+      "category": [
+        "Open Source/GitHub"
+      ],
+      "what": "Pendrive ya folder ko password-locked encrypted drive bana do — laptop chori ho to bhi data safe.",
+      "pricing": "Free",
+      "priceNote": "Free, open source",
+      "limit": "Password bhool gaye to data wapas nahi milega.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://veracrypt.io/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "umang",
+      "name": "UMANG",
+      "category": [
+        "Android Apps",
+        "Student Tech"
+      ],
+      "what": "Ek app me 1,000+ government services: EPFO, scholarship, DigiLocker, gas booking, exam results waghera.",
+      "pricing": "Free",
+      "priceNote": "Free (Government of India)",
+      "limit": null,
+      "platforms": "Android, iOS, Web",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://web.umang.gov.in/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=in.gov.umang.negd.g2c"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "package_name": "in.gov.umang.negd.g2c"
+    },
+    {
+      "slug": "bubble-level",
+      "name": "Bubble",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Spirit level + ruler: shelf/photo frame seedha lagana ho to phone hi level ban jata hai.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.woheller69.level/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/woheller69/level"
+        }
+      ],
+      "icon": "assets/icons/bubble-level.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.woheller69.level",
+      "apk_source": "fdroid:org.woheller69.level",
+      "package_name": "org.woheller69.level"
+    },
+    {
+      "slug": "tor-browser",
+      "name": "Tor Browser",
+      "category": [
+        "Open Source/GitHub"
+      ],
+      "what": "Privacy browser jo traffic ko Tor network se ghuma ke IP chhupata hai.",
+      "pricing": "Free",
+      "priceNote": "Free, open source",
+      "limit": "Normal browser se slow; kuch sites block karti hain.",
+      "platforms": "Windows, macOS, Linux, Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.torproject.org/download/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "moonlight",
+      "name": "Moonlight Game Streaming",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "PC ke games phone pe stream karke khelo (NVIDIA GameStream/Sunshine), ghar ke Wi-Fi pe.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": "Gaming PC chahiye aur strong Wi-Fi.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://moonlight-stream.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.limelight/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/moonlight-stream/moonlight-android"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.limelight"
+        }
+      ],
+      "icon": "assets/icons/moonlight.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.limelight",
+      "apk_source": "fdroid:com.limelight",
+      "package_name": "com.limelight"
+    },
+    {
+      "slug": "tldraw",
+      "name": "tldraw",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "Infinite whiteboard browser me: diagrams, sketch, dosto ke saath live collaboration.",
+      "pricing": "Free",
+      "priceNote": "Free",
+      "limit": "Account ke bina files sirf browser me save.",
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.tldraw.com/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "canta",
+      "name": "Canta",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Phone ki faltu pre-installed (bloatware) apps bina root hatao — Shizuku ke saath.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (LGPL-3.0+)",
+      "limit": "Galat system app hata di to dikkat; recommendations padh ke hatao.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.github.samolego.canta/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/samolego/Canta"
+        }
+      ],
+      "icon": "assets/icons/canta.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "io.github.samolego.canta",
+      "apk_source": "github:samolego/Canta",
+      "package_name": "io.github.samolego.canta"
+    },
+    {
+      "slug": "remove-bg",
+      "name": "remove.bg",
+      "category": [
+        "AI Tools"
+      ],
+      "what": "Photo ka background 5 second me hatao — thumbnails aur product photos ke liye.",
+      "pricing": "Freemium",
+      "priceNote": "Free preview + paid credits",
+      "limit": "Free download low-resolution; HD ke liye credits.",
+      "platforms": "Web, Windows, macOS",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.remove.bg/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": ""
+    },
+    {
+      "slug": "notesnook",
+      "name": "Notesnook",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "End-to-end encrypted notes app: notebooks, tags, sync sab devices pe.",
+      "pricing": "Freemium",
+      "priceNote": "Free plan + paid, open source (GPL-3.0)",
+      "limit": "Kuch features paid plan me.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://notesnook.com"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.streetwriters.notesnook/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/streetwriters/notesnook"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.streetwriters.notesnook"
+        }
+      ],
+      "icon": "assets/icons/notesnook.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.streetwriters.notesnook",
+      "apk_source": "fdroid:com.streetwriters.notesnook",
+      "package_name": "com.streetwriters.notesnook"
     }
   ]
 }

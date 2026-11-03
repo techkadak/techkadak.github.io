@@ -1,6 +1,6 @@
 # Tech Kadak website — FREE mein khud host karo (GitHub Pages)
 
-Ye poori website tumhari hai. Hosting free, domain free (`tumhara-username.github.io`), aur roz ek naya app **apne aap** add hota hai — GitHub ka free bot (Actions) chalata hai. Koi server nahi, koi paisa nahi.
+Ye poori website tumhari hai. Hosting free, domain free (`tumhara-username.github.io`), aur roz 5 naye apps **apne aap** add hote hain — GitHub ka free bot (Actions) chalata hai. Koi server nahi, koi paisa nahi.
 
 **Kya kya hai:** 3D home page (TECH KADAK letters, app carousel, scroll effects), saare apps ki searchable list, har app ka alag SEO page, sitemap, Privacy / About / Contact / Disclaimer pages, aur daily auto-update bot.
 
@@ -29,7 +29,7 @@ Ye poori website tumhari hai. Hosting free, domain free (`tumhara-username.githu
    - 1-2 minute mein ✅ aa jayega.
 8. **Website dekho:** `https://TUMHARA-USERNAME.github.io/techkadak/` 🎉 (Settings → Pages pe bhi link dikhta hai)
 
-Bas! Ab **roz subah 9 baje (IST)** bot ek naya app add karega aur site update karega. Tumhe kuch nahi karna.
+Bas! Ab **roz subah 9 baje (IST)** bot 5 naye apps add karega (sabse naye upar) aur site update karega. Tumhe kuch nahi karna.
 
 > Tip: repo ka naam `TUMHARA-USERNAME.github.io` rakhoge to site seedha `https://TUMHARA-USERNAME.github.io/` pe khulegi.
 
@@ -37,7 +37,7 @@ Bas! Ab **roz subah 9 baje (IST)** bot ek naya app add karega aur site update ka
 
 ## B. Naye apps kaise aate hain
 
-- `data/queue.json` mein ~30 verified apps line mein hain → roz 1 jaata hai (lagbhag 1 mahina chalega).
+- `data/queue.json` mein verified apps line mein hain → roz 5 jaate hain (`config.json` → `daily.perDay`). Queue mein kitne din bache, bot ke log mein likha aata hai.
 - **Khud app daalna:** repo mein `data/queue.json` kholo → ✏️ (edit) → kisi purane item ko copy karke end mein naya likho (format: `docs/SCHEMA.md`) → **Commit**. Sirf official links daalna.
 - **Turant site pe daalna:** `data/apps.json` mein sabse upar daal do → Commit → 2 min mein live.
 

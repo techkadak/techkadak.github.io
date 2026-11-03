@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-// Tech Kadak daily bot — adds ONE new app per day to data/apps.json, then rebuilds the site.
+// Tech Kadak daily bot — adds config.daily.perDay (default 5) new apps per day to data/apps.json, then rebuilds the site.
 // Runs free on GitHub Actions (.github/workflows/daily.yml). No npm packages needed (Node 18+).
 //
 //   node scripts/daily.mjs              -> add today's app (queue first, then AI if GEMINI_API_KEY is set) + rebuild
 //   node scripts/daily.mjs --dry-run    -> show what would be added, build a test copy in a temp folder, change nothing
-//   options: --date YYYY-MM-DD  --mode queue-only|queue-then-ai|ai-then-queue  --force (add even if today already has one)
+//   options: --date YYYY-MM-DD  --mode queue-only|queue-then-ai|ai-then-queue  --force (add a full batch even if today already has some)  --count N (add exactly N)
 //
 // AI mode rules (enforced in code, not just in the prompt):
 //   * the app is picked ONLY from a candidate list we fetched from an official source (F-Droid index or GitHub API)
@@ -148,12 +148,22 @@ export async function run({ root = ROOT } = {}) {
   const perDay = Math.max(1, (cfg.daily && cfg.daily.perDay) || 1);
   const addedToday = data.apps.filter((a) => a.added === today && a.source !== 'techkadak').length;
   if (addedToday >= perDay && !flag('--force')) { log(`aaj (${today}) ke ${addedToday} app pehle hi add ho chuke — kuch nahi kiya.`); return { added: null }; }
-  const existing = new Set(data.apps.flatMap((a) => [a.slug, ...(a.fdroidPackage ? [a.fdroidPackage] : []), ...(a.links || []).map((l) => (l.url.match(/github\.com\/([^/]+\/[^/#?]+)/) || [])[1]).filter(Boolean).map((s) => s.toLowerCase())]));
+  const want = Math.max(1, Number(opt('--count')) || (flag('--force') ? perDay : perDay - addedToday));
+  const norm = (x) => String(x || '').toLowerCase().replace(/\(.*?\)/g, '').replace(/[^a-z0-9]+/g, '');
+  const ghRepo = (u) => ((String(u).match(/github\.com\/([^/]+\/[^/#?]+)/) || [])[1] || '').toLowerCase();
+  // slug, naam, Android package aur APK source se duplicate pakdo; GitHub repo sirf tab jab package na ho (ek repo me kai apps ho sakte hain)
+  const keysOf = (a) => {
+    const pkg = a.package_name || a.fdroidPackage;
+    return [a.slug, 'name:' + norm(a.name), a.fdroidPackage, a.package_name, a.apk_source && String(a.apk_source).toLowerCase(), ...(pkg ? [] : (a.links || []).map((l) => ghRepo(l.url)))].filter((k) => k && k !== 'name:');
+  };
+  const existing = new Set(data.apps.flatMap(keysOf));
+  const isDup = (e) => keysOf(e).some((k) => existing.has(k));
+  const remember = (e) => keysOf(e).forEach((k) => existing.add(k));
 
   const fromQueue = () => {
     while (q.queue.length) {
       const e = { ...q.queue.shift() };
-      if (existing.has(e.slug)) { log(`queue: ${e.slug} pehle se site pe hai, skip`); continue; }
+      if (isDup(e)) { log(`queue: ${e.slug} pehle se site pe hai, skip`); continue; }
       const errs = validateEntry(e); if (errs.length) { log(`queue: ${e.slug} invalid (${errs.join(', ')}), skip`); continue; }
       return { ...e, added: today, source: 'queue', aiAdded: false };
     }
@@ -161,18 +171,26 @@ export async function run({ root = ROOT } = {}) {
   };
   const fromAI = async () => {
     if (!process.env.GEMINI_API_KEY && !process.env.TK_AI_MOCK) { log('AI mode: GEMINI_API_KEY secret set nahi hai — skip'); return null; }
-    try { return await aiEntry(cfg, existing, today, root); } catch (e) { log('AI mode failed:', e.message); return null; }
+    try { const e = await aiEntry(cfg, existing, today, root); return isDup(e) ? null : e; } catch (e) { log('AI mode failed:', e.message); return null; }
   };
-  let entry = null;
-  if (mode === 'ai-then-queue') entry = (await fromAI()) || fromQueue();
-  else if (mode === 'queue-only') entry = fromQueue();
-  else entry = fromQueue() || (await fromAI());
-
-  if (!entry) { log('Aaj add karne ke liye koi app nahi mila (queue khaali + AI off). data/queue.json mein naye apps daalo.'); return { added: null }; }
-  const errs = validateEntry(entry); if (errs.length) throw new Error('entry invalid: ' + errs.join(', '));
-  data.apps.unshift(entry);
-  log(`${DRY ? '[DRY RUN] ' : ''}aaj ka app: ${entry.name} (${entry.slug}) — source ${entry.source}${entry.aiAdded ? ' [AI-added]' : ''}; queue mein ab ${q.queue.length} bache`);
-  log('entry:', JSON.stringify(entry));
+  // Roz `perDay` (config.json → daily.perDay) apps: queue ke pehle N, sabse naye upar.
+  const batch = [];
+  for (let n = 0; n < want; n++) {
+    let entry = null;
+    if (mode === 'ai-then-queue') entry = (await fromAI()) || fromQueue();
+    else if (mode === 'queue-only') entry = fromQueue();
+    else entry = fromQueue() || (await fromAI());
+    if (!entry) break;
+    const errs = validateEntry(entry); if (errs.length) throw new Error('entry invalid: ' + errs.join(', '));
+    remember(entry); batch.push(entry);
+    log(`${DRY ? '[DRY RUN] ' : ''}aaj ka app: ${entry.name} (${entry.slug}) — source ${entry.source}${entry.aiAdded ? ' [AI-added]' : ''}`);
+    log('entry:', JSON.stringify(entry));
+  }
+  if (!batch.length) { log('Aaj add karne ke liye koi app nahi mila (queue khaali + AI off). data/queue.json mein naye apps daalo.'); return { added: null }; }
+  if (batch.length < want) log(`sirf ${batch.length}/${want} app mile — data/queue.json mein naye apps daalo.`);
+  data.apps.unshift(...batch); // batch[0] sabse upar
+  const entry = batch[0];
+  log(`${DRY ? '[DRY RUN] ' : ''}aaj ${batch.length} app add (${batch.map((e) => e.slug).join(', ')}); queue mein ab ${q.queue.length} bache (~${Math.floor(q.queue.length / perDay)} din)`);
 
   if (DRY) {
     const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'techkadak-dry-'));
@@ -180,12 +198,12 @@ export async function run({ root = ROOT } = {}) {
     writeJSON(path.join(tmp, 'data', 'apps.json'), data); writeJSON(path.join(tmp, 'data', 'queue.json'), q);
     const res = build({ root: tmp, out: tmp, quiet: true });
     log(`[DRY RUN] test build OK: ${res.count} apps, page ${path.join(tmp, 'apps', entry.slug + '.html')} — repo mein kuch nahi badla.`);
-    return { added: entry, dry: tmp };
+    return { added: entry, batch, dry: tmp };
   }
   writeJSON(appsPath, data); writeJSON(queuePath, q);
   build({ root });
-  if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `added=${entry.name.replace(/[\r\n]/g, ' ')}\n`);
-  return { added: entry };
+  if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `added=${batch.map((e) => e.name).join(', ').replace(/[\r\n]/g, ' ')}\n`);
+  return { added: entry, batch };
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

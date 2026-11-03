@@ -157,7 +157,7 @@ function homePage(ctx) {
   const faqs = [
     ['Ye apps sach mein free hain?', 'Har app ke saath badge hai: FREE ya FREEMIUM (basic free, kuch features paid). Limit wali line bhi likhi hai. Free/paid status company badal sakti hai — install se pehle official page dekh lo.'],
     ['Download link safe hain?', 'Hum sirf official links dete hain: Play Store, F-Droid, GitHub ya app ki apni website. Koi modded / cracked APK nahi.'],
-    ['Roz naya app kaun daalta hai?', 'Har din subah ek naya verified app apne aap add hota hai — ek curated list se, ya AI mode on ho to F-Droid / GitHub ke official data se. AI wale apps pe "AI-added" tag hota hai.'],
+    ['Roz naya app kaun daalta hai?', 'Har din subah 9 baje 5 naye verified apps apne aap add hote hain (sabse naye upar) — ek curated list se, ya AI mode on ho to F-Droid / GitHub ke official data se. AI wale apps pe "AI-added" tag hota hai.'],
     ['F-Droid kya hai?', 'F-Droid open-source Android apps ka official store hai. Wahan ke apps free hote hain aur unka source code public hota hai.'],
     ['Mera app idea / sawaal kahan bheju?', 'Instagram pe @techkadak ko DM karo ya Telegram channel join karo.'],
     ['Paise lagte hain is site ke?', 'Nahi. Site free hai, apps dekhna free hai. Future mein ads aa sakte hain jisse site free chalti rahe.'],
@@ -185,7 +185,7 @@ ${header(base)}
     </div>
     <div class="hero-copy">
       <h1 class="hero-h1"><span class="sr">Tech Kadak: </span>PAID APP KA <span class="lime">FREE JAWAB</span></h1>
-      <p class="hero-sub">${apps.length}+ verified free apps · roz 1 naya</p>
+      <p class="hero-sub">${apps.length}+ verified free apps · roz 5 naye</p>
     </div>
     <div class="sel-info" aria-live="polite">
       <p class="kicker sel-k">02 — APNA APP CHUNO</p>
@@ -205,7 +205,7 @@ ${header(base)}
 <section class="today reveal" id="aaj-ka-app" aria-labelledby="today-h">
   <div class="wrap today-grid">
     <div><p class="kicker">// AAJ KA APP · ${fmtDate(today.added)}</p><h2 id="today-h" class="mega">AAJ KA<br><span class="lime">APP</span></h2>
-    <p class="lead">Roz ek naya kaam ka app. Aaj: <b>${esc(today.name)}</b>.</p></div>
+    <p class="lead">Roz 5 naye kaam ke apps. Aaj: <b>${esc(today.name)}</b>.</p></div>
     <div class="tilt" data-tilt>${card(today, base, 1)}</div>
   </div>
 </section>
@@ -340,7 +340,7 @@ function pages(ctx) {
     'about.html': textPage(ctx, 'about.html', 'About', 'ABOUT <span class="lime">TECH KADAK</span>', 'Tech Kadak kya hai — free apps, AI tools aur open-source gems Hinglish mein.', `
 <p><b>Tech Kadak</b> ek Hinglish tech page hai: kaam ke <b>free Android apps</b>, <b>free AI tools</b>, <b>open-source / GitHub gems</b> aur <b>paid apps ke FREE jawab</b> — simple bhasha mein.</p>
 <p>Har app ke saath hum likhte hain ki woh kya karta hai, free hai ya freemium, uski <b>limit</b> kya hai, aur sirf <b>official download link</b> dete hain (Play Store, F-Droid, GitHub ya official website).</p>
-<p>Roz ek naya app is site pe apne aap add hota hai. Instagram pe <a href="${esc(s.instagram)}" target="_blank" rel="noopener">@techkadak</a> follow karo, YouTube pe <a href="${esc(s.youtube)}" target="_blank" rel="noopener">Tech Kadak</a> dekho, aur <a href="${esc(s.telegram)}" target="_blank" rel="noopener">Telegram</a> pe links pao.</p>`),
+<p>Roz 5 naye apps is site pe apne aap add hote hain. Instagram pe <a href="${esc(s.instagram)}" target="_blank" rel="noopener">@techkadak</a> follow karo, YouTube pe <a href="${esc(s.youtube)}" target="_blank" rel="noopener">Tech Kadak</a> dekho, aur <a href="${esc(s.telegram)}" target="_blank" rel="noopener">Telegram</a> pe links pao.</p>`),
     'contact.html': textPage(ctx, 'contact.html', 'Contact', '<span class="lime">CONTACT</span>', 'Tech Kadak se contact karo — Instagram DM.', `
 <p>Sawaal, app suggestion, galti report ya collaboration — Instagram pe DM karo:</p>
 <p><a class="pill pill-lime" href="${esc(s.instagramDM)}" target="_blank" rel="noopener">Instagram DM @techkadak</a></p>

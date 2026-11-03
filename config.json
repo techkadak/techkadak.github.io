@@ -23,7 +23,7 @@
   "daily": {
     "mode": "queue-then-ai",
     "_mode_help": "queue-then-ai = pehle queue.json, khatam ho to AI (agar GEMINI_API_KEY secret hai). ai-then-queue = pehle AI. queue-only = sirf queue.",
-    "perDay": 1,
+    "perDay": 5,
     "timezone": "Asia/Kolkata"
   },
   "ai": {
