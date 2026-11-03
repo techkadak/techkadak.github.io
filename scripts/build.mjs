@@ -287,7 +287,7 @@ ${header(base, 'Apps')}
     <div class="chips small" id="pchips"><button class="chip" data-p="">Free + Freemium</button><button class="chip" data-p="Free">Sirf FREE</button><button class="chip" data-p="Freemium">Freemium</button></div>
   </div>
   <p class="count" id="count" aria-live="polite">${apps.length} apps</p>
-  <div class="grid" id="grid">${apps.map((a, i) => card(a, base, i, { isNew: a.added === newest })).join('\n')}</div>
+  <div class="grid" id="grid">${apps.map((a, i) => card(a, base, i, { isNew: i < 5 && a.added === newest })).join('\n')}</div>
   <p class="empty glass" id="empty" hidden>Kuch nahi mila 😅 — doosra word try karo.</p>
   ${adSlot(config, 'apps')}
 </main>
