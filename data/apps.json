@@ -2,6 +2,42 @@
   "_schema": "See docs/SCHEMA.md",
   "apps": [
     {
+      "slug": "vlc",
+      "name": "VLC",
+      "category": [
+        "Android Apps",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Lagbhag har video aur audio format chala deta hai — phone ki files bhi, network streams bhi. Fast, no ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0), no ads",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.videolan.org/vlc/download-android.html"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.videolan.vlc/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.videolan.vlc"
+        }
+      ],
+      "icon": "assets/icons/vlc.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.videolan.vlc",
+      "added": "2026-11-03"
+    },
+    {
       "slug": "image-toolbox",
       "name": "Image Toolbox",
       "category": [
