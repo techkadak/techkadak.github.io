@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="theme-color" content="#000000">
+<title>Tech Kadak — Owner Dashboard</title>
+<style>
+:root{--lime:#9BFF2E;--bg:#000;--s:#0e0e0e;--s2:#1a1a1a;--line:#282828;--t:#fff;--m:#a3a3a3;--d:#6b6b6b;--bad:#ff6b6b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--t);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:18px 16px 60px}
+h1{font-size:22px;margin:6px 0 2px;font-weight:900;letter-spacing:-.3px}.sub{color:var(--m);font-size:13px;margin:0 0 16px}
+.brand{display:inline-flex;align-items:center;gap:8px;background:var(--lime);color:#0a0a0a;font-weight:900;border-radius:99px;padding:6px 14px;font-size:12px;letter-spacing:1.5px}
+.card{background:var(--s);border:1px solid var(--line);border-radius:22px;padding:16px;margin:10px 0}
+.card h2{font-size:16px;margin:0 0 10px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(min-width:620px){.grid{grid-template-columns:repeat(3,1fr)}}
+.kpi{background:var(--s);border:1px solid var(--line);border-radius:20px;padding:14px}
+.kpi b{display:block;font-size:28px;font-weight:900;margin-top:4px}.kpi span{color:var(--m);font-size:12px}
+.kpi.hi{background:var(--lime);border-color:var(--lime);color:#0a0a0a}.kpi.hi span{color:#0a0a0aaa}
+input{width:100%;background:var(--s2);border:1px solid var(--line);color:var(--t);border-radius:14px;padding:13px 14px;font-size:15px;margin:6px 0}
+input:focus{outline:none;border-color:var(--lime)}
+button{font:inherit;font-weight:800;border:0;border-radius:99px;padding:13px 18px;cursor:pointer;width:100%;margin-top:8px}
+.b1{background:var(--lime);color:#0a0a0a}.b2{background:transparent;color:var(--lime);border:1.5px solid var(--lime)}
+.link{background:none;color:var(--lime);width:auto;padding:8px 0;font-weight:700}
+.msg{border-radius:14px;padding:11px 13px;margin:10px 0;font-size:13px}.msg.bad{background:#ff4d4d22}.msg.ok{background:#9bff2e22}
+.row{display:flex;align-items:center;gap:8px;margin:5px 0}.row .l{width:42%;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar{flex:1;height:14px;background:var(--s2);border-radius:7px;overflow:hidden}.bar i{display:block;height:100%;background:var(--lime);border-radius:7px}
+.row .n{width:46px;text-align:right;color:var(--lime);font-weight:800;font-size:13px}
+.chart{display:flex;align-items:flex-end;gap:3px;height:150px;border-bottom:1px solid var(--line);padding-top:6px}
+.chart div{flex:1;position:relative;background:var(--lime);border-radius:4px 4px 0 0;min-height:0}
+.chart div em{position:absolute;bottom:0;left:0;right:0;background:#ffffff8c;border-radius:4px 4px 0 0}
+.legend{display:flex;gap:14px;color:var(--m);font-size:12px;margin-top:6px}.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.muted{color:var(--m);font-size:13px}.dim{color:var(--d);font-size:12px}
+.top{display:flex;align-items:center;gap:10px}.top .sp{flex:1}
+.hide{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="brand">TECH KADAK</span>
+  <h1 id="title">Admin access 🔐</h1>
+  <p class="sub" id="subtitle">Sirf app owner ke liye</p>
+
+  <div id="login" class="card hide">
+    <p class="muted">Owner ka Gmail aur password daalo.</p>
+    <input id="email" type="email" placeholder="Gmail" autocomplete="username">
+    <input id="pass" type="password" placeholder="Password" autocomplete="current-password">
+    <button class="b1" id="btnLogin">Login karo</button>
+    <button class="b2" id="btnGoogle">Google se login (owner Gmail)</button>
+    <div id="loginMsg"></div>
+    <button class="link" id="btnForgot">Password bhool gaye?</button>
+    <p class="dim">Reset link sirf owner ke Gmail pe jaata hai. 5 galat try = 5 minute lock.</p>
+  </div>
+
+  <div id="denied" class="card hide" style="text-align:center">
+    <div style="font-size:44px">🚫</div>
+    <h2 style="font-size:20px">Access denied</h2>
+    <p class="muted" id="deniedWho"></p>
+    <button class="b2" id="btnOut1">Logout karke owner se login karo</button>
+  </div>
+
+  <div id="dash" class="hide">
+    <div class="top"><span class="muted" id="who"></span><span class="sp"></span><button class="link" id="btnRefresh">↻ Refresh</button></div>
+    <div id="dashMsg"></div>
+    <div class="grid" id="kpis"></div>
+    <div class="card"><h2>Roz ke active users (30 din)</h2><div class="chart" id="chart"></div>
+      <div class="legend"><span><i style="background:var(--lime)"></i>Active</span><span><i style="background:#ffffff8c"></i>Naye</span><span id="range" style="margin-left:auto"></span></div>
+      <p class="muted" id="sum7"></p></div>
+    <div class="card"><h2>Aa rahe vs ja rahe</h2><div id="churn"></div></div>
+    <div class="card"><h2>Sabse zyada install (7 din)</h2><div id="installs"></div><p class="muted" style="margin:10px 0 4px">Install button dabaya:</p><div id="clicks"></div></div>
+    <div class="card"><h2>Kits aur Posters (7 din)</h2><div id="kits"></div><p id="posters" style="font-weight:800;margin:10px 0 0"></p></div>
+    <div class="card"><h2>Kaun kis version pe</h2><div id="versions"></div></div>
+    <div class="card"><h2>Login type</h2><div id="logins"></div></div>
+    <p class="dim">Note: ginti app v1.2 se shuru hui hai (4 Nov 2026). Jo log purane version pe hain, wo update ke baad hi gine jayenge. Sirf anonymous device ginti — kisi ka naam/email nahi. "Usage stats" band karne wale nahi gine jaate. Poora Google Analytics: Firebase console → Analytics.</p>
+    <button class="b2" id="btnOut2">Logout</button>
+  </div>
+  <p class="dim" id="boot">Load ho raha…</p>
+</div>
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+import { getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider, sendPasswordResetEmail, signOut } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+import { getFirestore, collection, query, where, getCountFromServer, getDocs, limit } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
+
+// Public Firebase web config (not a secret — Firestore rules protect the data).
+const firebaseConfig = {
+  "apiKey": "AIzaSyDRJkNJs6_qixy3_WwEeCpWPyrc7sfYMEA",
+  "authDomain": "tech-kadak.firebaseapp.com",
+  "projectId": "tech-kadak",
+  "storageBucket": "tech-kadak.firebasestorage.app",
+  "messagingSenderId": "570199463941",
+  "appId": "1:570199463941:web:2c0585ac928551bad6e46c",
+  "measurementId": "G-X6K1MQV5TD"
+};
+const OWNER = "ridhirohit0@gmail.com";
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getFirestore(app);
+const $ = id => document.getElementById(id);
+const show = (id, on) => $(id).classList.toggle("hide", !on);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const msg = (el, text, bad) => { $(el).innerHTML = text ? `<div class="msg ${bad ? "bad" : "ok"}">${esc(text)}</div>` : ""; };
+
+// 5 galat try = 5 min lock (is browser me)
+const lockLeft = () => Math.max(0, Math.ceil(((+localStorage.tkLockUntil || 0) - Date.now()) / 1000));
+function fail() {
+  const f = (+localStorage.tkFails || 0) + 1;
+  if (f >= 5) { localStorage.tkFails = 0; localStorage.tkLockUntil = Date.now() + 5 * 60 * 1000; } else localStorage.tkFails = f;
+}
+function lockedMsg() { const s = lockLeft(); if (s > 0) { msg("loginMsg", `Bahut galat try ho gaye. ${Math.floor(s/60)}:${String(s%60).padStart(2,"0")} baad dobara try karo.`, true); return true; } return false; }
+
+$("btnLogin").onclick = async () => {
+  if (lockedMsg()) return;
+  const e = $("email").value.trim(), p = $("pass").value;
+  if (!e || !p) return;
+  if (e.toLowerCase() !== OWNER) { fail(); msg("loginMsg", "Ye owner ka Gmail nahi hai — Access denied", true); return; }
+  msg("loginMsg", "Check ho raha…", false);
+  try { await signInWithEmailAndPassword(auth, e, p); localStorage.tkFails = 0; msg("loginMsg", ""); }
+  catch (err) { fail(); msg("loginMsg", "Gmail ya password galat hai.", true); lockedMsg(); }
+};
+$("btnGoogle").onclick = async () => {
+  if (lockedMsg()) return;
+  try { await signInWithPopup(auth, new GoogleAuthProvider()); } catch (err) { msg("loginMsg", "Google login nahi hua: " + (err.code || err.message), true); }
+};
+$("btnForgot").onclick = async () => {
+  try { await sendPasswordResetEmail(auth, OWNER); msg("loginMsg", "Password reset link owner ke Gmail pe bhej diya.", false); }
+  catch (err) { msg("loginMsg", "Link nahi gaya: " + (err.code || err.message), true); }
+};
+for (const b of ["btnOut1", "btnOut2"]) $(b).onclick = () => signOut(auth);
+$("btnRefresh").onclick = () => load();
+
+onAuthStateChanged(auth, u => {
+  show("boot", false);
+  const owner = !!u && (u.email || "").toLowerCase() === OWNER;
+  $("title").textContent = owner ? "Owner Dashboard 📊" : "Admin access 🔐";
+  $("subtitle").textContent = owner ? "Tech Kadak app ki activity" : "Sirf app owner ke liye";
+  show("login", !u); show("denied", !!u && !owner); show("dash", owner);
+  if (u && !owner) $("deniedWho").textContent = "Ye dashboard sirf app owner ke account se khulta hai. Abhi login: " + (u.email || u.phoneNumber || "dusra account");
+  if (owner) { $("who").textContent = "● " + u.email; load(); }
+});
+
+function istDays(n) {
+  const out = [];
+  const now = Date.now();
+  for (let i = n - 1; i >= 0; i--) {
+    const d = new Date(now - i * 86400000);
+    out.push(new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata", year: "numeric", month: "2-digit", day: "2-digit" }).format(d));
+  }
+  return out;
+}
+const cnt = async q => (await getCountFromServer(q)).data().count;
+const pretty = d => { const m = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]; const p = d.split("-"); return `${+p[2]} ${m[+p[1]-1]}`; };
+let names = {};
+async function loadNames() {
+  try { const r = await fetch("/data/apps.json", { cache: "no-store" }); const j = await r.json(); for (const a of j.apps || []) names[a.slug] = a.name; } catch (e) {}
+}
+function bars(el, list, label = s => names[s] || s) {
+  const mx = Math.max(1, ...list.map(x => x[1]));
+  $(el).innerHTML = list.length ? list.map(([k, v]) => `<div class="row"><span class="l">${esc(label(k))}</span><span class="bar"><i style="width:${Math.max(2, v / mx * 100)}%"></i></span><span class="n">${v}</span></div>`).join("") : `<p class="muted">Abhi data nahi</p>`;
+}
+async function load() {
+  msg("dashMsg", "Load ho raha…", false);
+  try {
+    if (!Object.keys(names).length) await loadNames();
+    const days = istDays(30), d7 = days.slice(-7), c7 = d7[0], c30 = days[0];
+    const devices = collection(db, "devices");
+    const perDay = await Promise.all(days.map(async d => { const c = collection(db, "days", d, "d"); return [d, await cnt(c), await cnt(query(c, where("n", "==", true)))]; }));
+    const [total, act7, ch7, ch30] = await Promise.all([cnt(devices), cnt(query(devices, where("last", ">=", c7))), cnt(query(devices, where("last", "<", c7))), cnt(query(devices, where("last", "<", c30)))]);
+    const vers = (await Promise.all([[10200, "1.2.0"]].map(async ([v, n]) => [n, await cnt(query(devices, where("v", "==", v)))]))).filter(x => x[1] > 0);
+    const newer = await cnt(query(devices, where("v", ">", 10200))); if (newer) vers.unshift(["1.2 se naya", newer]);
+    const logins = (await Promise.all(["none", "google", "email", "phone"].map(async l => [l, await cnt(query(devices, where("lt", "==", l)))]))).filter(x => x[1] > 0);
+    const agg = { ic: {}, id: {}, kits: {}, ps: {} };
+    for (const d of d7) {
+      const snap = await getDocs(query(collection(db, "days", d, "d"), limit(3000)));
+      snap.forEach(doc => { const x = doc.data(); for (const k of Object.keys(agg)) for (const [s, v] of Object.entries(x[k] || {})) agg[k][s] = (agg[k][s] || 0) + (+v || 0); });
+    }
+    const top = (m, n = 10) => Object.entries(m).sort((a, b) => b[1] - a[1]).slice(0, n);
+    const today = perDay[perDay.length - 1];
+    const kp = [["Aaj active", today[1], 1], ["Aaj naye", today[2]], ["Wapas aaye (aaj)", Math.max(0, today[1] - today[2])], ["7 din active", act7], ["Chale gaye (7+ din)", ch7], ["Total devices", total]];
+    $("kpis").innerHTML = kp.map(([l, v, h]) => `<div class="kpi ${h ? "hi" : ""}"><span>${l}</span><b>${v}</b></div>`).join("");
+    const mx = Math.max(1, ...perDay.map(x => x[1]));
+    $("chart").innerHTML = perDay.map(([d, a, n]) => `<div title="${d}: ${a} active, ${n} naye" style="height:${a / mx * 100}%"><em style="height:${a ? n / a * 100 : 0}%"></em></div>`).join("");
+    $("range").textContent = pretty(days[0]) + " → " + pretty(days[29]) + " • max " + mx;
+    $("sum7").textContent = `7 din: ${perDay.slice(-7).reduce((s, x) => s + x[2], 0)} naye users • aaj ${today[1]} active`;
+    const pct = v => total ? Math.round(v / total * 100) : 0;
+    $("churn").innerHTML = [["Pichhle 7 din me khola", act7], ["7 din se nahi khola (shayad chale gaye)", ch7], ["30 din se nahi khola (uninstall jaisa)", ch30]]
+      .map(([l, v]) => `<div class="row"><span class="l" style="width:58%;white-space:normal">${l}</span><span class="bar"><i style="width:${pct(v)}%"></i></span><span class="n">${v}</span></div>`).join("");
+    bars("installs", top(agg.id)); bars("clicks", top(agg.ic, 5)); bars("kits", top(agg.kits), k => k);
+    $("posters").textContent = "Poster share: " + Object.values(agg.ps).reduce((s, v) => s + v, 0);
+    bars("versions", vers, v => "v" + v);
+    bars("logins", logins, l => ({ none: "Bina login", google: "Google", email: "Email", phone: "Phone" }[l] || l));
+    msg("dashMsg", "");
+  } catch (err) {
+    msg("dashMsg", /permission/i.test(err.code || err.message) ? "Access denied — ye account owner nahi hai" : "Data load nahi hua: " + (err.code || err.message), true);
+  }
+}
+</script>
+</body>
+</html>
