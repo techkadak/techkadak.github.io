@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /data/queue.json
 
-Sitemap: https://example.github.io/techkadak/sitemap.xml
+Sitemap: https://techkadak.github.io/sitemap.xml
