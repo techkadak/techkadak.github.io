@@ -57,7 +57,28 @@ test('local asset references resolve', () => {
       assert.ok(fs.existsSync(path.resolve(dir, u)), `${p} -> ${u} missing`);
     }
   }
-  assert.ok(fs.existsSync(path.join(ROOT, 'assets/js/hero3d.js')), '3D bundle');
+});
+
+test('installable app (PWA): manifest, icons, service worker, iPhone meta', () => {
+  const m = JSON.parse(read('manifest.webmanifest'));
+  assert.equal(m.name, 'Tech Kadak'); assert.equal(m.display, 'standalone');
+  assert.ok(m.icons.some((i) => i.sizes === '512x512' && i.purpose === 'maskable'), 'maskable icon');
+  for (const i of m.icons) assert.ok(fs.existsSync(path.join(ROOT, i.src)), 'icon file ' + i.src);
+  const sw = read('sw.js');
+  assert.match(sw, /network-first|fresh\(req\)/); assert.match(sw, /admin/, 'sw must skip /admin');
+  for (const p of ['index.html', 'apps.html', `apps/${apps[0].slug}.html`]) {
+    const html = read(p);
+    assert.match(html, /rel="manifest"/, p + ' manifest link'); assert.match(html, /apple-mobile-web-app-capable/, p + ' iOS meta');
+    assert.match(html, /rel="apple-touch-icon"/, p + ' apple-touch-icon');
+  }
+  assert.ok(fs.existsSync(path.join(ROOT, 'googlea15609fe0055544a.html')), 'Search Console file must stay');
+});
+
+test('home shows today\'s newest apps first', () => {
+  const home = read('index.html');
+  const first5 = apps.slice().sort((a, b) => (b.added || '').localeCompare(a.added || '')).slice(0, 5);
+  const sec = home.slice(home.indexOf('id="aaj-ka-app"'));
+  for (const a of first5) assert.ok(sec.includes(`apps/${a.slug}.html`), 'home drop has ' + a.slug);
 });
 
 test('sitemap + robots list every app page', () => {

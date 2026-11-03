@@ -2,7 +2,7 @@
 
 Ye poori website tumhari hai. Hosting free, domain free (`tumhara-username.github.io`), aur roz 5 naye apps **apne aap** add hote hain — GitHub ka free bot (Actions) chalata hai. Koi server nahi, koi paisa nahi.
 
-**Kya kya hai:** 3D home page (TECH KADAK letters, app carousel, scroll effects), saare apps ki searchable list, har app ka alag SEO page, sitemap, Privacy / About / Contact / Disclaimer pages, aur daily auto-update bot.
+**Kya kya hai:** minimal "liquid glass" design (frosted glass cards, dark + light mode, smooth animation), phone pe app ki tarah install hone wali site (Android: "Install app", iPhone: Safari → Share → "Add to Home Screen"), saare apps ki searchable list, har app ka alag SEO page, sitemap, Privacy / About / Contact / Disclaimer pages, aur daily auto-update bot.
 
 ---
 
@@ -84,6 +84,6 @@ Extra earning: har app mein `"affiliate"` field hai (khaali = band). Kabhi affil
 - **Actions mein ❌ laal:** us run pe click → error padho. Zyaadatar: step 5 (Source: GitHub Actions) ya step 6 (Read and write) bhool gaye.
 - **Bot ruk gaya:** GitHub 60 din bina activity ke schedule band kar deta hai — bot roz commit karta hai to aisa nahi hona chahiye. Hua to Actions tab → workflow → **Enable workflow**.
 - **Site purani dikh rahi:** browser refresh / 2-3 min ruko.
-- 3D slow lage to bhi chinta nahi — purane phones pe 3D halka chalta hai, aur WebGL na ho to normal design dikhta hai.
+- Purane phones pe blur na chale to glass apne aap solid card ban jata hai — text hamesha saaf dikhta hai. Install ki hui site offline bhi khulti hai, aur internet aate hi naye apps khud dikhte hain.
 
-Files ka map: `index.html` (home, bot banata hai) · `apps/*.html` (har app ka page, bot banata hai) · `data/apps.json` (saare apps) · `data/queue.json` (aane wale apps) · `config.json` (settings) · `scripts/` (bot ka code) · `assets/` (design, 3D, icons).
+Files ka map: `index.html` (home, bot banata hai) · `apps/*.html` (har app ka page, bot banata hai) · `data/apps.json` (saare apps) · `data/queue.json` (aane wale apps) · `config.json` (settings) · `scripts/` (bot ka code) · `assets/` (design, icons) · `manifest.webmanifest` + `sw.js` (install wala app, bot banata hai).

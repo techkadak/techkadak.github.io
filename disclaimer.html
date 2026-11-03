@@ -1,12 +1,14 @@
 <!doctype html>
-<html lang="hi-IN">
+<html lang="hi-IN" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Disclaimer | Tech Kadak</title>
 <meta name="description" content="Tech Kadak disclaimer — apps, links aur free/paid info.">
 <link rel="canonical" href="https://techkadak.github.io/disclaimer.html">
-<meta name="theme-color" content="#0a0a0a">
+<script>try{var t=localStorage.getItem('tk-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}document.documentElement.classList.add('js')</script>
+<meta name="theme-color" content="#060806">
+<meta name="color-scheme" content="dark light">
 <meta name="robots" content="index,follow,max-image-preview:large">
 
 <meta property="og:type" content="website">
@@ -20,41 +22,58 @@
 <meta name="twitter:title" content="Disclaimer | Tech Kadak">
 <meta name="twitter:description" content="Tech Kadak disclaimer — apps, links aur free/paid info.">
 <meta name="twitter:image" content="https://techkadak.github.io/og.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="application-name" content="Tech Kadak">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Tech Kadak">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="icon" href="assets/favicon-32.png" sizes="32x32">
+<link rel="icon" href="assets/icon-192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="alternate" type="application/rss+xml" title="Tech Kadak — naye free apps" href="feed.xml">
-<link rel="preload" href="assets/fonts/unbounded.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/style.css">
+<link rel="preload" href="assets/fonts/dmsans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css?v=edba30d576">
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://techkadak.github.io/"},{"@type":"ListItem","position":2,"name":"Disclaimer","item":"https://techkadak.github.io/disclaimer.html"}]}</script>
 
 </head>
 <body class="text-page">
 <a class="skip" href="#main">Content pe jao</a>
-<header class="site-header">
-  <a class="brand" href="index.html" aria-label="Tech Kadak home"><img src="assets/logo-64.png" width="36" height="36" alt="Tech Kadak logo"><span>TECH<b>KADAK</b></span></a>
+<div class="bg" aria-hidden="true"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span></div>
+<header class="site-header glass">
+  <a class="brand" href="index.html" aria-label="Tech Kadak home"><img src="assets/logo-64.png" width="34" height="34" alt="Tech Kadak logo"><span>TECH<b>KADAK</b></span></a>
   <nav aria-label="Main"><ul><li><a href="apps.html">Apps</a></li><li><a href="index.html#aaj-ka-app">Aaj ka App</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
-  <a class="pill pill-lime small hide-sm" href="https://www.instagram.com/techkadak/" target="_blank" rel="noopener">Follow</a>
+  <button class="icon-btn" id="themeBtn" type="button" aria-label="Light / dark mode badlo" title="Light / dark"><svg class="i-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></g></svg><svg class="i-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M20.2 14.6A8.5 8.5 0 0 1 9.4 3.8a8.5 8.5 0 1 0 10.8 10.8Z"/></svg></button>
 </header>
-<main id="main" class="wrap narrow prose"><h1 class="mega page-h"><span class="lime">DISCLAIMER</span></h1>
+<main id="main" class="wrap narrow"><h1 class="page-h"><span class="lime">DISCLAIMER</span></h1><div class="prose glass">
 <p>Tech Kadak pe di gayi jaankari sirf information ke liye hai. Hum official sources se check karke likhte hain, phir bhi apps ke features, price aur free plans company kabhi bhi badal sakti hai.</p>
 <p>Hum kisi app ke maalik nahi hain aur unke saath affiliated nahi hain (jab tak saaf na likha ho). App names aur logos unke owners ke trademarks hain.</p>
 <p>Koi bhi app install karne se pehle uska official page, permissions aur reviews khud check karo. Kisi nuksaan ke liye Tech Kadak zimmedaar nahi hai.</p>
 <p>"AI-added" tag wale apps AI ne official F-Droid / GitHub data se chune hain.</p>
-<p>Agar kabhi affiliate link lagaya gaya to uske saath "affiliate" likha hoga — aap kharido to hume chhota commission mil sakta hai, aapko extra paisa nahi lagta.</p></main>
+<p>Agar kabhi affiliate link lagaya gaya to uske saath "affiliate" likha hoga — aap kharido to hume chhota commission mil sakta hai, aapko extra paisa nahi lagta.</p></div></main>
 <footer class="site-footer" id="footer">
-  <div class="foot-big" aria-hidden="true">TECH<br><b>KADAK</b></div>
-  <div class="foot-grid">
-    <div><h2 class="foot-h">Follow karo</h2><ul class="foot-links">
-      <li><a href="https://www.instagram.com/techkadak/" target="_blank" rel="noopener">Instagram @techkadak</a></li>
-      <li><a href="https://www.youtube.com/channel/UCpxdwzHB-66cPyssRH5IaTA" target="_blank" rel="noopener">YouTube — Tech Kadak</a></li>
-      <li><a href="https://t.me/techkadak" target="_blank" rel="noopener">Telegram t.me/techkadak</a></li>
-      <li><a href="https://www.pinterest.com/techkadak_in/" target="_blank" rel="noopener">Pinterest</a></li></ul></div>
-    <div><h2 class="foot-h">Site</h2><ul class="foot-links">
+  <div class="wrap foot-in">
+    <a class="brand" href="index.html"><img src="assets/logo-64.png" width="30" height="30" alt="" loading="lazy"><span>TECH<b>KADAK</b></span></a>
+    <ul class="foot-links">
+      <li><a href="https://www.instagram.com/techkadak/" target="_blank" rel="noopener">Instagram</a></li>
+      <li><a href="https://www.youtube.com/channel/UCpxdwzHB-66cPyssRH5IaTA" target="_blank" rel="noopener">YouTube</a></li>
+      <li><a href="https://t.me/techkadak" target="_blank" rel="noopener">Telegram</a></li>
+      <li><a href="https://www.pinterest.com/techkadak_in/" target="_blank" rel="noopener">Pinterest</a></li>
+    </ul>
+    <ul class="foot-links small">
       <li><a href="apps.html">Saare apps</a></li><li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li><li><a href="privacy.html">Privacy Policy</a></li>
-      <li><a href="disclaimer.html">Disclaimer</a></li><li><a href="feed.xml">RSS feed</a></li></ul></div>
+      <li><a href="disclaimer.html">Disclaimer</a></li><li><a href="feed.xml">RSS feed</a></li>
+    </ul>
+    <p class="foot-note">Sirf official download links. Free/paid status badal sakta hai — install se pehle official page check karo. © 2026 Tech Kadak</p>
   </div>
-  <p class="foot-note">Sirf official download links. Free/paid status badal sakta hai — install se pehle official page check karo. © 2026 Tech Kadak</p>
 </footer>
+<div class="install-toast glass" id="installToast" role="dialog" aria-label="Tech Kadak app install karo" hidden>
+  <img src="assets/logo-64.png" width="44" height="44" alt="">
+  <div class="it-text"><b>Tech Kadak ko app banao</b><span id="installMsg">Home screen pe icon, full screen, ek tap mein.</span></div>
+  <button class="btn btn-lime btn-sm" id="installBtn" type="button">Install</button>
+  <button class="icon-btn it-x" id="installX" type="button" aria-label="Band karo">✕</button>
+</div>
+<script src="assets/ui.js?v=edba30d576" defer></script>
 </body></html>
