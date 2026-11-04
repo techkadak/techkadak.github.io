@@ -1,10 +1,10 @@
 # Tech Kadak — roz 5 naye apps + website deploy (100% free on GitHub).
-# Kab chalta hai: roz 03:30 UTC (= 9:00 AM IST), jab bhi tum files badlo (push), aur "Run workflow" button se.
+# Kab chalta hai: roz 01:20 UTC (= 6:50 AM IST, taaki GitHub ki deri ke baad bhi 7 baje tak apps aa jayein), jab bhi tum files badlo (push), aur "Run workflow" button se.
 name: Daily app + deploy
 
 on:
   schedule:
-    - cron: "30 3 * * *"
+    - cron: "20 1 * * *"
   workflow_dispatch:
   push:
     branches: [main]
