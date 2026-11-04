@@ -2,6 +2,178 @@
   "_schema": "See docs/SCHEMA.md",
   "apps": [
     {
+      "slug": "catima",
+      "name": "Catima",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Saare loyalty cards, membership cards aur coupons ek app mein — camera se barcode scan karo, plastic cards ghar pe chhodo. No internet access, no ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/me.hackerchick.catima/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=me.hackerchick.catima"
+        }
+      ],
+      "icon": "assets/icons/catima.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "me.hackerchick.catima",
+      "apk_source": "fdroid:me.hackerchick.catima",
+      "package_name": "me.hackerchick.catima",
+      "added": "2026-11-04"
+    },
+    {
+      "slug": "binary-eye",
+      "name": "Binary Eye",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Fast QR + barcode scanner jo QR bhi bana sakta hai. No ads, open-source.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (MIT)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/de.markusfisch.android.binaryeye/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=de.markusfisch.android.binaryeye"
+        }
+      ],
+      "icon": "assets/icons/binary-eye.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "de.markusfisch.android.binaryeye",
+      "apk_source": "fdroid:de.markusfisch.android.binaryeye",
+      "package_name": "de.markusfisch.android.binaryeye",
+      "added": "2026-11-04"
+    },
+    {
+      "slug": "fossify-file-manager",
+      "name": "Fossify File Manager",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Fast, ad-free file manager: search, compress, favourite folders, hidden files pe password/fingerprint lock. Internet access hi nahi.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": "Ads wale file managers",
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.filemanager/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.filemanager"
+        }
+      ],
+      "icon": "assets/icons/fossify-file-manager.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.fossify.filemanager",
+      "apk_source": "fdroid:org.fossify.filemanager",
+      "package_name": "org.fossify.filemanager",
+      "added": "2026-11-04"
+    },
+    {
+      "slug": "fossify-calendar",
+      "name": "Fossify Calendar",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Clean, ad-free calendar: events, reminders, repeat rules, widgets. Google Calendar/Outlook ke saath sync bhi.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.calendar/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.calendar"
+        }
+      ],
+      "icon": "assets/icons/fossify-calendar.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.fossify.calendar",
+      "apk_source": "fdroid:org.fossify.calendar",
+      "package_name": "org.fossify.calendar",
+      "added": "2026-11-04"
+    },
+    {
+      "slug": "tasks-org",
+      "name": "Tasks.org",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "To-do list jo offline chale: nested subtasks, repeating tasks, tags, reminders. Google Tasks sync optional.",
+      "pricing": "Freemium",
+      "priceNote": "Free, open source (GPL-3.0); Play listing mein in-app purchases",
+      "limit": "Play Store listing pe in-app purchases hain (kuch extra features paid).",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.tasks/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.tasks"
+        }
+      ],
+      "icon": "assets/icons/tasks-org.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.tasks",
+      "apk_source": "fdroid:org.tasks",
+      "package_name": "org.tasks",
+      "added": "2026-11-04"
+    },
+    {
       "slug": "vlc",
       "name": "VLC",
       "category": [
