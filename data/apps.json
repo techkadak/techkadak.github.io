@@ -378,7 +378,15 @@
       "aiAdded": false,
       "affiliate": "",
       "fdroidPackage": "org.videolan.vlc",
-      "added": "2026-11-03"
+      "added": "2026-11-03",
+      "screenshots": [
+        "https://images.videolan.org/vlc/screenshots/android/library-video-landscape-medium.jpg",
+        "https://play-lh.googleusercontent.com/u8vVjbpeniIlZkEloddea35PD1uN2B2lL_8PfHaG1Ial8tfoccUwYUt5GlzvddodpAg6uX916rwxbCfQ8JA5zw=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/5sYf3kkxoECTRNwl7BclPDmTyLGv3pHtLPX1FQyNE2kc-WSucddscPUGqjnqStLUlubLP7rv3UqK4uRX_-XxEjM=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/KIb_9NpY4K809OHPVGXrKpHexdFxP5TzCPqYC8JBbqIk5vMSfa3e0LZQyOWpTPYLPoiP8HsCV_TBCc57RLF4Sw=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/mrOVb_Ah2BlfzBeVDWobXjD86wva15GhJxt6E0qY04t53uYoFC3hwTYJeb7_aHlOQRliQ_JcOCpKJID3xeQ=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/Vkf4iD_L_79s1fTkQ7FitgYU8mt3PFsMR-myvEwmy4ZttZF5dQsWvbpBqipIp1fkmQcUHkgHdVJx56CUMyJsV6I=w1052-h592-rw"
+      ]
     },
     {
       "slug": "image-toolbox",
@@ -419,7 +427,15 @@
       "verified": "2026-11-03",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/T8RIN/ImageToolbox/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+        "https://raw.githubusercontent.com/T8RIN/ImageToolbox/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
+        "https://raw.githubusercontent.com/T8RIN/ImageToolbox/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png",
+        "https://raw.githubusercontent.com/T8RIN/ImageToolbox/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/04.png",
+        "https://raw.githubusercontent.com/T8RIN/ImageToolbox/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/05.png",
+        "https://raw.githubusercontent.com/T8RIN/ImageToolbox/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/06.png"
+      ]
     },
     {
       "slug": "colorblendr",
@@ -493,7 +509,13 @@
       "verified": "2026-11-03",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/TrianguloY/URLCheck/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1-title.png",
+        "https://raw.githubusercontent.com/TrianguloY/URLCheck/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2-dialog.png",
+        "https://raw.githubusercontent.com/TrianguloY/URLCheck/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3-dialog.png",
+        "https://raw.githubusercontent.com/TrianguloY/URLCheck/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4-modules.png"
+      ]
     },
     {
       "slug": "http-shortcuts",
@@ -534,7 +556,15 @@
       "verified": "2026-11-03",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://http-shortcuts.rmy.ch/assets/screenshots/01.png",
+        "https://http-shortcuts.rmy.ch/assets/screenshots/02.png",
+        "https://http-shortcuts.rmy.ch/assets/screenshots/03.png",
+        "https://http-shortcuts.rmy.ch/assets/screenshots/05.png",
+        "https://http-shortcuts.rmy.ch/assets/screenshots/06.png",
+        "https://http-shortcuts.rmy.ch/assets/screenshots/07.png"
+      ]
     },
     {
       "slug": "openscan",
@@ -572,7 +602,15 @@
       "verified": "2026-11-03",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/qeiWJQ-kBQLN3EnrgAzDs6UaYZbyymRwX_FPI8V_3j7woC1vI8KUg6oY3MJM2SI71K9qcNMtNcd6a9hqTZWt2hA=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/hNkwBWGVKmxO3YPe5c6InmxzEeH3UelWqbpkWqGYOEB2nzrm-8hlptXLw8t6gfIa81REJJTYVaj1zzUnIEEDtQ=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/2R25jIJl3ybuhNjXFRlMpMUsT0EOgmVwnrBud8uFM_8NuD2ZxFVag7pgAi9y8Ybx1K2LGPmwYgfA7A6_qVJuSg=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/xUfnHiWFehqY4e0ago0hsLL6y_spz0Embnrcfv9jJ6urRoKRknRlGf8W02kPFPMhPzKWR86DHvHnoDTyY-BvNnc=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/VFnoSS9wkwain1lvGK23TCXXDdgNdJ_g-oiu5i4QhL07KMp-8ppCz_8B8nL1gnNCOMN1SEgsEWA2UOeoGIK6Ow=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/vrhMHX6xSehAiXnmJhOqgbliwH2BVUfgAypUbbW8a-E2if4nxzjMYW1p4Vwpx2a-V3h2ttNYwzgiyDXEUK4vUA=w1052-h592-rw"
+      ]
     },
     {
       "slug": "languagetool",
@@ -605,7 +643,15 @@
       "verified": "2026-11-03",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://languagetool.org/images/examples/example_en_spelling.png",
+        "https://languagetool.org/images/examples/example_en_grammar.png",
+        "https://languagetool.org/images/examples/example_en_punctuation.png",
+        "https://languagetool.org/images/examples/example_en_casing.png",
+        "https://languagetool.org/images/examples/example_en_style.png",
+        "https://languagetool.org/images/examples/example_en_rephrasing.png"
+      ]
     },
     {
       "slug": "khan-academy",
@@ -642,7 +688,15 @@
       "verified": "2026-11-03",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/-yNANSl-pICLAY_eGkfjtfdW2_WYwxPHpuREVFVFD_uS4G3WNfu0Q0PssdEreGej5fOoXXw2i1Aycs1auO6LLg=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/x61xibBDMejkRwVc1a79vtFVgK5zUSPyYi7XesTO_C2i-HDq2bErCXLlhM2ShUpMlNWciKzhGjbx5VA6Rqs5fA=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/g68W91tO46y1o1SZr1Oztx9ZN5sKL6zm2oiV4Z0oust2q_n86MlGTk7ewgExZ3pTJVHjbUzs9ynQSfoqeM4i=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/3dG2hE6IxLqjnsb442px5N0yeFB2ztM7xUZza62OoGAhGofD2TNWgzFzeee-qPsmUfL1ZlV_ksE-UJHcSegA=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/5fii9ZnXNP4eGqn09rInFthNuR5uYX8zWs4g10de21Y3cpVhHSOJud8oYUjQTs_B_BDg2yr1GZmfmrt3vjzDQiU=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/NvhjZRur70tNQAuOURhiZv7XvT0kBSL3y9ojc3y_wudT-leUkvEssLxRF09aG78AXrOeVYL9KG-ufXRUT1lQ=w1052-h592-rw"
+      ]
     },
     {
       "slug": "nptel",
@@ -712,7 +766,11 @@
       "verified": "2026-11-03",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://obsidian.md/images/publish-example-dark.png",
+        "https://obsidian.md/images/home-wiki-hume.png"
+      ]
     },
     {
       "slug": "zotero",
@@ -750,7 +808,14 @@
       "verified": "2026-11-03",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://www.zotero.org/static/images/home/screenshot-7.0@2x.png",
+        "https://play-lh.googleusercontent.com/2hLb5CgZwsI9q0ORCQwUlRyah8wuZG-Mxf38pomHBTCWxR_qyhiCXcUyEcSXzVmokgELnRRVIc_YaBzP7QR88WU=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/lsVIEIGhN5ZkJnVHLrqgHByzpwMm2sYl4lF6_m5H2FT_uXwJo_K0gOMY_jLgn-YOqFyMfJGnBWtM1KZThkUwfA=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/qCwkllLCZWlnf_MbLDbfU-SYTosLZn_ezl5OrfnhShiy67t7Hg1bHHgeyihDEsZaYymYkUCOasqYTN4gbHTYMGA=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/0MWtaRRnqdz5_XE3x1EcbXhYLOAn-FtkmNS5E6s2S8z9xH-RynSpfJ2vM8X4I_xvD6mYKAVonuVaDI2GbJfDjA=w1052-h592-rw"
+      ]
     },
     {
       "slug": "anysoftkeyboard",
@@ -787,7 +852,15 @@
       "verified": "2026-11-03",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/AnySoftKeyboard/AnySoftKeyboard/HEAD/addons/languages/afrikaans_oss/apk/src/main/play/listings/en-US/graphics/phone-screenshots/Screenshot_1542421933.png",
+        "https://raw.githubusercontent.com/AnySoftKeyboard/AnySoftKeyboard/HEAD/addons/languages/afrikaans_oss/apk/src/main/play/listings/en-US/graphics/phone-screenshots/Screenshot_1542421940.png",
+        "https://raw.githubusercontent.com/AnySoftKeyboard/AnySoftKeyboard/HEAD/addons/languages/armenian2/apk/src/main/play/listings/en-US/graphics/phone-screenshots/Screenshot_1542421933.png",
+        "https://raw.githubusercontent.com/AnySoftKeyboard/AnySoftKeyboard/HEAD/addons/languages/armenian2/apk/src/main/play/listings/en-US/graphics/phone-screenshots/Screenshot_1542421940.png",
+        "https://raw.githubusercontent.com/AnySoftKeyboard/AnySoftKeyboard/HEAD/addons/languages/belarusian/apk/src/main/play/listings/en-US/graphics/phone-screenshots/Screenshot_20200802-220240_Fennec_F-Droid.png",
+        "https://raw.githubusercontent.com/AnySoftKeyboard/AnySoftKeyboard/HEAD/addons/languages/belarusian/apk/src/main/play/listings/en-US/graphics/phone-screenshots/Screenshot_20200802-220621_Fennec_F-Droid.png"
+      ]
     },
     {
       "slug": "quillpad",
@@ -824,7 +897,13 @@
       "verified": "2026-11-03",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/quillpad/quillpad/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+        "https://raw.githubusercontent.com/quillpad/quillpad/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+        "https://raw.githubusercontent.com/quillpad/quillpad/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+        "https://raw.githubusercontent.com/quillpad/quillpad/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
+      ]
     },
     {
       "slug": "apkupdater",
@@ -857,7 +936,15 @@
       "verified": "2026-11-03",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/rumboalla/apkupdater/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+        "https://raw.githubusercontent.com/rumboalla/apkupdater/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
+        "https://raw.githubusercontent.com/rumboalla/apkupdater/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png",
+        "https://raw.githubusercontent.com/rumboalla/apkupdater/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/04.png",
+        "https://raw.githubusercontent.com/rumboalla/apkupdater/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/05.png",
+        "https://raw.githubusercontent.com/rumboalla/apkupdater/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/06.png"
+      ]
     },
     {
       "slug": "gkd",
@@ -894,7 +981,13 @@
       "verified": "2026-11-03",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://e.gkd.li/1e8934c1-2303-4182-9ef2-ad4c46882570",
+        "https://e.gkd.li/01f230d7-9b89-4314-b573-38bd233d22f9",
+        "https://e.gkd.li/dfa0a782-b21e-473a-96e4-eef27773b71b",
+        "https://e.gkd.li/641decd1-2e60-4e95-b78c-df38d1d98a4d"
+      ]
     },
     {
       "slug": "sd-maid-se",
@@ -931,7 +1024,15 @@
       "verified": "2026-11-03",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/d4rken-org/sdmaid-se/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1_dashboard.png",
+        "https://raw.githubusercontent.com/d4rken-org/sdmaid-se/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2_appcleaner.png",
+        "https://raw.githubusercontent.com/d4rken-org/sdmaid-se/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3_corpsefinder.png",
+        "https://raw.githubusercontent.com/d4rken-org/sdmaid-se/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4_systemcleaner.png",
+        "https://raw.githubusercontent.com/d4rken-org/sdmaid-se/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5_deduplicator.png",
+        "https://raw.githubusercontent.com/d4rken-org/sdmaid-se/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6_appcontrol.png"
+      ]
     },
     {
       "slug": "rethink-dns",
@@ -976,7 +1077,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://rethinkdns.com/img/screens/app-home.jpeg",
+        "https://rethinkdns.com/img/screens/app-home-Dark.jpeg",
+        "https://rethinkdns.com/img/screens/app-firewall-app.jpeg",
+        "https://rethinkdns.com/img/screens/app-firewall-app-Dark.jpeg",
+        "https://rethinkdns.com/img/screens/app-dns-query.jpeg",
+        "https://rethinkdns.com/img/screens/app-dns-query-Dark.jpeg"
+      ]
     },
     {
       "slug": "app-manager",
@@ -1017,7 +1126,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/MuntashirAkon/AppManager/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+        "https://raw.githubusercontent.com/MuntashirAkon/AppManager/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+        "https://raw.githubusercontent.com/MuntashirAkon/AppManager/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+        "https://raw.githubusercontent.com/MuntashirAkon/AppManager/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+        "https://raw.githubusercontent.com/MuntashirAkon/AppManager/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+        "https://raw.githubusercontent.com/MuntashirAkon/AppManager/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"
+      ]
     },
     {
       "slug": "kvaesitso-launcher",
@@ -1058,7 +1175,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://kvaesitso.mm20.de/img/screenshot-1.png",
+        "https://kvaesitso.mm20.de/img/screenshot-2.png",
+        "https://kvaesitso.mm20.de/img/screenshot-3.png",
+        "https://kvaesitso.mm20.de/img/screenshot-4.png",
+        "https://kvaesitso.mm20.de/img/screenshot-5.png",
+        "https://kvaesitso.mm20.de/img/screenshot-6.png"
+      ]
     },
     {
       "slug": "arcticons",
@@ -1103,7 +1228,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/ULWSyOWXOp-AO2-K03QOdN76jxZjjmJcu8KKpsb-jgijcleF4EP5z6rN8o7u8PO3ZU_zNO44i6HAU4lewa1tsw=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/8FqNfNdRvFX1K4Xp4toIGkNFyFgYP1gvJvhKRr46-pf-jLxQI-9SHEjYewQEuoBER6dwZ60cRdlIwJkFZ1Of6w=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/Csb1_v6D4j6LHJD4IQi_0Y8IESP3YNCWZ377HwHZOmgNeGFyeEWaKo42iMdL25w8pl85C8Ui6SHDYAXkD2cRaPE=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/1mZMwW0ZjbH2-yHOzBcfSSf8mnyD2FqIo03rvdVXTz0XwXMviwRy8iHIQtF9DVxFK3x0aLCrecMO2XONAO_B=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/e4u_HStIgUsAF8wQs2gVH8T5x3k1gDYIe-thubPSKq7EnL7fU2J_JCX0dzVkVqgCYWa0d3N8emlncfLv9RSw-9Y=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/Y1hU_2V8ItPHVAgwZxPmBvHfYjdNNgHKZ8tnZ0FSbpJv-_A6cgEOQeaBqNrrsUKHP4848M3H6mryc3H_PSU-=w1052-h592-rw"
+      ]
     },
     {
       "slug": "discreet-launcher",
@@ -1140,7 +1273,10 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/falzonv/discreet-launcher/HEAD/docs/assets/img/screenshots_total_en.jpg"
+      ]
     },
     {
       "slug": "spliit",
@@ -1177,7 +1313,10 @@
       "verified": "2026-11-02",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://spliit.app/_next/static/immutable/media/04-balances.1i648bq3m00wi.png"
+      ]
     },
     {
       "slug": "wormhole",
@@ -1351,7 +1490,10 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://antennapod.org/assets/images/screenshots/en/00.png"
+      ]
     },
     {
       "slug": "obtainium",
@@ -1388,7 +1530,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/ImranR98/Obtainium/HEAD/assets/screenshots/1.apps.png",
+        "https://raw.githubusercontent.com/ImranR98/Obtainium/HEAD/assets/screenshots/2.dark_theme.png",
+        "https://raw.githubusercontent.com/ImranR98/Obtainium/HEAD/assets/screenshots/3.material_you.png",
+        "https://raw.githubusercontent.com/ImranR98/Obtainium/HEAD/assets/screenshots/4.app.png",
+        "https://raw.githubusercontent.com/ImranR98/Obtainium/HEAD/assets/screenshots/5.app_opts.png",
+        "https://raw.githubusercontent.com/ImranR98/Obtainium/HEAD/assets/screenshots/6.app_webview.png"
+      ]
     },
     {
       "slug": "breezy-weather",
@@ -1425,7 +1575,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/breezy-weather/breezy-weather/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/01-main-header-light.png",
+        "https://raw.githubusercontent.com/breezy-weather/breezy-weather/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/02-main-header-dark.png",
+        "https://raw.githubusercontent.com/breezy-weather/breezy-weather/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/03-main-blocks-1.png",
+        "https://raw.githubusercontent.com/breezy-weather/breezy-weather/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/04-main-blocks-2.png",
+        "https://raw.githubusercontent.com/breezy-weather/breezy-weather/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/05-settings.png",
+        "https://raw.githubusercontent.com/breezy-weather/breezy-weather/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/06-sources.png"
+      ]
     },
     {
       "slug": "markor",
@@ -1463,7 +1621,14 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/gsantner/markor/master/metadata/en-US/phoneScreenshots/99-123.jpg",
+        "https://raw.githubusercontent.com/gsantner/markor/master/metadata/en-US/phoneScreenshots/99-456.jpg",
+        "https://raw.githubusercontent.com/gsantner/markor/HEAD/doc/assets/2019-05-06-sdcard-mount.webp",
+        "https://raw.githubusercontent.com/gsantner/markor/HEAD/doc/assets/todotxt-format-dark.png#gh-dark-mode-only",
+        "https://raw.githubusercontent.com/gsantner/markor/HEAD/doc/assets/todotxt-format.png#gh-light-mode-only"
+      ]
     },
     {
       "slug": "mika",
@@ -1496,7 +1661,12 @@
       "verified": "2026-11-02",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/wangzan101/Mika/HEAD/docs/media/job-greet.jpg",
+        "https://raw.githubusercontent.com/wangzan101/Mika/HEAD/docs/media/music-vip.jpg",
+        "https://raw.githubusercontent.com/wangzan101/Mika/HEAD/docs/media/food-order.jpg"
+      ]
     },
     {
       "slug": "smart-island",
@@ -1529,7 +1699,15 @@
       "verified": "2026-11-02",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/agupta07505/SmartIsland/HEAD/assets/screenshots/01_home_event_controls.jpg",
+        "https://raw.githubusercontent.com/agupta07505/SmartIsland/HEAD/assets/screenshots/02_layout_appearance_controls.jpg",
+        "https://raw.githubusercontent.com/agupta07505/SmartIsland/HEAD/assets/screenshots/03_media_player_idle_widgets.jpg",
+        "https://raw.githubusercontent.com/agupta07505/SmartIsland/HEAD/assets/screenshots/04_demo_lab_live_overlays.jpg",
+        "https://raw.githubusercontent.com/agupta07505/SmartIsland/HEAD/assets/screenshots/05_settings_overview.jpg",
+        "https://raw.githubusercontent.com/agupta07505/SmartIsland/HEAD/assets/screenshots/06_gesture_guide_playground.jpg"
+      ]
     },
     {
       "slug": "paperknife",
@@ -1566,7 +1744,13 @@
       "verified": "2026-11-02",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/potatameister/PaperKnife/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+        "https://raw.githubusercontent.com/potatameister/PaperKnife/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+        "https://raw.githubusercontent.com/potatameister/PaperKnife/HEAD/assets/preview/screenshot1.jpg",
+        "https://raw.githubusercontent.com/potatameister/PaperKnife/HEAD/assets/preview/screenshot2.jpg"
+      ]
     },
     {
       "slug": "nanomuse",
@@ -1603,7 +1787,15 @@
       "verified": "2026-11-02",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://nanomuse.cn/assets/chat-approval.webp",
+        "https://nanomuse.cn/assets/chat-approval-zh.webp",
+        "https://raw.githubusercontent.com/nano-muse/nanoMuse/HEAD/android/assets/screenshots.png",
+        "https://raw.githubusercontent.com/nano-muse/nanoMuse/HEAD/demo/mobilegym/screenshots/app.png",
+        "https://raw.githubusercontent.com/nano-muse/nanoMuse/HEAD/demo/mobilegym/screenshots/heads-up.png",
+        "https://raw.githubusercontent.com/nano-muse/nanoMuse/HEAD/demo/mobilegym/screenshots/setup.png"
+      ]
     },
     {
       "slug": "twindesk",
@@ -1635,7 +1827,15 @@
       "verified": "2026-11-02",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/InukaAsith/TwinDesk/HEAD/.github/assets/hero.jpg",
+        "https://raw.githubusercontent.com/InukaAsith/TwinDesk/HEAD/.github/assets/v23-whats-new.jpg",
+        "https://raw.githubusercontent.com/InukaAsith/TwinDesk/HEAD/.github/assets/mac-windows.jpg",
+        "https://raw.githubusercontent.com/InukaAsith/TwinDesk/HEAD/.github/assets/mac-screen-window.jpg",
+        "https://raw.githubusercontent.com/InukaAsith/TwinDesk/HEAD/.github/assets/mac-apps.jpg",
+        "https://raw.githubusercontent.com/InukaAsith/TwinDesk/HEAD/.github/assets/computers-files.jpg"
+      ]
     },
     {
       "slug": "newpipe",
@@ -1676,7 +1876,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://newpipe.net/img/screenshots/shot_02.png",
+        "https://newpipe.net/img/screenshots/shot_03.png",
+        "https://newpipe.net/img/screenshots/shot_05.png",
+        "https://newpipe.net/img/screenshots/shot_09.png",
+        "https://newpipe.net/img/screenshots/shot_14.png",
+        "https://newpipe.net/img/screenshots/shot_history_last_played_dark.png"
+      ]
     },
     {
       "slug": "seal",
@@ -1713,7 +1921,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/JunkFood02/Seal/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+        "https://raw.githubusercontent.com/JunkFood02/Seal/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+        "https://raw.githubusercontent.com/JunkFood02/Seal/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+        "https://raw.githubusercontent.com/JunkFood02/Seal/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+        "https://raw.githubusercontent.com/JunkFood02/Seal/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg",
+        "https://raw.githubusercontent.com/JunkFood02/Seal/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg"
+      ]
     },
     {
       "slug": "metrolist",
@@ -1750,7 +1966,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/MetrolistGroup/Metrolist/HEAD/fastlane/metadata/android/en-US/images/screenshots/screenshot_1.png",
+        "https://raw.githubusercontent.com/MetrolistGroup/Metrolist/HEAD/fastlane/metadata/android/en-US/images/screenshots/screenshot_2.png",
+        "https://raw.githubusercontent.com/MetrolistGroup/Metrolist/HEAD/fastlane/metadata/android/en-US/images/screenshots/screenshot_3.png",
+        "https://raw.githubusercontent.com/MetrolistGroup/Metrolist/HEAD/fastlane/metadata/android/en-US/images/screenshots/screenshot_4.png",
+        "https://raw.githubusercontent.com/MetrolistGroup/Metrolist/HEAD/fastlane/metadata/android/en-US/images/screenshots/screenshot_5.png",
+        "https://raw.githubusercontent.com/MetrolistGroup/Metrolist/HEAD/fastlane/metadata/android/en-US/images/screenshots/screenshot_6.png"
+      ]
     },
     {
       "slug": "libretube",
@@ -1791,7 +2015,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/libre-tube/LibreTube/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1.jpg",
+        "https://raw.githubusercontent.com/libre-tube/LibreTube/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_10.jpg",
+        "https://raw.githubusercontent.com/libre-tube/LibreTube/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_11.jpg",
+        "https://raw.githubusercontent.com/libre-tube/LibreTube/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_12.jpg",
+        "https://raw.githubusercontent.com/libre-tube/LibreTube/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_2.jpg",
+        "https://raw.githubusercontent.com/libre-tube/LibreTube/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_3.jpg"
+      ]
     },
     {
       "slug": "kde-connect",
@@ -1828,7 +2060,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://kdeconnect.kde.org/assets/img/hero_main.png",
+        "https://kdeconnect.kde.org/assets/img/files.png",
+        "https://kdeconnect.kde.org/assets/img/Notifications.png",
+        "https://kdeconnect.kde.org/assets/img/command.png",
+        "https://kdeconnect.kde.org/assets/img/music.png",
+        "https://kdeconnect.kde.org/assets/img/more.png"
+      ]
     },
     {
       "slug": "syncthing-fork",
@@ -1865,7 +2105,12 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/researchxxl/syncthing-android/HEAD/app/src/main/play/listings/en-US/graphics/phone-screenshots/1.png",
+        "https://raw.githubusercontent.com/researchxxl/syncthing-android/HEAD/app/src/main/play/listings/en-US/graphics/phone-screenshots/2.png",
+        "https://raw.githubusercontent.com/researchxxl/syncthing-android/HEAD/app/src/main/play/listings/en-US/graphics/phone-screenshots/4.png"
+      ]
     },
     {
       "slug": "keepassdx",
@@ -1906,7 +2151,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/Kunzisoft/KeePassDX/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screen1.png",
+        "https://raw.githubusercontent.com/Kunzisoft/KeePassDX/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screen2.png",
+        "https://raw.githubusercontent.com/Kunzisoft/KeePassDX/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screen3.png",
+        "https://raw.githubusercontent.com/Kunzisoft/KeePassDX/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screen4.png",
+        "https://raw.githubusercontent.com/Kunzisoft/KeePassDX/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screen5.png",
+        "https://raw.githubusercontent.com/Kunzisoft/KeePassDX/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/screen6.png"
+      ]
     },
     {
       "slug": "libreoffice",
@@ -1943,7 +2196,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://www.libreoffice.org/media/screenshot_writer_hero.png",
+        "https://www.libreoffice.org/media/screenshot_writer.png",
+        "https://www.libreoffice.org/media/screenshot_calc.png",
+        "https://www.libreoffice.org/media/screenshot_impress.png",
+        "https://www.libreoffice.org/media/screenshot_draw.png",
+        "https://www.libreoffice.org/media/screenshot_base.png"
+      ]
     },
     {
       "slug": "davinci-resolve",
@@ -1975,7 +2236,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://images.blackmagicdesign.com/images/products/davinciresolve/overview/newineighteen/ui-collage-en-md.jpg?_v=1742782055",
+        "https://images.blackmagicdesign.com/images/products/davinciresolve/overview/collaboration/insets/ui-notifications@2x.jpg?_v=1742782908",
+        "https://images.blackmagicdesign.com/images/products/davinciresolve/overview/collaboration/insets/ui-locking@2x.jpg?_v=1742782908",
+        "https://images.blackmagicdesign.com/images/products/davinciresolve/overview/collaboration/insets/ui-timelines@2x.jpg?_v=1742782908",
+        "https://images.blackmagicdesign.com/images/products/davinciresolve/overview/collaboration/insets/ui-chat@2x.jpg?_v=1742782907",
+        "https://images.blackmagicdesign.com/images/products/davinciresolve/overview/collaboration/insets/ui-blackmagiccloud@2x.jpg?_v=1742782907"
+      ]
     },
     {
       "slug": "7-zip",
@@ -2040,7 +2309,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://obsproject.com/assets/images/features-new/layouts.png",
+        "https://obsproject.com/assets/images/features-new/scenes.png",
+        "https://obsproject.com/assets/images/features-new/mixer.png",
+        "https://obsproject.com/assets/images/features-new/properties.png",
+        "https://obsproject.com/assets/images/features-new/settings.png",
+        "https://obsproject.com/assets/images/features-new/docks.png"
+      ]
     },
     {
       "slug": "inkscape",
@@ -2110,7 +2387,15 @@
       "verified": "2026-10-31",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://ankidroid.org/img/1-decks.png",
+        "https://ankidroid.org/img/2-navigation_drawer.png",
+        "https://ankidroid.org/img/3-deck_overview.png",
+        "https://ankidroid.org/img/4-reviewer.png",
+        "https://ankidroid.org/img/5-adding.png",
+        "https://ankidroid.org/img/6-browser.png"
+      ]
     },
     {
       "slug": "goodtime-pomodoro",
@@ -2143,7 +2428,15 @@
       "verified": "2026-10-31",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/wDGcQP6xB3NEgsJslSZNgpGaJbOMH9AoJJUTDe0RzlvU1f4wgTZuurRDQUX9CBNg7V8ioTREEiWsJUJ9QIjDlQ=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/lAEAB9ku64WmdIHRrB4J6ECsbr5Ohf4mxhW6-8OQcSC39nysXoQYxZJ9L6leVzzctIHFBpZqPoEQsh3fPfF-Pg=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/WghxWGChSxqOMm4AEafA1pUFpqcioSNeiHGBwKq4Q4x3sPeRk-sd4Zfeg96_USrf5FQU1HTM6c85EjqaG_lVMA=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/9pVcSCgvAqVJAds958T96RqHCwr8T1MceOxR05QwvolY2-Hj_1almOSaU2VYABZ8UT4XL0WVje0A-9L7D6x8BME=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/NKKLTARCydo7rs8zPFUwuh4HmHoGmQkPS6vJNTCjyIZQ7jn3pn518NYWXhvzKCpw1LrkMFACXpMQY98FO4TYOg=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/8HO-q_o5_rKMaYA7h6215H0CqC1sUyog0UfXBZ3VWCe44iUlc1zcd9DFYYznBrqC90KR5-FQx0XFF-gMwER9hw=w1052-h592-rw"
+      ]
     },
     {
       "slug": "loop-habit-tracker",
@@ -2175,7 +2468,15 @@
       "verified": "2026-10-31",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/KrxN9bOtspk63xhtNJx2uyaHZ3GOYK_IJ-VRIhMlh2ChFCQuBxXLWoRJd48uFRU_Rk97Nz3gHiI0eteLn2KDFQ=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/2nZZDFddPS4-wHVgPvAfeYik3vMTsrV-Mgys3g1A6s-KLCcUWsf1PlYLJfKXGyxUnUHkSKX8sESQkrEx6mQN=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/8BBDln1lKgX6ErWkH-_tKlfoD2TEfpcVzrgFlzJO91wK0HiYac_W0wJV7hHhGi8aeqk-8xRI051bK6mlsOLiZw=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/OBzxPYCYyPhV4C3O70raVjvafSDynHVAvGZyVsSsj4EtrsW1OrgV11Jq-MTLqq0dOZSOSfG47IUR8Z1Uw50Hs1U=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/h8BsLCGeOvth65FDex4F3eyobKutYjISeo31DXSZPAgr7HHqlEBgiEjI-z48NTlQVZdcito_AgyXKRfxQdXAovg=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/LbTcXRMXTapKyajRNqnrYROysAc1QOVAZ1eigPmVDNqJmymjqAtqEDketTnMeSCRvUg4jH53T47Ds1jshCIMww=w1052-h592-rw"
+      ]
     },
     {
       "slug": "organic-maps",
@@ -2221,7 +2522,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://organicmaps.app/images/screenshots/hiking.jpg",
+        "https://organicmaps.app/images/screenshots/prague.jpg",
+        "https://organicmaps.app/images/screenshots/search.jpg",
+        "https://organicmaps.app/images/screenshots/dark.jpg",
+        "https://organicmaps.app/images/privacy/om.jpg",
+        "https://organicmaps.app/images/privacy/mm.jpg"
+      ]
     },
     {
       "slug": "aegis-authenticator",
@@ -2267,7 +2576,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://getaegis.app/assets/static/hero.7C782sEM.png",
+        "https://play-lh.googleusercontent.com/21T8TU3ZrvpYy4sr1ZIb645JsTHs7DGLQSubpGRLh_2cnYKTrO2Mn1dJPDthy4J4qPKTTbsJRTe0cSL0FbmXRQ=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/OK9yTEF5M8UYa0_ncW4o3q7JccVdtFRzk961-iR98IOJFRM30KDRUQL35nG9BBBWXL6G4CaC5xFGd-64I2Nw=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/hsSj7UrAfH0d3Qw76F6RBtYqanXMkiQWCL-ZbRkX9TN4gg-wfdzPux4PKcHcFImhq9FbKRzKXrbnKcEnclbc=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/IpoSgksRDPxEmyjKbYIVaTBoNe-Mihf3JJ2riF-wqCK--eWx2CkStZaMiH55btana0cj0qZUDbIgkFCIbdWVPg=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/6nKYU_Ciyzskh15S1Ky2wy_1f3gAA8XpgxjIbM_Oq0SkFNo2v9FvUSOruFBtfuzr0Rr86rWo_DwGYDjGKYFuTA=w1052-h592-rw"
+      ]
     },
     {
       "slug": "fossify-gallery",
@@ -2317,7 +2634,15 @@
       "verified": "2026-11-01",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/SfLZZzwKXogwe9F0uCFe5EmJPGMNoQGc7RiXPKw58JwSM91OzX6HjcoRjjkhryCBj721wKYXRyGmYpmY_YOV7w=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/v7MRJ2UbORL41BIGyrJqEOi3Lqg14T0Mu2EJ6y0oB6etzjnPaOexTRF08HWSbLlR_Ip1IPuhp4YuJuFj2H1xnmQ=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/NBp33Js_0XxdlOh391o1IR3iz8VykFSwvLMdXvX89Bda3cOLEFuBV_PN2f4C71E2eb9n9nSGcBvmR5bVWuj6=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/BbNzDTKLfncNeIgq6WD2P3oyzNG5kkebYVaLNIgxTSEoe1y0L89gVwQtzp3n1Wg_ALfGyLdf8EzEvGCKEs8FTg=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/WCj9LLMmmM92B8r6ggDY7LwkBI8YMofu1WGIaL_E7bM_aMUZeiJoFIeR4DrnRMBkuooRmAMZnRDQxIyBvVknk74=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/UINQrTDm9bQh9q4R-xmAKP6ukGo_Qt3vJi3RVz9FART3TXEmsqdlHYosfPfoOCGtdlVEfIwL9DQjuqeeAjotrA=w1052-h592-rw"
+      ]
     },
     {
       "slug": "localsend",
@@ -2358,7 +2683,15 @@
       "verified": "2026-10-31",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://localsend.org/img/hero-mobile.webp",
+        "https://localsend.org/img/hero-desktop.webp",
+        "https://raw.githubusercontent.com/localsend/localsend/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+        "https://raw.githubusercontent.com/localsend/localsend/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+        "https://raw.githubusercontent.com/localsend/localsend/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+        "https://raw.githubusercontent.com/localsend/localsend/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg"
+      ]
     },
     {
       "slug": "photopea",
@@ -2429,7 +2762,11 @@
       "verified": "2026-10-31",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://upscayl.org/home/desktop.png",
+        "https://raw.githubusercontent.com/upscayl/upscayl/HEAD/screen1.png"
+      ]
     },
     {
       "slug": "adobe-podcast-enhance-speech",
@@ -2533,7 +2870,15 @@
       "verified": "2026-10-31",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://raw.githubusercontent.com/chidiwilliams/buzz/main/share/screenshots/buzz-1-import.png",
+        "https://raw.githubusercontent.com/chidiwilliams/buzz/main/share/screenshots/buzz-2-main_screen.png",
+        "https://raw.githubusercontent.com/chidiwilliams/buzz/main/share/screenshots/buzz-3-preferences.png",
+        "https://raw.githubusercontent.com/chidiwilliams/buzz/main/share/screenshots/buzz-3.2-model-preferences.png",
+        "https://raw.githubusercontent.com/chidiwilliams/buzz/main/share/screenshots/buzz-4-transcript.png",
+        "https://raw.githubusercontent.com/chidiwilliams/buzz/main/share/screenshots/buzz-5-live_recording.png"
+      ]
     },
     {
       "slug": "jan",
@@ -2570,7 +2915,10 @@
       "verified": "2026-10-31",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://jan.ai/_next/static/media/app-jan.fe40673b.png"
+      ]
     },
     {
       "slug": "gemini-notebook-free-textbooks",
@@ -2646,7 +2994,15 @@
       "verified": "2026-10-30",
       "source": "techkadak",
       "aiAdded": false,
-      "affiliate": ""
+      "affiliate": "",
+      "screenshots": [
+        "https://deeptutor.info/screenshots/dev/overview.png",
+        "https://raw.githubusercontent.com/HKUDS/DeepTutor/HEAD/assets/figs/web-dev/overview.png",
+        "https://raw.githubusercontent.com/HKUDS/DeepTutor/HEAD/assets/figs/web-dev/chat.png",
+        "https://raw.githubusercontent.com/HKUDS/DeepTutor/HEAD/assets/figs/web-dev/co-writer.png",
+        "https://raw.githubusercontent.com/HKUDS/DeepTutor/HEAD/assets/figs/web-dev/notebook-detail.png",
+        "https://raw.githubusercontent.com/HKUDS/DeepTutor/HEAD/assets/figs/web-dev/learning.png"
+      ]
     }
   ]
 }
