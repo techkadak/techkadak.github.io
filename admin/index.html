@@ -34,6 +34,13 @@ button{font:inherit;font-weight:800;border:0;border-radius:99px;padding:13px 18p
 .legend{display:flex;gap:14px;color:var(--m);font-size:12px;margin-top:6px}.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
 .muted{color:var(--m);font-size:13px}.dim{color:var(--d);font-size:12px}
 .top{display:flex;align-items:center;gap:10px}.top .sp{flex:1}
+.tabs{display:flex;gap:6px;margin:10px 0 4px;overflow-x:auto}.tabs button{width:auto;margin:0;padding:9px 16px;background:var(--s2);color:var(--t);font-size:14px;white-space:nowrap}.tabs button.on{background:var(--lime);color:#0a0a0a}
+.filters{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0}.filters select,.filters input{margin:0;width:100%;background:var(--s2);border:1px solid var(--line);color:var(--t);border-radius:14px;padding:11px 12px;font-size:14px}
+.item{background:var(--s);border:1px solid var(--line);border-radius:18px;padding:12px 14px;margin:8px 0}.item.click{cursor:pointer}.item:hover.click{border-color:var(--lime)}
+.item .t{font-weight:800;font-size:14px}.item .s{color:var(--m);font-size:12px;margin-top:2px}.chip{display:inline-block;background:var(--s2);border:1px solid var(--line);border-radius:99px;padding:2px 9px;font-size:11px;margin:4px 4px 0 0;color:var(--m)}.chip.l{color:var(--lime);border-color:#9bff2e55}
+.stars{color:var(--lime);letter-spacing:2px}.sm{width:auto;padding:7px 13px;font-size:12px;margin:8px 8px 0 0}.danger{background:#ff4d4d22;color:#ff8f8f}
+.detail{position:fixed;inset:0;background:#000c;display:flex;align-items:flex-end;justify-content:center;z-index:9}.detail>div{background:var(--s);border:1px solid var(--line);border-radius:26px 26px 0 0;padding:20px;width:100%;max-width:760px;max-height:85vh;overflow:auto}
+.kv{display:flex;gap:10px;padding:7px 0;border-bottom:1px solid var(--line);font-size:13px}.kv b{width:36%;color:var(--m);font-weight:600}.kv span{flex:1;word-break:break-all}
 .hide{display:none}
 </style>
 </head>
@@ -64,6 +71,8 @@ button{font:inherit;font-weight:800;border:0;border-radius:99px;padding:13px 18p
   <div id="dash" class="hide">
     <div class="top"><span class="muted" id="who"></span><span class="sp"></span><button class="link" id="btnRefresh">↻ Refresh</button></div>
     <div id="dashMsg"></div>
+    <div class="tabs" id="tabs"><button class="on" data-t="ov">Overview</button><button data-t="dev">Devices</button><button data-t="rev">Reviews</button><button data-t="fb">Feedback</button></div>
+    <div id="tab-ov">
     <div class="grid" id="kpis"></div>
     <div class="card"><h2>Roz ke active users (30 din)</h2><div class="chart" id="chart"></div>
       <div class="legend"><span><i style="background:var(--lime)"></i>Active</span><span><i style="background:#ffffff8c"></i>Naye</span><span id="range" style="margin-left:auto"></span></div>
@@ -73,6 +82,26 @@ button{font:inherit;font-weight:800;border:0;border-radius:99px;padding:13px 18p
     <div class="card"><h2>Kits aur Posters (7 din)</h2><div id="kits"></div><p id="posters" style="font-weight:800;margin:10px 0 0"></p></div>
     <div class="card"><h2>Kaun kis version pe</h2><div id="versions"></div></div>
     <div class="card"><h2>Login type</h2><div id="logins"></div></div>
+    </div>
+    <div id="tab-dev" class="hide">
+      <div class="filters">
+        <input id="dq" placeholder="Search: model, naam, id, app…" style="grid-column:1/3">
+        <select id="dver"><option value="">Saare versions</option></select>
+        <select id="dlt"><option value="">Saare login</option><option value="none">Bina login</option><option value="google">Google</option><option value="email">Email</option><option value="phone">Phone</option></select>
+        <select id="dos"><option value="">Saare Android</option></select>
+        <select id="dact"><option value="">Kabhi bhi active</option><option value="1">Aaj active</option><option value="7">7 din me active</option><option value="30">30 din me active</option><option value="-7">7+ din se gayab</option></select>
+        <select id="dapps" style="grid-column:1/3"><option value="">Apps: sab</option><option value="1">Jisne TK se app install/open kiya</option><option value="0">Jisne koi app nahi liya</option></select>
+      </div>
+      <p class="muted" id="dcount"></p><div id="dlist"></div>
+    </div>
+    <div id="tab-rev" class="hide">
+      <div class="filters"><select id="rapp"><option value="">Saare apps</option></select><select id="rstar"><option value="">Saare stars</option><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select></div>
+      <p class="muted" id="rcount"></p><div id="rlist"></div>
+    </div>
+    <div id="tab-fb" class="hide">
+      <div class="filters"><select id="fstat"><option value="">Saare</option><option value="new">Naye</option><option value="done">Done</option></select><input id="fq" placeholder="Search text / naam"></div>
+      <p class="muted" id="fcount"></p><div id="flist"></div>
+    </div>
     <p class="dim">Note: ginti app v1.2 se shuru hui hai (4 Nov 2026). Jo log purane version pe hain, wo update ke baad hi gine jayenge. Sirf anonymous device ginti — kisi ka naam/email nahi. "Usage stats" band karne wale nahi gine jaate. Poora Google Analytics: Firebase console → Analytics.</p>
     <button class="b2" id="btnOut2">Logout</button>
   </div>
@@ -81,7 +110,7 @@ button{font:inherit;font-weight:800;border:0;border-radius:99px;padding:13px 18p
 <script type="module">
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import { getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider, sendPasswordResetEmail, signOut } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
-import { getFirestore, collection, query, where, getCountFromServer, getDocs, limit } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
+import { getFirestore, collection, query, where, getCountFromServer, getDocs, limit, doc, deleteDoc, updateDoc } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 
 // Public Firebase web config (not a secret — Firestore rules protect the data).
 const firebaseConfig = {
@@ -167,8 +196,8 @@ async function load() {
     const devices = collection(db, "devices");
     const perDay = await Promise.all(days.map(async d => { const c = collection(db, "days", d, "d"); return [d, await cnt(c), await cnt(query(c, where("n", "==", true)))]; }));
     const [total, act7, ch7, ch30] = await Promise.all([cnt(devices), cnt(query(devices, where("last", ">=", c7))), cnt(query(devices, where("last", "<", c7))), cnt(query(devices, where("last", "<", c30)))]);
-    const vers = (await Promise.all([[10200, "1.2.0"]].map(async ([v, n]) => [n, await cnt(query(devices, where("v", "==", v)))]))).filter(x => x[1] > 0);
-    const newer = await cnt(query(devices, where("v", ">", 10200))); if (newer) vers.unshift(["1.2 se naya", newer]);
+    const vers = (await Promise.all([[10200, "1.2.0"], [10201, "1.2.1"], [10300, "1.3.0"], [10500, "1.5.0"]].map(async ([v, n]) => [n, await cnt(query(devices, where("v", "==", v)))]))).filter(x => x[1] > 0);
+    const newer = await cnt(query(devices, where("v", ">", 10500))); if (newer) vers.unshift(["1.5 se naya", newer]);
     const logins = (await Promise.all(["none", "google", "email", "phone"].map(async l => [l, await cnt(query(devices, where("lt", "==", l)))]))).filter(x => x[1] > 0);
     const agg = { ic: {}, id: {}, kits: {}, ps: {} };
     for (const d of d7) {
@@ -195,6 +224,95 @@ async function load() {
     msg("dashMsg", /permission/i.test(err.code || err.message) ? "Access denied — ye account owner nahi hai" : "Data load nahi hua: " + (err.code || err.message), true);
   }
 }
+
+// ───── v1.5: devices / reviews / feedback ─────
+const ver = v => ({10200:"1.2.0",10201:"1.2.1",10300:"1.3.0",10500:"1.5.0"}[v] || (v ? "code " + v : "?"));
+const ago = ms => { if (!ms) return "—"; const s = Math.max(0, (Date.now() - ms) / 1000); return s < 3600 ? Math.max(1, s / 60 | 0) + " min pehle" : s < 86400 ? (s / 3600 | 0) + " ghante pehle" : (s / 86400 | 0) + " din pehle"; };
+const tsMs = t => t && t.toMillis ? t.toMillis() : 0;
+const dayAgo = d => d ? Math.floor((Date.now() - Date.parse(d + "T00:00:00+05:30")) / 86400000) : 9999;
+const dname = (id, x) => x.nm ? x.nm : "Anonymous device #" + id.slice(0, 4);
+const appName = s => names[s] || s;
+let DEV = [], REV = [], FB = [];
+document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => {
+  document.querySelectorAll("#tabs button").forEach(x => x.classList.toggle("on", x === b));
+  for (const t of ["ov", "dev", "rev", "fb"]) show("tab-" + t, b.dataset.t === t);
+  if (b.dataset.t === "dev" && !DEV.length) loadDevices(); if (b.dataset.t === "rev" && !REV.length) loadReviews(); if (b.dataset.t === "fb" && !FB.length) loadFeedback();
+});
+const opt = (el, vals, lab = x => x) => { const cur = $(el).value; const first = $(el).options[0].outerHTML; $(el).innerHTML = first + vals.map(v => `<option value="${esc(v)}">${esc(lab(v))}</option>`).join(""); $(el).value = cur; };
+async function loadDevices() {
+  msg("dashMsg", "Devices load ho rahe…", false);
+  try {
+    if (!Object.keys(names).length) await loadNames();
+    const snap = await getDocs(query(collection(db, "devices"), limit(3000)));
+    DEV = snap.docs.map(d => ({ id: d.id, ...d.data() })).sort((a, b) => (b.last || "").localeCompare(a.last || ""));
+    opt("dver", [...new Set(DEV.map(x => x.v))].sort((a, b) => b - a).map(String), v => "v" + ver(+v));
+    opt("dos", [...new Set(DEV.map(x => x.os || (x.sdk ? "API " + x.sdk : "")).filter(Boolean))].sort(), v => v.startsWith("API") ? v : "Android " + v);
+    msg("dashMsg", ""); renderDevices();
+  } catch (e) { msg("dashMsg", "Devices load nahi hue: " + (e.code || e.message), true); }
+}
+function renderDevices() {
+  const q = $("dq").value.trim().toLowerCase(), fv = $("dver").value, fl = $("dlt").value, fo = $("dos").value, fa = $("dact").value, fp = $("dapps").value;
+  const rows = DEV.filter(x => {
+    const apps = Object.keys(x.apps || {});
+    if (fv && String(x.v) !== fv) return false; if (fl && (x.lt || "none") !== fl) return false;
+    if (fo && (x.os || "API " + x.sdk) !== fo) return false;
+    if (fa) { const a = dayAgo(x.last); if (+fa > 0 ? a >= +fa : a < -+fa) return false; }
+    if (fp === "1" && !apps.length) return false; if (fp === "0" && apps.length) return false;
+    if (q) { const hay = [x.id, dname(x.id, x), x.model, x.os, "v" + ver(x.v), ...apps, ...apps.map(appName)].join(" ").toLowerCase(); if (!hay.includes(q)) return false; }
+    return true;
+  });
+  $("dcount").textContent = rows.length + " / " + DEV.length + " devices (anonymous ginti; sirf naam wale tab dikhte jinhone login/naam diya)";
+  $("dlist").innerHTML = rows.slice(0, 300).map(x => `<div class="item click" data-id="${esc(x.id)}"><div class="t">${esc(dname(x.id, x))}</div><div class="s">${esc(x.model || "model ?")} • Android ${esc(x.os || (x.sdk ? "API " + x.sdk : "?"))} • v${esc(ver(x.v))}</div><span class="chip l">${esc(x.lt || "none")}</span><span class="chip">last ${esc(x.last || "?")}</span>${Object.keys(x.apps || {}).length ? `<span class="chip">${Object.keys(x.apps).length} apps</span>` : ""}</div>`).join("") || `<p class="muted">Koi device nahi mila</p>`;
+  document.querySelectorAll("#dlist .item").forEach(el => el.onclick = () => openDetail(el.dataset.id));
+}
+for (const id of ["dq", "dver", "dlt", "dos", "dact", "dapps"]) $(id).addEventListener(id === "dq" ? "input" : "change", renderDevices);
+function openDetail(id) {
+  const x = DEV.find(d => d.id === id); if (!x) return;
+  const kv = (k, v) => `<div class="kv"><b>${k}</b><span>${esc(v)}</span></div>`;
+  const apps = Object.entries(x.apps || {});
+  const el = document.createElement("div"); el.className = "detail";
+  el.innerHTML = `<div><div class="top"><h2 style="margin:0;font-size:18px">${esc(dname(id, x))}</h2><span class="sp"></span><button class="link" id="dclose">✕ Band</button></div>
+    ${kv("Model", x.model || "—")}${kv("Android", (x.os ? x.os + " " : "") + (x.sdk ? "(API " + x.sdk + ")" : ""))}${kv("App version", "v" + ver(x.v) + (x.vn ? " (" + x.vn + ")" : ""))}${kv("Pehli baar", x.first || "—")}${kv("Last dekha", (x.last || "—") + " (" + dayAgo(x.last) + " din pehle)")}${kv("Login", x.lt || "none")}${kv("Naam", x.nm || "Anonymous (naam nahi diya)")}${kv("Device ID", id)}
+    <h2 style="margin:14px 0 6px;font-size:15px">Apps (Tech Kadak se install/open)</h2>
+    ${apps.length ? apps.map(([s, k]) => `<span class="chip ${k === "i" ? "l" : ""}">${esc(appName(s))} • ${k === "i" ? "install kiya" : "khola"}</span>`).join("") : `<p class="muted">Koi nahi. Poori app-list kabhi scan nahi hoti.</p>`}</div>`;
+  document.body.appendChild(el); el.onclick = e => { if (e.target === el || e.target.id === "dclose") el.remove(); };
+}
+async function loadReviews() {
+  msg("dashMsg", "Reviews load ho rahe…", false);
+  try {
+    if (!Object.keys(names).length) await loadNames();
+    const snap = await getDocs(query(collection(db, "reviews"), limit(1000)));
+    REV = snap.docs.map(d => ({ id: d.id, ...d.data() })).sort((a, b) => tsMs(b.at) - tsMs(a.at));
+    opt("rapp", [...new Set(REV.map(x => x.slug))].sort(), appName); msg("dashMsg", ""); renderReviews();
+  } catch (e) { msg("dashMsg", "Reviews load nahi hue: " + (e.code || e.message), true); }
+}
+function renderReviews() {
+  const fa = $("rapp").value, fs = $("rstar").value;
+  const rows = REV.filter(x => (!fa || x.slug === fa) && (!fs || String(x.rating) === fs));
+  $("rcount").textContent = rows.length + " / " + REV.length + " reviews (sirf asli, login wale users ke)";
+  $("rlist").innerHTML = rows.map(x => `<div class="item"><div class="t"><span class="stars">${"★".repeat(x.rating)}${"☆".repeat(5 - x.rating)}</span> ${esc(appName(x.slug))}</div><div class="s">${esc(x.name || "naam nahi")} • ${esc(ago(tsMs(x.at)))}</div>${x.text ? `<p style="margin:6px 0 0;font-size:14px">${esc(x.text)}</p>` : ""}<button class="sm danger" data-del="${esc(x.id)}">Delete (moderation)</button></div>`).join("") || `<p class="muted">Abhi koi review nahi</p>`;
+  document.querySelectorAll("#rlist [data-del]").forEach(b => b.onclick = async () => {
+    if (!confirm("Ye review delete karna hai?")) return;
+    try { await deleteDoc(doc(db, "reviews", b.dataset.del)); REV = REV.filter(r => r.id !== b.dataset.del); renderReviews(); } catch (e) { msg("dashMsg", "Delete nahi hua: " + (e.code || e.message), true); }
+  });
+}
+$("rapp").onchange = renderReviews; $("rstar").onchange = renderReviews;
+async function loadFeedback() {
+  msg("dashMsg", "Feedback load ho raha…", false);
+  try {
+    const snap = await getDocs(query(collection(db, "feedback"), limit(1000)));
+    FB = snap.docs.map(d => ({ id: d.id, ...d.data() })).sort((a, b) => tsMs(b.at) - tsMs(a.at)); msg("dashMsg", ""); renderFeedback();
+  } catch (e) { msg("dashMsg", "Feedback load nahi hua: " + (e.code || e.message), true); }
+}
+function renderFeedback() {
+  const fs = $("fstat").value, q = $("fq").value.trim().toLowerCase();
+  const rows = FB.filter(x => (!fs || (fs === "done") === !!x.done) && (!q || [x.text, x.name, x.contact].join(" ").toLowerCase().includes(q)));
+  $("fcount").textContent = rows.length + " / " + FB.length + " suggestions";
+  $("flist").innerHTML = rows.map(x => `<div class="item"><div class="s">${esc(x.name || "Anonymous #" + (x.did || "").slice(0, 4))} • ${esc(ago(tsMs(x.at)))} • v${esc(ver(x.v))}${x.done ? " • ✅ done" : ""}</div><p style="margin:6px 0 0;font-size:14px;white-space:pre-wrap">${esc(x.text)}</p>${x.contact ? `<span class="chip l">${esc(x.contact)}</span>` : ""}<div>${x.done ? "" : `<button class="sm b2" data-done="${esc(x.id)}">Done mark karo</button>`}<button class="sm danger" data-del="${esc(x.id)}">Delete</button></div></div>`).join("") || `<p class="muted">Abhi koi suggestion nahi</p>`;
+  document.querySelectorAll("#flist [data-done]").forEach(b => b.onclick = async () => { try { await updateDoc(doc(db, "feedback", b.dataset.done), { done: true }); FB.find(f => f.id === b.dataset.done).done = true; renderFeedback(); } catch (e) { msg("dashMsg", "Update nahi hua: " + (e.code || e.message), true); } });
+  document.querySelectorAll("#flist [data-del]").forEach(b => b.onclick = async () => { if (!confirm("Ye suggestion delete karni hai?")) return; try { await deleteDoc(doc(db, "feedback", b.dataset.del)); FB = FB.filter(f => f.id !== b.dataset.del); renderFeedback(); } catch (e) { msg("dashMsg", "Delete nahi hua: " + (e.code || e.message), true); } });
+}
+$("fstat").onchange = renderFeedback; $("fq").addEventListener("input", renderFeedback);
 </script>
 </body>
 </html>
