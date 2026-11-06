@@ -2,6 +2,172 @@
   "_schema": "See docs/SCHEMA.md",
   "apps": [
     {
+      "slug": "auxio",
+      "name": "Auxio",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Simple, fast offline music player — apne downloaded gaane ke liye, no ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Play Store pe nahi — F-Droid se lo. Sirf phone mein saved music chalata hai.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.oxycblt.auxio/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/OxygenCobalt/Auxio"
+        }
+      ],
+      "icon": "assets/icons/auxio.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.oxycblt.auxio",
+      "apk_source": "fdroid:org.oxycblt.auxio",
+      "package_name": "org.oxycblt.auxio",
+      "added": "2026-11-06"
+    },
+    {
+      "slug": "feeder",
+      "name": "Feeder",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "RSS feed reader — apni favourite sites/blogs ki news ek jagah, bina account ke.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Play Store pe nahi — F-Droid se lo.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.nononsenseapps.feeder/"
+        }
+      ],
+      "icon": "assets/icons/feeder.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.nononsenseapps.feeder",
+      "apk_source": "fdroid:com.nononsenseapps.feeder",
+      "package_name": "com.nononsenseapps.feeder",
+      "added": "2026-11-06"
+    },
+    {
+      "slug": "thunderbird-android",
+      "name": "Thunderbird (Android)",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Thunderbird ka 100% open-source, privacy-focused email app — Android pe.",
+      "pricing": "Free",
+      "priceNote": "Free, open source; Play listing mein in-app purchases (donation)",
+      "limit": "Play Store listing pe in-app purchases dikhte hain.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/net.thunderbird.android/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=net.thunderbird.android"
+        }
+      ],
+      "icon": "assets/icons/thunderbird-android.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "net.thunderbird.android",
+      "apk_source": "fdroid:net.thunderbird.android",
+      "package_name": "net.thunderbird.android",
+      "added": "2026-11-06"
+    },
+    {
+      "slug": "droid-ify",
+      "name": "Droid-ify",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "F-Droid ka fast, modern client — open-source apps dhoondo aur install karo, clean design mein.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Play Store pe nahi — F-Droid / GitHub se.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.looker.droidify/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Droid-ify/client"
+        }
+      ],
+      "icon": "assets/icons/droid-ify.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.looker.droidify",
+      "apk_source": "fdroid:com.looker.droidify",
+      "package_name": "com.looker.droidify",
+      "added": "2026-11-06"
+    },
+    {
+      "slug": "netguard",
+      "name": "NetGuard",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Bina root firewall — chuno kaunsa app internet use kare, kaunsa nahi. Data aur battery bachao.",
+      "pricing": "Freemium",
+      "priceNote": "Free, open source (GPL-3.0); Play listing mein in-app purchases",
+      "limit": "Kuch extra features in-app purchase se (Play listing).",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/eu.faircode.netguard/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=eu.faircode.netguard"
+        }
+      ],
+      "icon": "assets/icons/netguard.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "eu.faircode.netguard",
+      "apk_source": "fdroid:eu.faircode.netguard",
+      "package_name": "eu.faircode.netguard",
+      "added": "2026-11-06"
+    },
+    {
       "slug": "notallyx",
       "name": "NotallyX",
       "category": [
