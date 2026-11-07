@@ -1,0 +1,33 @@
+<!doctype html><html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Tech Kadak Events</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#0a0a0a;color:#fff;font-family:system-ui,sans-serif;padding:16px;max-width:560px;margin:auto}h1{color:#9BFF2E;font-size:22px}label{display:block;margin:12px 0 4px;color:#bbb;font-size:13px}input,textarea{width:100%;padding:12px;border-radius:12px;border:1px solid #333;background:#151515;color:#fff;font-size:16px}button{margin-top:14px;width:100%;padding:14px;border:0;border-radius:30px;background:#9BFF2E;color:#000;font-weight:800;font-size:16px}button.d{background:#ff4d4d;color:#fff;width:auto;padding:8px 14px;margin:0;font-size:13px}.c{background:#151515;border-radius:14px;padding:12px;margin:10px 0;display:flex;gap:10px;align-items:center;justify-content:space-between}.c img{width:64px;height:64px;object-fit:cover;border-radius:8px}.s{color:#9BFF2E;font-size:14px;margin-top:10px;min-height:20px}img#pv{max-width:100%;border-radius:12px;margin-top:8px;display:none}</style></head><body>
+<h1>Tech Kadak - Event pop-up</h1>
+<div id="tk"><label>GitHub key (sirf ek baar, sirf is phone me save hoti hai)</label><input id="tok" type="password" placeholder="github_pat_..." autocomplete="off"><button onclick="saveTok()">Save key</button></div>
+<div id="app" style="display:none">
+<h2 style="font-size:16px">Chal rahe events</h2><div id="list">...</div>
+<h2 style="font-size:16px;margin-top:24px">Naya event</h2>
+<label>Banner image (1080 wide best; optional)</label><input id="img" type="file" accept="image/*"><img id="pv">
+<label>Title</label><input id="title" maxlength="80"><label>Chhoti line (optional)</label><textarea id="body" rows="2" maxlength="300"></textarea>
+<label>Emoji</label><input id="emoji" value="🎉" maxlength="4"><label>Button ka naam</label><input id="btn" value="Dekho" maxlength="20">
+<label>Button link (https://...)</label><input id="url" placeholder="https://www.instagram.com/techkadak/">
+<label>Kab tak dikhana (date, optional)</label><input id="until" type="date">
+<label style="display:flex;gap:8px;align-items:center"><input id="rep" type="checkbox" checked style="width:auto"> Har baar app kholne par dikhao</label>
+<button onclick="add()">Event daalo</button></div><div class="s" id="st"></div>
+<script>
+const R='techkadak/techkadak.github.io',P='data/events.json';let T=localStorage.getItem('tk_gh')||'';
+const $=i=>document.getElementById(i),st=m=>$('st').textContent=m;
+function H(){return{Authorization:'token '+T,Accept:'application/vnd.github+json'}}
+function saveTok(){T=$('tok').value.trim();if(T.length<20){st('Key chhoti hai');return}localStorage.setItem('tk_gh',T);init()}
+async function load(){const r=await fetch('https://api.github.com/repos/'+R+'/contents/'+P+'?t='+Date.now(),{headers:H()});if(!r.ok)throw new Error('Key galat/expire ('+r.status+')');const j=await r.json();return{sha:j.sha,data:JSON.parse(decodeURIComponent(escape(atob(j.content.replace(/\n/g,'')))))}}
+function b64(s){return btoa(unescape(encodeURIComponent(s)))}
+async function put(path,content,sha,msg){const b={message:msg,content};if(sha)b.sha=sha;const r=await fetch('https://api.github.com/repos/'+R+'/contents/'+path,{method:'PUT',headers:H(),body:JSON.stringify(b)});if(!r.ok)throw new Error('Save fail '+r.status);return r.json()}
+async function init(){if(!T)return;$('tk').style.display='none';$('app').style.display='block';try{show((await load()).data.events||[])}catch(e){$('tk').style.display='block';st(e.message);localStorage.removeItem('tk_gh');T=''}}
+function show(ev){$('list').innerHTML=ev.length?'':'Koi event nahi';ev.forEach(e=>{const d=document.createElement('div');d.className='c';d.innerHTML=(e.image?'<img src="'+e.image+'">':'<span style="font-size:32px">'+(e.emoji||'')+'</span>')+'<div style="flex:1;font-size:14px">'+e.title.replace(/</g,'&lt;')+'</div>';const b=document.createElement('button');b.className='d';b.textContent='Hatao';b.onclick=()=>del(e.id);d.appendChild(b);$('list').appendChild(d)})}
+async function del(id){if(!confirm('Hatana hai?'))return;st('Hata raha hun...');try{const{sha,data}=await load();data.events=(data.events||[]).filter(e=>e.id!==id);await put(P,b64(JSON.stringify(data,null,1)),sha,'remove event');show(data.events);st('Hat gaya. App me 5-10 min me asar.')}catch(e){st(e.message)}}
+function shrink(f){return new Promise((ok,no)=>{const i=new Image();i.onload=()=>{const w=Math.min(1080,i.width),h=Math.round(i.height*w/i.width),c=document.createElement('canvas');c.width=w;c.height=h;c.getContext('2d').drawImage(i,0,0,w,h);ok(c.toDataURL('image/jpeg',.9).split(',')[1])};i.onerror=no;i.src=URL.createObjectURL(f)})}
+$('img').onchange=e=>{const f=e.target.files[0];if(f){$('pv').src=URL.createObjectURL(f);$('pv').style.display='block'}};
+async function add(){const title=$('title').value.trim();const f=$('img').files[0];if(!title&&!f){st('Title ya image do');return}const url=$('url').value.trim();if(url&&!url.startsWith('https://')){st('Link https:// se shuru ho');return}
+st('Daal raha hun...');try{const id='e'+Date.now().toString(36);let image;if(f){const d=await shrink(f);await put('assets/events/'+id+'.jpg',d,null,'event image');image='https://techkadak.github.io/assets/events/'+id+'.jpg'}
+const{sha,data}=await load();const ev={id,title:title||'Tech Kadak',emoji:$('emoji').value||'🎉',body:$('body').value.trim(),button:$('btn').value||'Dekho',repeat:$('rep').checked};if(url)ev.url=url;if(image)ev.image=image;if($('until').value)ev.until=$('until').value;
+data.events=[...(data.events||[]),ev];await put(P,b64(JSON.stringify(data,null,1)),sha,'add event');show(data.events);st('Ho gaya! 5-10 min me app me aayega.')}catch(e){st(e.message)}}
+init();
+</script></body></html>
