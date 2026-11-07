@@ -2,6 +2,187 @@
   "_schema": "See docs/SCHEMA.md",
   "apps": [
     {
+      "slug": "sky-map",
+      "name": "Sky Map",
+      "category": [
+        "Student Tech",
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Phone aasman ki taraf karo — stars, planets, constellations ke naam dikhata hai. Astronomy padhne ke liye mast.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Phone mein compass/sensors hone chahiye.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.google.android.stardroid/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.stardroid"
+        }
+      ],
+      "icon": "assets/icons/sky-map.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.google.android.stardroid",
+      "apk_source": "fdroid:com.google.android.stardroid",
+      "package_name": "com.google.android.stardroid",
+      "added": "2026-11-07"
+    },
+    {
+      "slug": "wikipedia",
+      "name": "Wikipedia",
+      "category": [
+        "Student Tech",
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Wikipedia ki official app — 300+ languages mein articles, Hindi bhi. No ads, nonprofit.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.wikipedia/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.wikipedia"
+        }
+      ],
+      "icon": "assets/icons/wikipedia.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.wikipedia",
+      "apk_source": "fdroid:org.wikipedia",
+      "package_name": "org.wikipedia",
+      "added": "2026-11-07"
+    },
+    {
+      "slug": "termux",
+      "name": "Termux",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech",
+        "Android Apps"
+      ],
+      "what": "Android pe Linux terminal — packages install karo, coding/Python seekho phone pe hi.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Command-line app hai — beginners ke liye thoda technical.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.termux/"
+        },
+        {
+          "label": "Website",
+          "url": "https://termux.com"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/termux/termux-app"
+        }
+      ],
+      "icon": "assets/icons/termux.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.termux",
+      "apk_source": "fdroid:com.termux",
+      "package_name": "com.termux",
+      "added": "2026-11-07"
+    },
+    {
+      "slug": "gadgetbridge",
+      "name": "Gadgetbridge",
+      "category": [
+        "Open Source/GitHub",
+        "Android Apps"
+      ],
+      "what": "Smartwatch/fitness band ko bina company ki cloud app ke chalao — data phone pe hi rehta hai.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (AGPL-3.0)",
+      "limit": "Sirf supported devices ke saath chalta hai; Play Store pe nahi — F-Droid se.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/nodomain.freeyourgadget.gadgetbridge/"
+        },
+        {
+          "label": "Website",
+          "url": "https://gadgetbridge.org"
+        }
+      ],
+      "icon": "assets/icons/gadgetbridge.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "nodomain.freeyourgadget.gadgetbridge",
+      "apk_source": "fdroid:nodomain.freeyourgadget.gadgetbridge",
+      "package_name": "nodomain.freeyourgadget.gadgetbridge",
+      "added": "2026-11-07"
+    },
+    {
+      "slug": "jitsi-meet",
+      "name": "Jitsi Meet",
+      "category": [
+        "Paid ka FREE Jawab",
+        "Open Source/GitHub"
+      ],
+      "what": "Free video meetings — account ke bina link share karo aur call shuru. Open-source.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": null,
+      "platforms": "Android, iPhone, Web",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.jitsi.meet/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.jitsi.meet"
+        },
+        {
+          "label": "Website",
+          "url": "https://meet.jit.si"
+        }
+      ],
+      "icon": "assets/icons/jitsi-meet.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.jitsi.meet",
+      "apk_source": "fdroid:org.jitsi.meet",
+      "package_name": "org.jitsi.meet",
+      "added": "2026-11-07"
+    },
+    {
       "slug": "auxio",
       "name": "Auxio",
       "category": [
