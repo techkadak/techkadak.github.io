@@ -1,3 +1,15 @@
 {
- "events": []
+ "events": [
+  {
+   "id": "followers-1500",
+   "title": "1500 Followers ki taraf chalo",
+   "emoji": "🎯",
+   "body": "Roz ek kadak FREE app. Follow karo @techkadak",
+   "image": "https://techkadak.github.io/assets/events/banner-1500.jpg",
+   "url": "https://www.instagram.com/techkadak/",
+   "button": "Instagram pe aao",
+   "repeat": true,
+   "until": "2026-12-31"
+  }
+ ]
 }
