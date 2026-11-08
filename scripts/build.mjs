@@ -205,7 +205,7 @@ function homePage(ctx) {
   const jsonld = [
     { '@context': 'https://schema.org', '@type': 'WebSite', name: config.siteName, url: site + '/', inLanguage: 'hi-IN', description: config.description,
       potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: site + '/apps.html?q={search_term_string}' }, 'query-input': 'required name=search_term_string' } },
-    { '@context': 'https://schema.org', '@type': 'Organization', name: config.siteName, url: site + '/', logo: site + '/assets/logo-512.png', sameAs: Object.values(config.social).filter((u) => !u.includes('ig.me')) },
+    { '@context': 'https://schema.org', '@type': 'Organization', name: config.siteName, url: site + '/', logo: site + '/assets/logo-512.png', founder: { '@type': 'Person', name: 'Rohit Saini', jobTitle: 'Founder', url: site + '/about.html' }, sameAs: Object.values(config.social).filter((u) => !u.includes('ig.me')) },
     { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
   ];
   return `${head({ config, site, base, title: 'Tech Kadak — Paid App ka FREE Jawab | Free Android Apps & AI Tools Hinglish mein', desc: config.description, canonical: site + '/', jsonld })}
@@ -357,7 +357,8 @@ function pages(ctx) {
     'about.html': textPage(ctx, 'about.html', 'About', 'ABOUT <span class="lime">TECH KADAK</span>', 'Tech Kadak kya hai — free apps, AI tools aur open-source gems Hinglish mein.', `
 <p><b>Tech Kadak</b> ek Hinglish tech page hai: kaam ke <b>free Android apps</b>, <b>free AI tools</b>, <b>open-source / GitHub gems</b> aur <b>paid apps ke FREE jawab</b> — simple bhasha mein.</p>
 <p>Har app ke saath hum likhte hain ki woh kya karta hai, free hai ya freemium, uski <b>limit</b> kya hai, aur sirf <b>official download link</b> dete hain (Play Store, F-Droid, GitHub ya official website).</p>
-<p>Roz 5 naye apps is site pe apne aap add hote hain. Instagram pe <a href="${esc(s.instagram)}" target="_blank" rel="noopener">@techkadak</a> follow karo, YouTube pe <a href="${esc(s.youtube)}" target="_blank" rel="noopener">Tech Kadak</a> dekho, aur <a href="${esc(s.telegram)}" target="_blank" rel="noopener">Telegram</a> pe links pao.</p>`),
+<p>Roz 5 naye apps is site pe apne aap add hote hain. Instagram pe <a href="${esc(s.instagram)}" target="_blank" rel="noopener">@techkadak</a> follow karo, YouTube pe <a href="${esc(s.youtube)}" target="_blank" rel="noopener">Tech Kadak</a> dekho, aur <a href="${esc(s.telegram)}" target="_blank" rel="noopener">Telegram</a> pe links pao.</p>
+<p><b>Founder:</b> Rohit Saini — Tech Kadak ke founder. Instagram <a href="${esc(s.instagram)}" target="_blank" rel="noopener">@techkadak</a> aur is website ke peeche wahi hain.</p>`),
     'contact.html': textPage(ctx, 'contact.html', 'Contact', '<span class="lime">CONTACT</span>', 'Tech Kadak se contact karo — Instagram DM.', `
 <p>Sawaal, app suggestion, galti report ya collaboration — Instagram pe DM karo:</p>
 <p><a class="btn btn-lime" href="${esc(s.instagramDM)}" target="_blank" rel="noopener">Instagram DM @techkadak</a></p>
