@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://techkadak.github.io/</loc><lastmod>2026-11-07</lastmod><priority>1.0</priority></url>
-  <url><loc>https://techkadak.github.io/apps.html</loc><lastmod>2026-11-07</lastmod><priority>0.9</priority></url>
+  <url><loc>https://techkadak.github.io/</loc><lastmod>2026-11-08</lastmod><priority>1.0</priority></url>
+  <url><loc>https://techkadak.github.io/apps.html</loc><lastmod>2026-11-08</lastmod><priority>0.9</priority></url>
+  <url><loc>https://techkadak.github.io/apps/mj-pdf-reader.html</loc><lastmod>2026-11-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://techkadak.github.io/apps/fossify-voice-recorder.html</loc><lastmod>2026-11-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://techkadak.github.io/apps/unciv.html</loc><lastmod>2026-11-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://techkadak.github.io/apps/whisper-offline-voice-typing.html</loc><lastmod>2026-11-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://techkadak.github.io/apps/maid.html</loc><lastmod>2026-11-08</lastmod><priority>0.8</priority></url>
   <url><loc>https://techkadak.github.io/apps/sky-map.html</loc><lastmod>2026-11-07</lastmod><priority>0.8</priority></url>
   <url><loc>https://techkadak.github.io/apps/wikipedia.html</loc><lastmod>2026-11-07</lastmod><priority>0.8</priority></url>
   <url><loc>https://techkadak.github.io/apps/termux.html</loc><lastmod>2026-11-07</lastmod><priority>0.8</priority></url>
