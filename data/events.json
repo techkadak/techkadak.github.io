@@ -21,6 +21,17 @@
    "button": "YouTube pe aao",
    "repeat": true,
    "until": "2026-12-31"
+  },
+  {
+   "id": "app-download",
+   "title": "Tech Kadak app download karo",
+   "emoji": "⬇️",
+   "body": "Free apps, bina paywall",
+   "image": "https://techkadak.github.io/assets/events/app-download.jpg",
+   "url": "https://github.com/techkadak/techkadak-app/releases/latest",
+   "button": "App download karo",
+   "repeat": true,
+   "until": "2026-12-31"
   }
  ]
 }
