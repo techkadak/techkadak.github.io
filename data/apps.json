@@ -2,6 +2,173 @@
   "_schema": "See docs/SCHEMA.md",
   "apps": [
     {
+      "slug": "google-ai-edge-gallery",
+      "name": "Google AI Edge Gallery",
+      "category": [
+        "AI Tools",
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Google ki official app — open-source AI models phone pe offline chalao: AI chat, Ask Image, audio transcribe. Data phone se bahar nahi jaata.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": "Models download karne padte hain (bade size); achha phone chahiye.",
+      "platforms": "Android, iPhone",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.ai.edge.gallery"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/google-ai-edge/gallery"
+        }
+      ],
+      "icon": "assets/icons/google-ai-edge-gallery.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-09"
+    },
+    {
+      "slug": "pocketpal-ai",
+      "name": "PocketPal AI",
+      "category": [
+        "AI Tools",
+        "Open Source/GitHub"
+      ],
+      "what": "Phone pe AI chatbot bina internet — Gemma, Qwen, Llama jaise models download karo aur offline chat karo. No account.",
+      "pricing": "Freemium",
+      "priceNote": "Free, open source (MIT); optional one-time \"PocketPal Plus\"",
+      "limit": "Hands-free voice optional paid \"Plus\" mein (store builds). Model size phone ki RAM ke hisaab se chuno.",
+      "platforms": "Android, iPhone",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.pocketpalai"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/a-ghorbani/pocketpal-ai"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-09"
+    },
+    {
+      "slug": "kiwix",
+      "name": "Kiwix",
+      "category": [
+        "Student Tech",
+        "Open Source/GitHub"
+      ],
+      "what": "Poori Wikipedia (aur aur content) offline padho — ek baar download, phir bina internet.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Content files (ZIM) bade hote hain — storage chahiye. Play version mein kuch file-loading restrictions; full version official site se.",
+      "platforms": "Android, PC",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://android.kiwix.org"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.kiwix.kiwixmobile"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/kiwix/kiwix-android"
+        }
+      ],
+      "icon": "assets/icons/kiwix.png",
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-09"
+    },
+    {
+      "slug": "chatterui",
+      "name": "ChatterUI",
+      "category": [
+        "AI Tools",
+        "Open Source/GitHub"
+      ],
+      "what": "Phone pe AI models chalao ya apne API provider se connect karo — open-source chat frontend.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (AGPL-3.0)",
+      "limit": "Play Store pe confirm nahi kiya — GitHub releases se. Local model ke liye achha phone chahiye.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Vali-98/ChatterUI"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-03",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-09"
+    },
+    {
+      "slug": "kiss-launcher",
+      "name": "KISS Launcher",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Super-fast launcher: home screen pe bas ek search bar — 2-3 letter type karo aur app, contact ya setting turant khul jaata hai. Purane phone pe bhi tez.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Icons wala normal home screen nahi milega; search ki aadat daalni padegi.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://kisslauncher.com"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/fr.neamar.kiss/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Neamar/KISS"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=fr.neamar.kiss"
+        }
+      ],
+      "icon": "assets/icons/kiss-launcher.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "fr.neamar.kiss",
+      "apk_source": "fdroid:fr.neamar.kiss",
+      "package_name": "fr.neamar.kiss",
+      "added": "2026-11-09"
+    },
+    {
       "slug": "mj-pdf-reader",
       "name": "MJ PDF Reader",
       "category": [
