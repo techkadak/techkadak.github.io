@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://techkadak.github.io/</loc><lastmod>2026-11-09</lastmod><priority>1.0</priority></url>
-  <url><loc>https://techkadak.github.io/apps.html</loc><lastmod>2026-11-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://techkadak.github.io/</loc><lastmod>2026-11-10</lastmod><priority>1.0</priority></url>
+  <url><loc>https://techkadak.github.io/apps.html</loc><lastmod>2026-11-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://techkadak.github.io/apps/gimp.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://techkadak.github.io/apps/olauncher.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://techkadak.github.io/apps/krita.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://techkadak.github.io/apps/indic-keyboard.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://techkadak.github.io/apps/blender.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
   <url><loc>https://techkadak.github.io/apps/google-ai-edge-gallery.html</loc><lastmod>2026-11-09</lastmod><priority>0.8</priority></url>
   <url><loc>https://techkadak.github.io/apps/pocketpal-ai.html</loc><lastmod>2026-11-09</lastmod><priority>0.8</priority></url>
   <url><loc>https://techkadak.github.io/apps/kiwix.html</loc><lastmod>2026-11-09</lastmod><priority>0.8</priority></url>
