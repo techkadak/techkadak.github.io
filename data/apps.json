@@ -2,6 +2,171 @@
   "_schema": "See docs/SCHEMA.md",
   "apps": [
     {
+      "slug": "kdenlive",
+      "name": "Kdenlive",
+      "category": [
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Free video editor: multitrack timeline, transitions, titles, keyframes, proxy editing — YouTube videos ke liye.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL)",
+      "limit": "Bade projects pe kabhi-kabhi crash; project save karte raho.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "Premiere Pro",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://kdenlive.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-12"
+    },
+    {
+      "slug": "fossify-notes",
+      "name": "Fossify Notes",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Simple notes + checklist app, home screen widget ke saath. No ads, no tracking.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.fossify.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.notes/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/FossifyOrg/Notes"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.notes"
+        }
+      ],
+      "icon": "assets/icons/fossify-notes.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.fossify.notes",
+      "apk_source": "github:FossifyOrg/Notes",
+      "package_name": "org.fossify.notes",
+      "added": "2026-11-12"
+    },
+    {
+      "slug": "shotcut",
+      "name": "Shotcut",
+      "category": [
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Simple free video editor: cut, filters, text, colour correction, 4K support, no watermark.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Advanced motion graphics ke liye limited.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "Filmora",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.shotcut.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-12"
+    },
+    {
+      "slug": "fossify-clock",
+      "name": "Fossify Clock",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Alarm, timer, stopwatch aur world clock ek simple app me — bina ads ke.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Abhi Beta tag ke saath aata hai.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.fossify.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.clock/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/FossifyOrg/Clock"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.clock"
+        }
+      ],
+      "icon": "assets/icons/fossify-clock.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.fossify.clock",
+      "apk_source": "github:FossifyOrg/Clock",
+      "package_name": "org.fossify.clock",
+      "added": "2026-11-12"
+    },
+    {
+      "slug": "openshot",
+      "name": "OpenShot",
+      "category": [
+        "Open Source/GitHub"
+      ],
+      "what": "Beginners ke liye easy video editor: drag-drop, titles, transitions, animations — no watermark.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Heavy 4K editing me slow ho sakta hai.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.openshot.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-12"
+    },
+    {
       "slug": "florisboard",
       "name": "FlorisBoard",
       "category": [
