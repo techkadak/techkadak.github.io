@@ -2,6 +2,185 @@
   "_schema": "See docs/SCHEMA.md",
   "apps": [
     {
+      "slug": "fossify-contacts",
+      "name": "Fossify Contacts",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Contacts app jo contacts phone pe hi rakhta hai: groups, favourites, vCard import/export, no ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.fossify.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.contacts/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/FossifyOrg/Contacts"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.contacts"
+        }
+      ],
+      "icon": "assets/icons/fossify-contacts.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.fossify.contacts",
+      "apk_source": "github:FossifyOrg/Contacts",
+      "package_name": "org.fossify.contacts",
+      "added": "2026-11-13"
+    },
+    {
+      "slug": "handbrake",
+      "name": "HandBrake",
+      "category": [
+        "Open Source/GitHub"
+      ],
+      "what": "Video converter: badi video ko chhota (compress) karo ya MP4/MKV me convert — quality bachake.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-2.0)",
+      "limit": null,
+      "platforms": "Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://handbrake.fr/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-13"
+    },
+    {
+      "slug": "fossify-messages",
+      "name": "Fossify Messages",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Ad-free SMS/MMS app: number aur keyword se spam block, messages export/import, clean design.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.fossify.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.messages/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/FossifyOrg/Messages"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.messages"
+        }
+      ],
+      "icon": "assets/icons/fossify-messages.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.fossify.messages",
+      "apk_source": "github:FossifyOrg/Messages",
+      "package_name": "org.fossify.messages",
+      "added": "2026-11-13"
+    },
+    {
+      "slug": "fossify-phone",
+      "name": "Fossify Phone",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Dialer app: call blocking, speed dial, call history — bina ads aur tracking ke.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Call recording feature nahi hai.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.fossify.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.phone/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/FossifyOrg/Phone"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.phone"
+        }
+      ],
+      "icon": "assets/icons/fossify-phone.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.fossify.phone",
+      "apk_source": "github:FossifyOrg/Phone",
+      "package_name": "org.fossify.phone",
+      "added": "2026-11-13"
+    },
+    {
+      "slug": "darktable",
+      "name": "darktable",
+      "category": [
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "RAW photo editor: DSLR/phone RAW photos ka colour grading, exposure, presets.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Interface complex hai.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "Lightroom",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.darktable.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-13"
+    },
+    {
       "slug": "kdenlive",
       "name": "Kdenlive",
       "category": [
