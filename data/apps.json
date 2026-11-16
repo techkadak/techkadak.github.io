@@ -2,6 +2,190 @@
   "_schema": "See docs/SCHEMA.md",
   "apps": [
     {
+      "slug": "briar",
+      "name": "Briar",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Bina internet ke chat: Bluetooth/Wi-Fi se paas wale dosto ko message, internet ho to Tor se. Na phone number, na central server.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": "Dono logon ke paas Briar hona chahiye; online rehne pe battery zyada leta hai.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://briarproject.org/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.briarproject.briar.android/"
+        },
+        {
+          "label": "Source code",
+          "url": "https://code.briarproject.org/briar/briar"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.briarproject.briar.android"
+        }
+      ],
+      "icon": "assets/icons/briar.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.briarproject.briar.android",
+      "apk_source": "fdroid:org.briarproject.briar.android",
+      "package_name": "org.briarproject.briar.android",
+      "added": "2026-11-16"
+    },
+    {
+      "slug": "vscodium",
+      "name": "VSCodium",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "VS Code ka open-source build bina Microsoft telemetry ke — same editor, same feel.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (MIT)",
+      "limit": "Kuch Microsoft extensions (jaise official C# debugger) nahi chalte.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://vscodium.com/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/VSCodium/vscodium"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-16"
+    },
+    {
+      "slug": "fairemail",
+      "name": "FairEmail",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Gmail, Outlook, Yahoo — saare email ek inbox me, privacy ke saath: tracking images block, phishing warning.",
+      "pricing": "Freemium",
+      "priceNote": "Free core, open source (GPL-3.0); kuch Pro features paid",
+      "limit": "Kuch extra features Pro (paid) me; settings bahut zyada hain.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://email.faircode.eu/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/eu.faircode.email/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/M66B/FairEmail"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=eu.faircode.email"
+        }
+      ],
+      "icon": "assets/icons/fairemail.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "eu.faircode.email",
+      "apk_source": "fdroid:eu.faircode.email",
+      "package_name": "eu.faircode.email",
+      "added": "2026-11-16"
+    },
+    {
+      "slug": "thonny",
+      "name": "Thonny",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Python seekhne ke liye sabse simple IDE: Python saath me aata hai, step-by-step debugger dikhata hai code kaise chalta hai.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (MIT)",
+      "limit": "Bade projects ke liye basic.",
+      "platforms": "Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://thonny.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-16"
+    },
+    {
+      "slug": "duckduckgo-browser",
+      "name": "DuckDuckGo Browser",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Privacy browser: trackers block karta hai, ek Fire button se saara browsing data turant saaf.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://duckduckgo.com/app"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.duckduckgo.mobile.android/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/duckduckgo/Android"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android"
+        }
+      ],
+      "icon": "assets/icons/duckduckgo-browser.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.duckduckgo.mobile.android",
+      "apk_source": "fdroid:com.duckduckgo.mobile.android",
+      "package_name": "com.duckduckgo.mobile.android",
+      "added": "2026-11-16"
+    },
+    {
       "slug": "librera-reader",
       "name": "Librera Reader",
       "category": [

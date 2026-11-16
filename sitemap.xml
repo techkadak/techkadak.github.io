@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://techkadak.github.io/</loc><lastmod>2026-11-15</lastmod><priority>1.0</priority></url>
-  <url><loc>https://techkadak.github.io/apps.html</loc><lastmod>2026-11-15</lastmod><priority>0.9</priority></url>
+  <url><loc>https://techkadak.github.io/</loc><lastmod>2026-11-16</lastmod><priority>1.0</priority></url>
+  <url><loc>https://techkadak.github.io/apps.html</loc><lastmod>2026-11-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://techkadak.github.io/apps/briar.html</loc><lastmod>2026-11-16</lastmod><priority>0.8</priority></url>
+  <url><loc>https://techkadak.github.io/apps/vscodium.html</loc><lastmod>2026-11-16</lastmod><priority>0.8</priority></url>
+  <url><loc>https://techkadak.github.io/apps/fairemail.html</loc><lastmod>2026-11-16</lastmod><priority>0.8</priority></url>
+  <url><loc>https://techkadak.github.io/apps/thonny.html</loc><lastmod>2026-11-16</lastmod><priority>0.8</priority></url>
+  <url><loc>https://techkadak.github.io/apps/duckduckgo-browser.html</loc><lastmod>2026-11-16</lastmod><priority>0.8</priority></url>
   <url><loc>https://techkadak.github.io/apps/librera-reader.html</loc><lastmod>2026-11-15</lastmod><priority>0.8</priority></url>
   <url><loc>https://techkadak.github.io/apps/koreader.html</loc><lastmod>2026-11-15</lastmod><priority>0.8</priority></url>
   <url><loc>https://techkadak.github.io/apps/drawio.html</loc><lastmod>2026-11-15</lastmod><priority>0.8</priority></url>
