@@ -2,6 +2,167 @@
   "_schema": "See docs/SCHEMA.md",
   "apps": [
     {
+      "slug": "mpv-android",
+      "name": "mpv-android",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Powerful video player: lagbhag har format, subtitles, speed control, gestures — bina ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (MIT)",
+      "limit": "Settings thode technical hain.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/is.xyz.mpv/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mpv-android/mpv-android"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=is.xyz.mpv"
+        }
+      ],
+      "icon": "assets/icons/mpv-android.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "is.xyz.mpv",
+      "apk_source": "fdroid:is.xyz.mpv",
+      "package_name": "is.xyz.mpv",
+      "added": "2026-11-17"
+    },
+    {
+      "slug": "flameshot",
+      "name": "Flameshot",
+      "category": [
+        "Open Source/GitHub"
+      ],
+      "what": "Screenshot lo aur turant arrows, text, blur, highlight laga do — notes/tutorials ke liye.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Windows, macOS, Linux",
+      "replaces": "Snagit",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://flameshot.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-17"
+    },
+    {
+      "slug": "digilocker",
+      "name": "DigiLocker",
+      "category": [
+        "Android Apps",
+        "Student Tech"
+      ],
+      "what": "Government ki official app: Aadhaar, PAN, DL, CBSE marksheet/certificates digital — originals jitne valid.",
+      "pricing": "Free",
+      "priceNote": "Free (Government of India)",
+      "limit": "Aadhaar-linked mobile number chahiye.",
+      "platforms": "Android, iOS, Web",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.digilocker.gov.in/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.digilocker.android"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "package_name": "com.digilocker.android",
+      "added": "2026-11-17"
+    },
+    {
+      "slug": "just-player",
+      "name": "Just (Video) Player",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Simple video player: double-tap se seek, swipe se volume/brightness, subtitles, picture-in-picture.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Unlicense)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.brouken.player/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/moneytoo/Player"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.brouken.player"
+        }
+      ],
+      "icon": "assets/icons/just-player.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.brouken.player",
+      "apk_source": "fdroid:com.brouken.player",
+      "package_name": "com.brouken.player",
+      "added": "2026-11-17"
+    },
+    {
+      "slug": "sharex",
+      "name": "ShareX",
+      "category": [
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Windows pe screenshot, screen recording, GIF banana, text OCR — sab ek free tool me.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Sirf Windows; settings bahut zyada.",
+      "platforms": "Windows",
+      "replaces": "Snagit",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://getsharex.com/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-17"
+    },
+    {
       "slug": "briar",
       "name": "Briar",
       "category": [
