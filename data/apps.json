@@ -2,6 +2,176 @@
   "_schema": "See docs/SCHEMA.md",
   "apps": [
     {
+      "slug": "next-player",
+      "name": "Next Player",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Material You design wala video player: subtitles, gestures, PiP, folders view — no ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/dev.anilbeesetti.nextplayer/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/anilbeesetti/nextplayer"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=dev.anilbeesetti.nextplayer"
+        }
+      ],
+      "icon": "assets/icons/next-player.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "dev.anilbeesetti.nextplayer",
+      "apk_source": "github:anilbeesetti/nextplayer",
+      "package_name": "dev.anilbeesetti.nextplayer",
+      "added": "2026-11-18"
+    },
+    {
+      "slug": "powertoys",
+      "name": "Microsoft PowerToys",
+      "category": [
+        "Open Source/GitHub"
+      ],
+      "what": "Windows ke liye power tools: kisi bhi screen se text copy (OCR), colour picker, bulk rename, window layouts.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (MIT)",
+      "limit": null,
+      "platforms": "Windows 10/11",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Docs",
+          "url": "https://learn.microsoft.com/en-us/windows/powertoys/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/microsoft/PowerToys"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-18"
+    },
+    {
+      "slug": "gramophone",
+      "name": "Gramophone",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Offline music player clean design ke saath: synced lyrics (LRC), folders, playlists.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": "Sirf phone me saved songs ke liye.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.akanework.gramophone/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/FoedusProgramme/Gramophone"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=org.akanework.gramophone"
+        }
+      ],
+      "icon": "assets/icons/gramophone.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "org.akanework.gramophone",
+      "apk_source": "github:FoedusProgramme/Gramophone",
+      "package_name": "org.akanework.gramophone",
+      "added": "2026-11-18"
+    },
+    {
+      "slug": "everything-search",
+      "name": "Everything",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "Windows me koi bhi file naam se 1 second me dhoondo — Windows search se kahin tez.",
+      "pricing": "Free",
+      "priceNote": "Freeware",
+      "limit": "Sirf file naam se search (andar ka text by default nahi).",
+      "platforms": "Windows",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.voidtools.com/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-18"
+    },
+    {
+      "slug": "retro-music",
+      "name": "Retro Music Player",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Stylish offline music player: themes, lyrics, equalizer, sleep timer.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Sirf phone me saved songs ke liye.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://retromusic.app/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/code.name.monkey.retromusic/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/RetroMusicPlayer/RetroMusicPlayer"
+        }
+      ],
+      "icon": "assets/icons/retro-music.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "code.name.monkey.retromusic",
+      "apk_source": "fdroid:code.name.monkey.retromusic",
+      "package_name": "code.name.monkey.retromusic",
+      "added": "2026-11-18"
+    },
+    {
       "slug": "mpv-android",
       "name": "mpv-android",
       "category": [
