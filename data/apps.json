@@ -2,6 +2,178 @@
   "_schema": "See docs/SCHEMA.md",
   "apps": [
     {
+      "slug": "appflowy",
+      "name": "AppFlowy",
+      "category": [
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Notion jaisa workspace: docs, tasks board, database — data apne control me.",
+      "pricing": "Freemium",
+      "priceNote": "Free plan, open source (AGPL-3.0); AI/cloud plans paid",
+      "limit": "Notion jitne integrations nahi.",
+      "platforms": "Windows, macOS, Linux, Android, iOS, Web",
+      "replaces": "Notion",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://appflowy.com/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/AppFlowy-IO/AppFlowy"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-22"
+    },
+    {
+      "slug": "opentracks",
+      "name": "OpenTracks",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Running, cycling, walk ko GPS se track karo — bina account, saara data phone pe.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://OpenTracksApp.com"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/de.dennisguse.opentracks/"
+        },
+        {
+          "label": "Codeberg",
+          "url": "https://codeberg.org/OpenTracksApp/OpenTracks"
+        }
+      ],
+      "icon": "assets/icons/opentracks.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "de.dennisguse.opentracks",
+      "apk_source": "fdroid:de.dennisguse.opentracks",
+      "package_name": "de.dennisguse.opentracks",
+      "added": "2026-11-22"
+    },
+    {
+      "slug": "sumatrapdf",
+      "name": "SumatraPDF",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Windows ka bahut halka PDF/EPUB reader — purane PC pe bhi turant khulta hai.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "PDF editing/sign nahi.",
+      "platforms": "Windows",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.sumatrapdfreader.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-22"
+    },
+    {
+      "slug": "drip",
+      "name": "drip",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Period aur fertility tracker jo data sirf phone pe rakhta hai; koi account nahi.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Medical advice nahi deta.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://dripapp.org"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.drip/"
+        },
+        {
+          "label": "GitLab",
+          "url": "https://gitlab.com/bloodyhealth/drip"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.drip"
+        }
+      ],
+      "icon": "assets/icons/drip.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.drip",
+      "apk_source": "fdroid:com.drip",
+      "package_name": "com.drip",
+      "added": "2026-11-22"
+    },
+    {
+      "slug": "open-food-facts",
+      "name": "Open Food Facts",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Packed food ka barcode scan karo: ingredients, nutrition, additives aur Nutri-Score turant.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (Apache-2.0)",
+      "limit": "India ke kai products ka data adhoora; khud bhi add kar sakte ho.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/openfoodfacts.github.scrachx.openfood/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/openfoodfacts/smooth-app"
+        }
+      ],
+      "icon": "assets/icons/open-food-facts.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "openfoodfacts.github.scrachx.openfood",
+      "apk_source": "fdroid:openfoodfacts.github.scrachx.openfood",
+      "package_name": "openfoodfacts.github.scrachx.openfood",
+      "added": "2026-11-22"
+    },
+    {
       "slug": "libretorrent",
       "name": "LibreTorrent",
       "category": [
