@@ -2,6 +2,168 @@
   "_schema": "See docs/SCHEMA.md",
   "apps": [
     {
+      "slug": "freecodecamp",
+      "name": "freeCodeCamp",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "Coding free me seekho: web development, JavaScript, Python, data — projects aur free certifications ke saath.",
+      "pricing": "Free",
+      "priceNote": "Free (non-profit)",
+      "limit": "English me hai.",
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.freecodecamp.org/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-25"
+    },
+    {
+      "slug": "jami",
+      "name": "Jami",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Video/voice call aur chat peer-to-peer — koi central server nahi, koi phone number nahi.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": "Weak network pe calls thodi unstable ho sakti hain.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://jami.net/"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/cx.ring/"
+        },
+        {
+          "label": "Website",
+          "url": "https://jami.net/"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=cx.ring"
+        }
+      ],
+      "icon": "assets/icons/jami.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "cx.ring",
+      "apk_source": "fdroid:cx.ring",
+      "package_name": "cx.ring",
+      "added": "2026-11-25"
+    },
+    {
+      "slug": "cs50",
+      "name": "CS50 (Harvard)",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "Harvard ka famous computer science course free online: lectures, problem sets, programming basics se.",
+      "pricing": "Free",
+      "priceNote": "Free; edX ka verified certificate paid optional",
+      "limit": "English me; mehnat wala course.",
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://cs50.harvard.edu/x/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-25"
+    },
+    {
+      "slug": "ente-auth",
+      "name": "Ente Auth",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "2FA codes app with end-to-end encrypted backup — phone badla to codes safe rehte hain.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (AGPL-3.0)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://ente.com"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.ente.auth/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ente-io/ente"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=io.ente.auth"
+        }
+      ],
+      "icon": "assets/icons/ente-auth.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "io.ente.auth",
+      "apk_source": "fdroid:io.ente.auth",
+      "package_name": "io.ente.auth",
+      "added": "2026-11-25"
+    },
+    {
+      "slug": "mit-opencourseware",
+      "name": "MIT OpenCourseWare",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "MIT ke hazaron courses ke notes, lectures, assignments free — engineering, maths, CS.",
+      "pricing": "Free",
+      "priceNote": "Free (CC BY-NC-SA)",
+      "limit": "Certificate nahi milta.",
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://ocw.mit.edu/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-25"
+    },
+    {
       "slug": "desmos",
       "name": "Desmos",
       "category": [
