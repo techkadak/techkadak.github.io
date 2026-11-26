@@ -2,6 +2,185 @@
   "_schema": "See docs/SCHEMA.md",
   "apps": [
     {
+      "slug": "ente-photos",
+      "name": "Ente Photos",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Photos ka end-to-end encrypted cloud backup, family sharing, Google Photos jaisa.",
+      "pricing": "Freemium",
+      "priceNote": "Free plan + paid storage; open source (AGPL-3.0)",
+      "limit": "Free plan me storage limited; zyada storage paid.",
+      "platforms": "Android",
+      "replaces": "Google Photos",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://ente.com"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.ente.photos.fdroid/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ente-io/ente"
+        }
+      ],
+      "icon": "assets/icons/ente-photos.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "io.ente.photos.fdroid",
+      "apk_source": "fdroid:io.ente.photos.fdroid",
+      "package_name": "io.ente.photos.fdroid",
+      "added": "2026-11-26"
+    },
+    {
+      "slug": "pcapdroid",
+      "name": "PCAPdroid",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "Bina root dekho kaunsi app kis server se baat kar rahi hai; network traffic record karo (PCAP) — networking seekhne walon ke liye mast.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": "Play Store version me kuch extra features paid unlock hain.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://emanuele-f.github.io/PCAPdroid"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.emanuelef.remote_capture/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/emanuele-f/PCAPdroid"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.emanuelef.remote_capture"
+        }
+      ],
+      "icon": "assets/icons/pcapdroid.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.emanuelef.remote_capture",
+      "apk_source": "github:emanuele-f/PCAPdroid",
+      "package_name": "com.emanuelef.remote_capture",
+      "added": "2026-11-26"
+    },
+    {
+      "slug": "swayam",
+      "name": "SWAYAM",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "Government of India ka free online courses portal: school se PG tak, IIT/IIM professors ke courses.",
+      "pricing": "Free",
+      "priceNote": "Free courses; certificate exam ki fees lagti hai",
+      "limit": null,
+      "platforms": "Web, Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://swayam.gov.in/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-26"
+    },
+    {
+      "slug": "photomath",
+      "name": "Photomath",
+      "category": [
+        "Android Apps",
+        "Student Tech",
+        "AI Tools"
+      ],
+      "what": "Maths question ki photo lo — step-by-step solution aur explanation.",
+      "pricing": "Freemium",
+      "priceNote": "Free + Plus (paid)",
+      "limit": "Detailed explanations ka kuch hissa Plus me; copy nahi, samajhne ke liye use karo.",
+      "platforms": "Android, iOS",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.microblink.photomath"
+        },
+        {
+          "label": "Website",
+          "url": "https://photomath.com/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "package_name": "com.microblink.photomath",
+      "added": "2026-11-26"
+    },
+    {
+      "slug": "mindustry",
+      "name": "Mindustry",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Paid ka FREE Jawab"
+      ],
+      "what": "Factory + tower defense strategy game: conveyor belts se resources, turrets se defence, multiplayer bhi.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0+)",
+      "limit": "Play Store/Steam pe paid hai; F-Droid wala Android version free.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://anuke.itch.io/mindustry"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.anuke.mindustry/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Anuken/Mindustry"
+        }
+      ],
+      "icon": "assets/icons/mindustry.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "io.anuke.mindustry",
+      "apk_source": "fdroid:io.anuke.mindustry",
+      "package_name": "io.anuke.mindustry",
+      "added": "2026-11-26"
+    },
+    {
       "slug": "freecodecamp",
       "name": "freeCodeCamp",
       "category": [
