@@ -2,6 +2,174 @@
   "_schema": "See docs/SCHEMA.md",
   "apps": [
     {
+      "slug": "ndli",
+      "name": "National Digital Library of India",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "IIT Kharagpur ki free digital library: books, notes, question papers, videos — school se research tak.",
+      "pricing": "Free",
+      "priceNote": "Free (registration chahiye)",
+      "limit": null,
+      "platforms": "Web, Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://ndl.iitkgp.ac.in/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-27"
+    },
+    {
+      "slug": "shattered-pixel-dungeon",
+      "name": "Shattered Pixel Dungeon",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub"
+      ],
+      "what": "Pixel-art dungeon game: har baar naya dungeon, items, boss fights. No ads.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (GPL-3.0)",
+      "limit": "Supporter pack optional in-app purchase.",
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://ShatteredPixel.com"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.shatteredpixel.shatteredpixeldungeon/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/00-Evan/shattered-pixel-dungeon"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.shatteredpixel.shatteredpixeldungeon"
+        }
+      ],
+      "icon": "assets/icons/shattered-pixel-dungeon.png",
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "com.shatteredpixel.shatteredpixeldungeon",
+      "apk_source": "fdroid:com.shatteredpixel.shatteredpixeldungeon",
+      "package_name": "com.shatteredpixel.shatteredpixeldungeon",
+      "added": "2026-11-27"
+    },
+    {
+      "slug": "typst",
+      "name": "Typst",
+      "category": [
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "LaTeX ka modern, aasaan alternative: assignments, reports, resume — instant preview ke saath.",
+      "pricing": "Freemium",
+      "priceNote": "Compiler free, open source (Apache-2.0); web app ke kuch plans paid",
+      "limit": "LaTeX templates jitne zyada nahi.",
+      "platforms": "Web, Windows, macOS, Linux",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://typst.app/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/typst/typst"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-27"
+    },
+    {
+      "slug": "simon-tatham-puzzles",
+      "name": "Simon Tatham's Puzzles",
+      "category": [
+        "Android Apps",
+        "Open Source/GitHub",
+        "Student Tech"
+      ],
+      "what": "40 se zyada dimaag wale puzzle games ek app me — no ads, offline.",
+      "pricing": "Free",
+      "priceNote": "Free, open source (MIT)",
+      "limit": null,
+      "platforms": "Android",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://chris.boyle.name/projects/android-puzzles"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/name.boyle.chris.sgtpuzzles/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/chrisboyle/sgtpuzzles"
+        },
+        {
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=name.boyle.chris.sgtpuzzles"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "fdroidPackage": "name.boyle.chris.sgtpuzzles",
+      "apk_source": "github:chrisboyle/sgtpuzzles",
+      "package_name": "name.boyle.chris.sgtpuzzles",
+      "added": "2026-11-27"
+    },
+    {
+      "slug": "overleaf",
+      "name": "Overleaf",
+      "category": [
+        "Student Tech"
+      ],
+      "what": "Browser me LaTeX editor: research papers, project reports, resume — templates ke saath, team me likho.",
+      "pricing": "Freemium",
+      "priceNote": "Free plan + paid",
+      "limit": "Free plan me compile time aur collaborators limited.",
+      "platforms": "Web (browser)",
+      "replaces": null,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.overleaf.com/"
+        }
+      ],
+      "icon": null,
+      "posts": [],
+      "verified": "2026-11-04",
+      "source": "queue",
+      "aiAdded": false,
+      "affiliate": "",
+      "added": "2026-11-27"
+    },
+    {
       "slug": "ente-photos",
       "name": "Ente Photos",
       "category": [
